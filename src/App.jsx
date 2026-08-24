@@ -16,7 +16,7 @@ const products = [
     price: '$29',
     stat: '20 languages',
     url: 'https://taggeneratorai.vercel.app/',
-    widget: 'https://widget.lava.top/34206317-4a91-41e0-b58c-1335c6f16a4b',
+    widget: 'https://widget.lava.top/343b1e9f-0ea4-4150-8f54-16bfb8a382a9',
   },
   {
     tag: '02',
@@ -25,7 +25,7 @@ const products = [
     price: '$39',
     stat: '20 languages',
     url: 'https://reviewreply-ai-one.vercel.app/',
-    widget: 'https://widget.lava.top/ae0fc83f-f97c-41d9-84ee-a4d9a1d145a8',
+    widget: 'https://widget.lava.top/2467c63d-1256-4fe2-99bf-329a37e5fded',
   },
   {
     tag: '03',
@@ -34,7 +34,7 @@ const products = [
     price: '$89',
     stat: '5 tools',
     url: 'https://local-signal.vercel.app/',
-    widget: 'https://widget.lava.top/24360720-0a2a-49bf-804f-1fd488395535',
+    widget: 'https://widget.lava.top/ee2cb781-d5df-4ab9-9e66-9dcb3285db79',
   },
 ];
 
@@ -194,10 +194,7 @@ export default function App() {
                   <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, color: RUST_DEEP, width: 24, flexShrink: 0, marginTop: 3 }}>{p.tag}</span>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 18, marginBottom: 3 }}>{p.name}</div>
-                    <div style={{ fontSize: 13.5, color: INK_SOFT, lineHeight: 1.4, marginBottom: 6 }}>{p.line}</div>
-                    <a href={p.url} target="_blank" rel="noopener noreferrer" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST, textDecoration: 'underline', textUnderlineOffset: 3 }}>
-                      Try it first &rarr;
-                    </a>
+                    <div style={{ fontSize: 13.5, color: INK_SOFT, lineHeight: 1.4 }}>{p.line}</div>
                   </div>
                   <div style={{ textAlign: 'right', flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 4 }}>
                     <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>{p.stat}</span>
