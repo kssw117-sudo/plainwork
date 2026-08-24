@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const INK = '#2D2A26';
 const INK_SOFT = '#87837A';
@@ -16,6 +16,7 @@ const products = [
     price: '$29',
     stat: '20 languages',
     url: 'https://taggeneratorai.vercel.app/',
+    widget: 'https://widget.lava.top/34206317-4a91-41e0-b58c-1335c6f16a4b',
   },
   {
     tag: '02',
@@ -24,6 +25,7 @@ const products = [
     price: '$39',
     stat: '20 languages',
     url: 'https://reviewreply-ai-one.vercel.app/',
+    widget: 'https://widget.lava.top/ae0fc83f-f97c-41d9-84ee-a4d9a1d145a8',
   },
   {
     tag: '03',
@@ -32,6 +34,7 @@ const products = [
     price: '$89',
     stat: '5 tools',
     url: 'https://local-signal.vercel.app/',
+    widget: 'https://widget.lava.top/24360720-0a2a-49bf-804f-1fd488395535',
   },
 ];
 
@@ -48,11 +51,60 @@ const capabilities = [
   { label: 'Payment infrastructure', body: 'Card checkout via an embedded widget, license-code gating, and marketplace-ready redemption systems for platforms like AppSumo.' },
   { label: 'Maps & geolocation', body: 'Interactive maps, live address autocomplete, and geocoding -- built on open data, no vendor lock-in.' },
   { label: 'Fast, focused builds', body: 'React and Vite, deployed the same day an idea is validated. No months-long roadmap before something ships.' },
-  { label: 'End-to-end ownership', body: 'Product, backend, infrastructure, and support -- one person, one accountable point of contact.' },
-  { label: 'Infrastructure', body: 'Deployed on Vercel -- the same platform behind Next.js sites for Walmart, Apple, Nike, and Netflix. Production-grade hosting from day one, not a placeholder.' },
+  { label: 'End-to-end ownership', body: 'Product, backend, infrastructure, and support -- one person, one accountable point of contact. Deployed on Vercel, the same platform behind Next.js sites for Walmart, Apple, Nike, and Netflix.' },
 ];
 
 export default function App() {
+  const mapContainerRef = useRef(null);
+  const mapInstanceRef = useRef(null);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    function loadLeaflet() {
+      return new Promise((resolve) => {
+        if (window.L) { resolve(); return; }
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+        document.head.appendChild(link);
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+        script.onload = resolve;
+        document.body.appendChild(script);
+      });
+    }
+
+    loadLeaflet().then(() => {
+      if (cancelled || !mapContainerRef.current || mapInstanceRef.current) return;
+      const L = window.L;
+      const houston = [29.7604, -95.3698];
+
+      const map = L.map(mapContainerRef.current, { zoomControl: false, attributionControl: true, scrollWheelZoom: false })
+        .setView(houston, 12);
+      map.attributionControl.setPrefix('');
+
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap &copy; CARTO',
+        maxZoom: 20,
+      }).addTo(map);
+
+      const icon = L.divIcon({
+        className: '',
+        html: `<div style="position:relative;width:22px;height:22px;">
+          <div style="position:absolute;inset:0;border-radius:50%;border:2px solid #A56A45;opacity:0.6;"></div>
+          <div style="position:absolute;top:5px;left:5px;width:12px;height:12px;border-radius:50%;background:#D97757;box-shadow:0 0 8px rgba(217,119,87,0.7);"></div>
+        </div>`,
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+      });
+      L.marker(houston, { icon }).addTo(map);
+      mapInstanceRef.current = map;
+    });
+
+    return () => { cancelled = true; };
+  }, []);
+
   return (
     <div style={{ minHeight: '100vh', background: BG, color: INK, fontFamily: "'Inter', sans-serif" }}>
       <style>{`
@@ -137,30 +189,25 @@ export default function App() {
 
           <div style={{ border: `1px solid ${LINE}`, borderRadius: 14, overflow: 'hidden', background: CARD }}>
             {products.map((p, i) => (
-              <a
-                key={p.tag}
-                href={p.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: 'flex', alignItems: 'center', gap: 20, textDecoration: 'none', color: INK,
-                  padding: '22px 24px', borderTop: i === 0 ? 'none' : `1px solid ${LINE}`,
-                  transition: 'background 0.15s',
-                }}
-                onMouseEnter={(e) => e.currentTarget.style.background = '#FAF9F4'}
-                onMouseLeave={(e) => e.currentTarget.style.background = 'transparent'}
-              >
-                <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, color: RUST_DEEP, width: 24, flexShrink: 0 }}>{p.tag}</span>
-                <div style={{ flex: 1, minWidth: 0 }}>
-                  <div style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 18, marginBottom: 3 }}>{p.name}</div>
-                  <div style={{ fontSize: 13.5, color: INK_SOFT, lineHeight: 1.4 }}>{p.line}</div>
+              <div key={p.tag} style={{ padding: '22px 24px', borderTop: i === 0 ? 'none' : `1px solid ${LINE}` }}>
+                <div style={{ display: 'flex', alignItems: 'flex-start', gap: 20, marginBottom: 18 }}>
+                  <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, color: RUST_DEEP, width: 24, flexShrink: 0, marginTop: 3 }}>{p.tag}</span>
+                  <div style={{ flex: 1, minWidth: 0 }}>
+                    <div style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 18, marginBottom: 3 }}>{p.name}</div>
+                    <div style={{ fontSize: 13.5, color: INK_SOFT, lineHeight: 1.4, marginBottom: 6 }}>{p.line}</div>
+                    <a href={p.url} target="_blank" rel="noopener noreferrer" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST, textDecoration: 'underline', textUnderlineOffset: 3 }}>
+                      Try it first &rarr;
+                    </a>
+                  </div>
+                  <div style={{ textAlign: 'right', flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 4 }}>
+                    <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>{p.stat}</span>
+                    <span style={{ fontWeight: 600, fontSize: 15 }}>{p.price}</span>
+                  </div>
                 </div>
-                <div style={{ textAlign: 'right', flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 4 }}>
-                  <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>{p.stat}</span>
-                  <span style={{ fontWeight: 600, fontSize: 15 }}>{p.price}</span>
+                <div style={{ display: 'flex', justifyContent: 'flex-start', paddingLeft: 44 }}>
+                  <iframe title={`Buy ${p.name}`} style={{ border: 'none', borderRadius: 10 }} width="250" height="80" src={p.widget}></iframe>
                 </div>
-                <span aria-hidden="true" style={{ color: RUST, fontSize: 18, flexShrink: 0 }}>&rarr;</span>
-              </a>
+              </div>
             ))}
           </div>
         </div>
@@ -226,6 +273,20 @@ export default function App() {
             answer to that: tools narrow enough to actually finish, built by one person who
             reads every support email personally.
           </p>
+        </div>
+      </section>
+
+      {/* ---------- LOCATION ---------- */}
+      <section style={{ padding: '0 24px 96px' }}>
+        <div style={{ maxWidth: 720, margin: '0 auto' }}>
+          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4 }}>
+            Based in
+          </h2>
+          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 20 }}>Houston, TX</p>
+          <div
+            ref={mapContainerRef}
+            style={{ width: '100%', height: 260, borderRadius: 14, border: `1px solid ${LINE}`, overflow: 'hidden' }}
+          />
         </div>
       </section>
 
