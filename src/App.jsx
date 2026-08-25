@@ -289,12 +289,18 @@ export default function App() {
 
       {/* ---------- FOOTER ---------- */}
       <footer style={{ padding: '32px 24px 48px', borderTop: `1px solid ${LINE}` }}>
-        <div style={{ maxWidth: 720, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16 }}>
-          <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: INK_SOFT }}>Plainwork &middot; built solo, end to end</span>
-          <div style={{ display: 'flex', gap: 16 }}>
-            <a href="https://wa.me/79101537910" target="_blank" rel="noopener noreferrer" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>WhatsApp</a>
-            <a href="https://t.me/+79101537910" target="_blank" rel="noopener noreferrer" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>Telegram</a>
-            <a href="mailto:kssw117@gmail.com" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>kssw117@gmail.com</a>
+        <div style={{ maxWidth: 720, margin: '0 auto' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16, marginBottom: 20 }}>
+            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: INK_SOFT }}>Plainwork &middot; built solo, end to end</span>
+            <div style={{ display: 'flex', gap: 16 }}>
+              <a href="https://wa.me/79101537910" target="_blank" rel="noopener noreferrer" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>WhatsApp</a>
+              <a href="https://t.me/+79101537910" target="_blank" rel="noopener noreferrer" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>Telegram</a>
+              <a href="mailto:kssw117@gmail.com" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>kssw117@gmail.com</a>
+            </div>
+          </div>
+          <div style={{ display: 'flex', gap: 16, paddingTop: 16, borderTop: `1px solid ${LINE}` }}>
+            <a href="/terms.html" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>Terms of Service</a>
+            <a href="/privacy.html" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>Privacy Policy</a>
           </div>
         </div>
       </footer>
