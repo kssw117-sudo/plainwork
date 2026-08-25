@@ -16,7 +16,7 @@ const products = [
     price: '$29',
     stat: '20 languages',
     url: 'https://taggeneratorai.vercel.app/',
-    widget: 'https://widget.lava.top/343b1e9f-0ea4-4150-8f54-16bfb8a382a9',
+    widget: 'https://widget.lava.top/d058ad7b-f43f-45a9-9d8a-e255697c8f46',
   },
   {
     tag: '02',
@@ -25,7 +25,7 @@ const products = [
     price: '$39',
     stat: '20 languages',
     url: 'https://reviewreply-ai-one.vercel.app/',
-    widget: 'https://widget.lava.top/2467c63d-1256-4fe2-99bf-329a37e5fded',
+    widget: 'https://widget.lava.top/f30c6c97-507b-4591-b810-dd62ff16fb66',
   },
   {
     tag: '03',
@@ -34,7 +34,7 @@ const products = [
     price: '$89',
     stat: '5 tools',
     url: 'https://local-signal.vercel.app/',
-    widget: 'https://widget.lava.top/ee2cb781-d5df-4ab9-9e66-9dcb3285db79',
+    widget: 'https://widget.lava.top/cb430a7a-32e3-4578-9806-817d65bb3a26',
   },
 ];
 
