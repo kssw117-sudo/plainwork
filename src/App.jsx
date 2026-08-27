@@ -67,44 +67,44 @@ export default function App() {
   useEffect(() => {
     let cancelled = false;
 
-    function loadLeaflet() {
+    function loadMapLibre() {
       return new Promise((resolve) => {
-        if (window.L) { resolve(); return; }
+        if (window.maplibregl) { resolve(); return; }
         const link = document.createElement('link');
         link.rel = 'stylesheet';
-        link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+        link.href = 'https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css';
         document.head.appendChild(link);
         const script = document.createElement('script');
-        script.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+        script.src = 'https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js';
         script.onload = resolve;
         document.body.appendChild(script);
       });
     }
 
-    loadLeaflet().then(() => {
+    loadMapLibre().then(() => {
       if (cancelled || !mapContainerRef.current || mapInstanceRef.current) return;
-      const L = window.L;
-      const houston = [29.7604, -95.3698];
+      const maplibregl = window.maplibregl;
+      const houston = [-95.3698, 29.7604];
 
-      const map = L.map(mapContainerRef.current, { zoomControl: false, attributionControl: true, scrollWheelZoom: false })
-        .setView(houston, 12);
-      map.attributionControl.setPrefix('');
-
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors',
-        maxZoom: 19,
-      }).addTo(map);
-
-      const icon = L.divIcon({
-        className: '',
-        html: `<div style="position:relative;width:22px;height:22px;">
-          <div style="position:absolute;inset:0;border-radius:50%;border:2px solid #A56A45;opacity:0.6;"></div>
-          <div style="position:absolute;top:5px;left:5px;width:12px;height:12px;border-radius:50%;background:#D97757;box-shadow:0 0 8px rgba(217,119,87,0.7);"></div>
-        </div>`,
-        iconSize: [22, 22],
-        iconAnchor: [11, 11],
+      const map = new maplibregl.Map({
+        container: mapContainerRef.current,
+        style: 'https://tiles.openfreemap.org/styles/liberty',
+        center: houston,
+        zoom: 12,
+        attributionControl: false,
       });
-      L.marker(houston, { icon }).addTo(map);
+
+      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
+      map.addControl(new maplibregl.AttributionControl({ compact: true }));
+
+      const el = document.createElement('div');
+      el.style.cssText = 'position:relative;width:22px;height:22px;';
+      el.innerHTML = `
+        <div style="position:absolute;inset:0;border-radius:50%;border:2px solid #A56A45;opacity:0.6;"></div>
+        <div style="position:absolute;top:5px;left:5px;width:12px;height:12px;border-radius:50%;background:#D97757;box-shadow:0 0 8px rgba(217,119,87,0.7);"></div>
+      `;
+      new maplibregl.Marker({ element: el }).setLngLat(houston).addTo(map);
+
       mapInstanceRef.current = map;
     });
 
