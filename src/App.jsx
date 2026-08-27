@@ -13,6 +13,8 @@ const products = [
     tag: '01',
     name: 'TagGenerator AI',
     line: 'Turn any post idea into captions and hashtags in seconds.',
+    problem: 'You spend 15-20 minutes staring at a blank caption box before every post.',
+    result: 'Saves roughly 2 hours a week on content planning.',
     price: '$29',
     stat: '20 languages',
     url: 'https://taggeneratorai.vercel.app/',
@@ -22,6 +24,8 @@ const products = [
     tag: '02',
     name: 'ReviewReply AI',
     line: 'Paste any customer review, get thoughtful replies in seconds.',
+    problem: 'A negative review sits unanswered for days because you don\u2019t know what to say.',
+    result: 'Replies go out in minutes, not hours of second-guessing.',
     price: '$39',
     stat: '20 languages',
     url: 'https://reviewreply-ai-one.vercel.app/',
@@ -31,6 +35,8 @@ const products = [
     tag: '03',
     name: 'Local Signal',
     line: 'Get found on Google Search and Maps -- posts, replies, SEO copy.',
+    problem: 'Your Google Business Profile sits untouched for months, quietly losing ground in search.',
+    result: 'Stays active without you having to invent something to post every week.',
     price: '$89',
     stat: '5 tools',
     url: 'https://local-signal.vercel.app/',
@@ -84,9 +90,9 @@ export default function App() {
         .setView(houston, 12);
       map.attributionControl.setPrefix('');
 
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; OpenStreetMap &copy; CARTO',
-        maxZoom: 20,
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors',
+        maxZoom: 19,
       }).addTo(map);
 
       const icon = L.divIcon({
@@ -194,7 +200,12 @@ export default function App() {
                   <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 13, color: RUST_DEEP, width: 24, flexShrink: 0, marginTop: 3 }}>{p.tag}</span>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 18, marginBottom: 3 }}>{p.name}</div>
-                    <div style={{ fontSize: 13.5, color: INK_SOFT, lineHeight: 1.4 }}>{p.line}</div>
+                    <div style={{ fontSize: 13.5, color: INK_SOFT, lineHeight: 1.4, marginBottom: 8 }}>{p.line}</div>
+                    <div style={{ display: 'flex', gap: 8, fontSize: 12, lineHeight: 1.45 }}>
+                      <span style={{ color: '#B34B3C' }}>{p.problem}</span>
+                      <span style={{ color: RUST_DEEP, flexShrink: 0 }}>&rarr;</span>
+                      <span style={{ color: '#3A7A5C' }}>{p.result}</span>
+                    </div>
                   </div>
                   <div style={{ textAlign: 'right', flexShrink: 0, display: 'flex', flexDirection: 'column', alignItems: 'flex-end', gap: 4 }}>
                     <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>{p.stat}</span>
