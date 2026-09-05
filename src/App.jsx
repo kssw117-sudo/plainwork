@@ -42,10 +42,16 @@ const products = [
       zh: '\u6bcf\u5468\u8282\u7701\u5927\u7ea62\u5c0f\u65f6\u7684\u5185\u5bb9\u89c4\u5212\u65f6\u95f4\u3002',
       ja: '\u30b3\u30f3\u30c6\u30f3\u30c4\u8a08\u753b\u306e\u624b\u9593\u3092\u9031\u7d042\u6642\u9593\u524a\u6e1b\u3002',
     },
-    price: '$29',
+    price: '$49',
     stat: { en: '20 languages', ru: '20 языков', es: '20 idiomas', fr: '20 langues', de: '20 Sprachen', pt: '20 idiomas', zh: '20\u79cd\u8bed\u8a00', ja: '20\u8a00\u8a9e' },
     url: 'https://taggeneratorai.vercel.app/',
     widget: 'https://widget.lava.top/d058ad7b-f43f-45a9-9d8a-e255697c8f46',
+    benefits: [
+      'The AI actually sees your photo -- no need to describe what\u2019s in it.',
+      'One input, every platform: Instagram, TikTok, WhatsApp, YouTube Shorts, X, Pinterest.',
+      'Your brand voice in every line -- friendly, expert, playful, or formal.',
+      'Batch mode plans a full week of posts in one click.',
+    ],
   },
   {
     tag: '02',
@@ -80,10 +86,16 @@ const products = [
       zh: '\u56de\u590d\u5728\u51e0\u5206\u949f\u5185\u53d1\u51fa\uff0c\u800c\u4e0d\u662f\u7ea0\u7ed3\u597d\u51e0\u4e2a\u5c0f\u65f6\u3002',
       ja: '\u8fd4\u4fe1\u306f\u4f55\u6642\u9593\u3082\u60a9\u3080\u3053\u3068\u306a\u304f\u3001\u6570\u5206\u3067\u9001\u4fe1\u3067\u304d\u308b\u3002',
     },
-    price: '$39',
+    price: '$79',
     stat: { en: '20 languages', ru: '20 языков', es: '20 idiomas', fr: '20 langues', de: '20 Sprachen', pt: '20 idiomas', zh: '20\u79cd\u8bed\u8a00', ja: '20\u8a00\u8a9e' },
     url: 'https://reviewreply-ai-one.vercel.app/',
     widget: 'https://widget.lava.top/f30c6c97-507b-4591-b810-dd62ff16fb66',
+    benefits: [
+      'Reads between the lines -- understands what an unhappy customer actually needs.',
+      'Three reply options every time, different lengths and tones.',
+      '\u201cFor your eyes only\u201d -- spots systemic issues hiding inside a single review.',
+      'Drafts a private follow-up message, and turns positive reviews into social posts.',
+    ],
   },
   {
     tag: '03',
@@ -118,10 +130,16 @@ const products = [
       zh: '\u65e0\u9700\u6bcf\u5468\u60f3\u53d1\u4ec0\u4e48\uff0c\u4fdd\u6301\u6d3b\u8dc3\u3002',
       ja: '\u6bce\u9031\u6295\u7a3f\u5185\u5bb9\u3092\u8003\u3048\u308b\u5fc5\u8981\u306a\u304f\u3001\u30a2\u30af\u30c6\u30a3\u30d6\u3092\u7dad\u6301\u3002',
     },
-    price: '$89',
+    price: '$99',
     stat: { en: '5 tools', ru: '5 инструментов', es: '5 herramientas', fr: '5 outils', de: '5 Werkzeuge', pt: '5 ferramentas', zh: '5\u4e2a\u5de5\u5177', ja: '5\u3064\u306e\u30c4\u30fc\u30eb' },
     url: 'https://local-signal.vercel.app/',
     widget: 'https://widget.lava.top/cb430a7a-32e3-4578-9806-817d65bb3a26',
+    benefits: [
+      '\u201cThis Week\u2019s 3 Actions\u201d -- a concrete plan, not just data.',
+      'GBP posts and Q&A replies, matched to your tone and location.',
+      'A full month\u2019s content calendar -- 12 post ideas, ready to publish.',
+      'Stand Out: paste a competitor\u2019s post, find the gap you can fill.',
+    ],
   },
   {
     tag: '04',
@@ -160,6 +178,12 @@ const products = [
     stat: { en: '35 languages', ru: '35 языков', es: '35 idiomas', fr: '35 langues', de: '35 Sprachen', pt: '35 idiomas', zh: '35\u79cd\u8bed\u8a00', ja: '35\u8a00\u8a9e' },
     url: 'https://say-it-right-blush.vercel.app/',
     widget: 'https://widget.lava.top/ВСТАВЬ_ID_ВИДЖЕТА',
+    benefits: [
+      'Write however you want -- your language or rough English, either works.',
+      'Every fix explained in your own language, so you actually learn.',
+      'A formality slider -- from very formal to casual, in one move.',
+      'Listen to the result read aloud, and save your last 5 rewrites.',
+    ],
   },
 ];
 
@@ -359,6 +383,7 @@ const T = {
 
 export default function App() {
   const [lang, setLang] = useState('en');
+  const [expandedProduct, setExpandedProduct] = useState(null);
   const t = T[lang];
   const mapContainerRef = useRef(null);
   const mapInstanceRef = useRef(null);
@@ -537,9 +562,28 @@ export default function App() {
                     <span style={{ fontWeight: 600, fontSize: 15 }}>{p.price}</span>
                   </div>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'flex-start', paddingLeft: 44 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: 44 }}>
                   <iframe title={`Buy ${p.name}`} style={{ border: 'none', borderRadius: 10 }} width="250" height="80" src={p.widget}></iframe>
+                  <button
+                    onClick={() => setExpandedProduct(expandedProduct === p.tag ? null : p.tag)}
+                    style={{
+                      background: 'none', border: 'none', cursor: 'pointer', fontFamily: "'IBM Plex Mono', monospace",
+                      fontSize: 11, color: RUST_DEEP, textDecoration: 'underline', textUnderlineOffset: 3,
+                    }}
+                  >
+                    {expandedProduct === p.tag ? 'Hide details' : 'Learn more'}
+                  </button>
                 </div>
+                {expandedProduct === p.tag && (
+                  <div style={{ paddingLeft: 44, marginTop: 16 }}>
+                    {p.benefits.map((b, bi) => (
+                      <div key={bi} style={{ display: 'flex', gap: 8, marginBottom: 8, fontSize: 13, color: INK_SOFT, lineHeight: 1.5 }}>
+                        <span style={{ color: RUST_DEEP, flexShrink: 0 }}>&bull;</span>
+                        <span>{b}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>
