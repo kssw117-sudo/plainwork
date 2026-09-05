@@ -254,6 +254,8 @@ const T = {
     heroTitle: 'Small, useful tools for people running a business alone.',
     heroBody: 'Plainwork builds focused AI tools that solve one repetitive task each -- writing captions, replying to reviews, staying visible on Google -- so there\u2019s a little more time left for the parts of the business that actually need a person.',
     heroNote: 'Four tools live so far. More on the way.',
+    manifesto1: 'I build AI tools that do your marketing for you. Each product solves one job: content, reputation, visibility, language. You just upload your data -- the AI does the rest.',
+    manifesto2: 'Plainwork is for people tired of being slaves to their own to-do list. We give you back your time, your confidence, and your visibility in front of customers.',
     statProducts: 'products shipped', statLangs: 'languages supported', statPeople: 'person building it',
     workHeading: 'The Work', workSub: 'Everything currently live, in order of release.',
     capHeading: 'Capabilities', capSub: 'What\u2019s actually running under the three products above.',
@@ -532,6 +534,18 @@ export default function App() {
             <span><strong style={{ color: INK }}>20</strong> {t.statLangs}</span>
             <span><strong style={{ color: INK }}>1</strong> {t.statPeople}</span>
           </div>
+        </div>
+      </section>
+
+      {/* ---------- MANIFESTO ---------- */}
+      <section style={{ padding: '0 24px 72px' }}>
+        <div style={{ maxWidth: 640, margin: '0 auto', textAlign: 'center' }}>
+          <p style={{ fontFamily: "'Fraunces', serif", fontSize: 21, lineHeight: 1.55, color: INK, margin: '0 0 16px' }}>
+            {t.manifesto1 || T.en.manifesto1}
+          </p>
+          <p style={{ fontSize: 15, color: INK_SOFT, lineHeight: 1.6, margin: 0 }}>
+            {t.manifesto2 || T.en.manifesto2}
+          </p>
         </div>
       </section>
 
