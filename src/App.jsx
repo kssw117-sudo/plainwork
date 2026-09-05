@@ -177,7 +177,7 @@ const products = [
     price: '$59',
     stat: { en: '35 languages', ru: '35 языков', es: '35 idiomas', fr: '35 langues', de: '35 Sprachen', pt: '35 idiomas', zh: '35\u79cd\u8bed\u8a00', ja: '35\u8a00\u8a9e' },
     url: 'https://say-it-right-blush.vercel.app/',
-    widget: 'https://widget.lava.top/ВСТАВЬ_ID_ВИДЖЕТА',
+    widget: 'https://widget.lava.top/a60a430e-55eb-4989-9881-a98ad2a99e45',
     benefits: [
       'Write however you want -- your language or rough English, either works.',
       'Every fix explained in your own language, so you actually learn.',
