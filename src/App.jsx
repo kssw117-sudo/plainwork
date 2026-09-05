@@ -45,7 +45,7 @@ const products = [
     price: '$49',
     stat: { en: '20 languages', ru: '20 языков', es: '20 idiomas', fr: '20 langues', de: '20 Sprachen', pt: '20 idiomas', zh: '20\u79cd\u8bed\u8a00', ja: '20\u8a00\u8a9e' },
     url: 'https://taggeneratorai.vercel.app/',
-    widget: 'https://widget.lava.top/b85f266a-244d-4416-87b8-a60cd76a3728',
+    widget: 'https://widget.lava.top/d058ad7b-f43f-45a9-9d8a-e255697c8f46',
     benefits: [
       'The AI actually sees your photo -- no need to describe what\u2019s in it.',
       'One input, every platform: Instagram, TikTok, WhatsApp, YouTube Shorts, X, Pinterest.',
@@ -89,7 +89,7 @@ const products = [
     price: '$79',
     stat: { en: '20 languages', ru: '20 языков', es: '20 idiomas', fr: '20 langues', de: '20 Sprachen', pt: '20 idiomas', zh: '20\u79cd\u8bed\u8a00', ja: '20\u8a00\u8a9e' },
     url: 'https://reviewreply-ai-one.vercel.app/',
-    widget: 'https://widget.lava.top/4a513a2e-e696-4369-a791-120a38a3343b',
+    widget: 'https://widget.lava.top/f30c6c97-507b-4591-b810-dd62ff16fb66',
     benefits: [
       'Reads between the lines -- understands what an unhappy customer actually needs.',
       'Three reply options every time, different lengths and tones.',
@@ -133,7 +133,7 @@ const products = [
     price: '$99',
     stat: { en: '5 tools', ru: '5 инструментов', es: '5 herramientas', fr: '5 outils', de: '5 Werkzeuge', pt: '5 ferramentas', zh: '5\u4e2a\u5de5\u5177', ja: '5\u3064\u306e\u30c4\u30fc\u30eb' },
     url: 'https://local-signal.vercel.app/',
-    widget: 'https://widget.lava.top/6da4effc-31d0-4695-8417-8c6ea319c6a3',
+    widget: 'https://widget.lava.top/cb430a7a-32e3-4578-9806-817d65bb3a26',
     benefits: [
       '\u201cThis Week\u2019s 3 Actions\u201d -- a concrete plan, not just data.',
       'GBP posts and Q&A replies, matched to your tone and location.',
@@ -177,7 +177,7 @@ const products = [
     price: '$59',
     stat: { en: '35 languages', ru: '35 языков', es: '35 idiomas', fr: '35 langues', de: '35 Sprachen', pt: '35 idiomas', zh: '35\u79cd\u8bed\u8a00', ja: '35\u8a00\u8a9e' },
     url: 'https://say-it-right-blush.vercel.app/',
-    widget: 'https://widget.lava.top/926f6aa5-b67b-4008-8451-3d2679142de3',
+    widget: 'https://widget.lava.top/a60a430e-55eb-4989-9881-a98ad2a99e45',
     benefits: [
       'Write however you want -- your language or rough English, either works.',
       'Every fix explained in your own language, so you actually learn.',
