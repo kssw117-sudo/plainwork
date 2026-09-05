@@ -123,6 +123,44 @@ const products = [
     url: 'https://local-signal.vercel.app/',
     widget: 'https://widget.lava.top/cb430a7a-32e3-4578-9806-817d65bb3a26',
   },
+  {
+    tag: '04',
+    name: 'SayItRight AI',
+    line: {
+      en: 'Write in your own language -- get natural, professional English back.',
+      ru: 'Пишешь на своём языке — получаешь естественный профессиональный английский.',
+      es: 'Escribe en tu idioma -- recibe ingl\u00e9s natural y profesional.',
+      fr: '\u00c9crivez dans votre langue -- recevez un anglais naturel et professionnel.',
+      de: 'Schreibe in deiner Sprache -- erhalte nat\u00fcrliches, professionelles Englisch.',
+      pt: 'Escreva no seu idioma -- receba ingl\u00eas natural e profissional.',
+      zh: '\u7528\u4f60\u81ea\u5df1\u7684\u8bed\u8a00\u5199\u4f5c\u2014\u2014\u83b7\u5f97\u81ea\u7136\u4e13\u4e1a\u7684\u82f1\u8bed\u3002',
+      ja: '\u81ea\u5206\u306e\u8a00\u8a9e\u3067\u66f8\u3044\u3066\u2014\u2014\u81ea\u7136\u3067\u30d7\u30ed\u306e\u82f1\u8a9e\u306b\u3002',
+    },
+    problem: {
+      en: 'You write to a client in broken English and just hope they understand.',
+      ru: 'Ты пишешь клиенту на ломаном английском и надеешься, что он поймёт.',
+      es: 'Le escribes a un cliente en ingl\u00e9s roto y solo esperas que te entienda.',
+      fr: 'Vous \u00e9crivez \u00e0 un client dans un anglais approximatif en esp\u00e9rant qu\u2019il comprenne.',
+      de: 'Du schreibst einem Kunden in gebrochenem Englisch und hoffst, dass er es versteht.',
+      pt: 'Voc\u00ea escreve para um cliente em ingl\u00eas quebrado e s\u00f3 espera que ele entenda.',
+      zh: '\u4f60\u7528\u751f\u786c\u7684\u82f1\u8bed\u7ed9\u5ba2\u6237\u5199\u4fe1\uff0c\u53ea\u80fd\u5e0c\u671b\u5bf9\u65b9\u770b\u61c2\u3002',
+      ja: '\u30d6\u30ed\u30fc\u30af\u30f3\u82f1\u8a9e\u3067\u9867\u5ba2\u306b\u66f8\u304d\u3001\u4f1d\u308f\u308b\u3053\u3068\u3092\u9858\u3046\u3060\u3051\u3002',
+    },
+    result: {
+      en: 'Every fix is explained in your own language, so you actually learn.',
+      ru: 'Каждое исправление объясняется на твоём языке — ты реально учишься.',
+      es: 'Cada correcci\u00f3n se explica en tu idioma -- realmente aprendes.',
+      fr: 'Chaque correction est expliqu\u00e9e dans votre langue -- vous apprenez vraiment.',
+      de: 'Jede Korrektur wird in deiner Sprache erkl\u00e4rt -- du lernst wirklich dazu.',
+      pt: 'Cada corre\u00e7\u00e3o \u00e9 explicada no seu idioma -- voc\u00ea realmente aprende.',
+      zh: '\u6bcf\u4e2a\u4fee\u6539\u90fd\u7528\u4f60\u7684\u8bed\u8a00\u89e3\u91ca\u2014\u2014\u4f60\u771f\u6b63\u5b66\u5230\u4e1c\u897f\u3002',
+      ja: '\u4fee\u6b63\u306f\u3059\u3079\u3066\u81ea\u5206\u306e\u8a00\u8a9e\u3067\u8aac\u660e\u3055\u308c\u308b\u2014\u2014\u672c\u5f53\u306b\u5b66\u3079\u308b\u3002',
+    },
+    price: '$59',
+    stat: { en: '35 languages', ru: '35 языков', es: '35 idiomas', fr: '35 langues', de: '35 Sprachen', pt: '35 idiomas', zh: '35\u79cd\u8bed\u8a00', ja: '35\u8a00\u8a9e' },
+    url: 'https://say-it-right-blush.vercel.app/',
+    widget: 'https://widget.lava.top/ВСТАВЬ_ID_ВИДЖЕТА',
+  },
 ];
 
 const principles = [
@@ -191,7 +229,7 @@ const T = {
     tagline: 'Plainwork Studio',
     heroTitle: 'Small, useful tools for people running a business alone.',
     heroBody: 'Plainwork builds focused AI tools that solve one repetitive task each -- writing captions, replying to reviews, staying visible on Google -- so there\u2019s a little more time left for the parts of the business that actually need a person.',
-    heroNote: 'Three tools live so far. More on the way.',
+    heroNote: 'Four tools live so far. More on the way.',
     statProducts: 'products shipped', statLangs: 'languages supported', statPeople: 'person building it',
     workHeading: 'The Work', workSub: 'Everything currently live, in order of release.',
     capHeading: 'Capabilities', capSub: 'What\u2019s actually running under the three products above.',
@@ -465,7 +503,7 @@ export default function App() {
           </p>
 
           <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap', fontFamily: "'IBM Plex Mono', monospace", fontSize: 12.5, color: INK_SOFT }}>
-            <span><strong style={{ color: INK }}>3</strong> {t.statProducts}</span>
+            <span><strong style={{ color: INK }}>4</strong> {t.statProducts}</span>
             <span><strong style={{ color: INK }}>20</strong> {t.statLangs}</span>
             <span><strong style={{ color: INK }}>1</strong> {t.statPeople}</span>
           </div>
