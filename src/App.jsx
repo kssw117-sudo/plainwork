@@ -448,11 +448,14 @@ export default function App() {
           75%  { transform: translateX(60px) translateY(-10px) rotate(4deg); }
           100% { transform: translateX(0) translateY(0) rotate(-4deg); }
         }
-        .running-p {
+        .running-p-base {
           position: absolute; font-family: 'Fraunces', serif; font-weight: 700;
           color: rgba(217,119,87,0.14); pointer-events: none; user-select: none;
-          animation: runP 6s ease-in-out infinite;
+          animation-name: runP; animation-timing-function: ease-in-out; animation-iteration-count: infinite;
         }
+        .running-p { animation-duration: 6s; }
+        .running-p-2 { animation-duration: 8s; animation-delay: -2s; }
+        .running-p-3 { animation-duration: 7s; animation-delay: -4s; }
         @keyframes marquee {
           from { transform: translateX(0); }
           to { transform: translateX(-50%); }
@@ -471,7 +474,9 @@ export default function App() {
           <path d="M10 4h80a6 6 0 0 1 6 6v90a6 6 0 0 1-6 6h-63L10 88V10a6 6 0 0 1 6-6z" fill={RUST} />
           <circle cx="66" cy="24" r="7" fill={BG} />
         </svg>
-        <span className="running-p" aria-hidden="true" style={{ bottom: 40, left: 40, fontSize: 90 }}>Р</span>
+        <span className="running-p-base running-p" aria-hidden="true" style={{ bottom: 40, left: 40, fontSize: 90 }}>Р</span>
+        <span className="running-p-base running-p-2" aria-hidden="true" style={{ top: 60, right: 60, fontSize: 60 }}>Р</span>
+        <span className="running-p-base running-p-3" aria-hidden="true" style={{ top: '45%', left: '65%', fontSize: 44 }}>Р</span>
 
         <div style={{ maxWidth: 720, margin: '0 auto', position: 'relative' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16, marginBottom: 28 }}>
