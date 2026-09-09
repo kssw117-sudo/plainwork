@@ -185,6 +185,50 @@ const products = [
       'Listen to the result read aloud, and save your last 5 rewrites.',
     ],
   },
+  {
+    tag: '05',
+    name: 'Content Strategist AI',
+    line: {
+      en: 'A week of content ideas -- built for the platform you\u2019re actually posting on.',
+      ru: 'Неделя идей для контента — под ту платформу, где ты реально публикуешься.',
+      es: 'Una semana de ideas de contenido -- pensadas para la plataforma en la que realmente publicas.',
+      fr: 'Une semaine d\u2019id\u00e9es de contenu -- pens\u00e9e pour la plateforme sur laquelle vous publiez vraiment.',
+      de: 'Eine Woche Content-Ideen -- gemacht f\u00fcr die Plattform, auf der du wirklich postest.',
+      pt: 'Uma semana de ideias de conte\u00fado -- feitas para a plataforma onde voc\u00ea realmente publica.',
+      zh: '\u4e00\u5468\u7684\u5185\u5bb9\u60f3\u6cd5\u2014\u2014\u4e13\u4e3a\u4f60\u771f\u6b63\u53d1\u5e03\u7684\u5e73\u53f0\u6253\u9020\u3002',
+      ja: '\u5b9f\u969b\u306b\u6295\u7a3f\u3059\u308b\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u306e\u305f\u3081\u306e\u3001\u4e00\u9031\u9593\u5206\u306e\u30b3\u30f3\u30c6\u30f3\u30c4\u30a2\u30a4\u30c7\u30a2\u3002',
+    },
+    problem: {
+      en: 'You stare at an empty content calendar every single week, and every idea feels the same.',
+      ru: 'Каждую неделю смотришь на пустой контент-план, и все идеи звучат одинаково.',
+      es: 'Miras un calendario de contenido vac\u00edo cada semana, y todas las ideas suenan igual.',
+      fr: 'Vous fixez un calendrier de contenu vide chaque semaine, et toutes les id\u00e9es se ressemblent.',
+      de: 'Du starrst jede Woche auf einen leeren Content-Kalender, und jede Idee klingt gleich.',
+      pt: 'Voc\u00ea encara um calend\u00e1rio de conte\u00fado vazio toda semana, e todas as ideias parecem iguais.',
+      zh: '\u4f60\u6bcf\u5468\u90fd\u76ef\u7740\u7a7a\u767d\u7684\u5185\u5bb9\u65e5\u5386\u53d1\u6101\uff0c\u6240\u6709\u60f3\u6cd5\u90fd\u5927\u540c\u5c0f\u5f02\u3002',
+      ja: '\u6bce\u9031\u7a7a\u3063\u307d\u306e\u30b3\u30f3\u30c6\u30f3\u30c4\u30ab\u30ec\u30f3\u30c0\u30fc\u3092\u524d\u306b\u3057\u3066\u3001\u3069\u306e\u30a2\u30a4\u30c7\u30a2\u3082\u540c\u3058\u3088\u3046\u306b\u611f\u3058\u3066\u3057\u307e\u3046\u3002',
+    },
+    result: {
+      en: 'A full week of ideas, balanced across five content pillars, ready to publish.',
+      ru: 'Полная неделя идей, сбалансированных по пяти content pillars, готовых к публикации.',
+      es: 'Una semana completa de ideas, equilibradas en cinco pilares de contenido, listas para publicar.',
+      fr: 'Une semaine compl\u00e8te d\u2019id\u00e9es, \u00e9quilibr\u00e9es sur cinq piliers de contenu, pr\u00eates \u00e0 publier.',
+      de: 'Eine ganze Woche Ideen, ausgewogen \u00fcber f\u00fcnf Content-S\u00e4ulen, bereit zur Ver\u00f6ffentlichung.',
+      pt: 'Uma semana inteira de ideias, equilibradas em cinco pilares de conte\u00fado, prontas para publicar.',
+      zh: '\u6574\u6574\u4e00\u5468\u7684\u60f3\u6cd5\uff0c\u5728\u4e94\u4e2a\u5185\u5bb9\u652f\u67f1\u4e4b\u95f4\u5e73\u8861\u5206\u5e03\uff0c\u968f\u65f6\u53ef\u53d1\u3002',
+      ja: '5\u3064\u306e\u30b3\u30f3\u30c6\u30f3\u30c4\u30d4\u30e9\u30fc\u306b\u30d0\u30e9\u30f3\u30b9\u3088\u304f\u5206\u914d\u3055\u308c\u305f\u3001\u4e00\u9031\u9593\u5206\u306e\u6295\u7a3f\u6e96\u5099\u5b8c\u4e86\u306e\u30a2\u30a4\u30c7\u30a2\u3002',
+    },
+    price: '$129',
+    stat: { en: '4 modes', ru: '4 режима', es: '4 modos', fr: '4 modes', de: '4 Modi', pt: '4 modos', zh: '4\u79cd\u6a21\u5f0f', ja: '4\u3064\u306e\u30e2\u30fc\u30c9' },
+    url: 'https://content-strategist-ai.vercel.app/',
+    widget: 'https://widget.lava.top/bfbe4e9d-a890-48eb-82a6-8d081e6bec26',
+    benefits: [
+      'Single platform, cross-platform calendar, competitor gap analysis, or upload photos for a strategic posting plan.',
+      '5 content pillars, automatically balanced so your feed never feels one-note.',
+      'Regenerate a single day without redoing the whole week -- and hashtags, best posting times included.',
+      'Available in 25 languages -- interface and generation both.',
+    ],
+  },
 ];
 
 const principles = [
@@ -253,7 +297,7 @@ const T = {
     tagline: 'Plainwork Studio',
     heroTitle: 'Small, useful tools for people running a business alone.',
     heroBody: 'Plainwork builds focused AI tools that solve one repetitive task each -- writing captions, replying to reviews, staying visible on Google -- so there\u2019s a little more time left for the parts of the business that actually need a person.',
-    heroNote: 'Four tools live so far. More on the way.',
+    heroNote: 'Five tools live so far. More on the way.',
     manifesto1: 'I build AI tools that do your marketing for you. Each product solves one job: content, reputation, visibility, language. You just upload your data -- the AI does the rest.',
     manifesto2: 'Plainwork is for people tired of being slaves to their own to-do list. We give you back your time, your confidence, and your visibility in front of customers.',
     statProducts: 'products shipped', statLangs: 'languages supported', statPeople: 'person building it',
@@ -535,7 +579,7 @@ export default function App() {
           </p>
 
           <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap', fontFamily: "'IBM Plex Mono', monospace", fontSize: 12.5, color: INK_SOFT }}>
-            <span><strong style={{ color: INK }}>4</strong> {t.statProducts}</span>
+            <span><strong style={{ color: INK }}>5</strong> {t.statProducts}</span>
             <span><strong style={{ color: INK }}>20</strong> {t.statLangs}</span>
             <span><strong style={{ color: INK }}>1</strong> {t.statPeople}</span>
           </div>
