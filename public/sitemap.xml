@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://plainwork-site.vercel.app/</loc>
-    <lastmod>2026-09-05</lastmod>
+    <loc>https://plainwork.website/</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://plainwork-site.vercel.app/terms.html</loc>
-    <lastmod>2026-09-05</lastmod>
+    <loc>https://plainwork.website/terms.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://plainwork-site.vercel.app/privacy.html</loc>
-    <lastmod>2026-09-05</lastmod>
+    <loc>https://plainwork.website/privacy.html</loc>
+    <lastmod>2026-09-10</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
