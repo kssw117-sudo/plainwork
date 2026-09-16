@@ -46,6 +46,16 @@ const products = [
     stat: { en: '20 languages', ru: '20 языков', es: '20 idiomas', fr: '20 langues', de: '20 Sprachen', pt: '20 idiomas', zh: '20\u79cd\u8bed\u8a00', ja: '20\u8a00\u8a9e' },
     url: 'https://taggeneratorai.vercel.app/',
     widget: 'https://widget.lava.top/d058ad7b-f43f-45a9-9d8a-e255697c8f46',
+    fullDescription: {
+      en: "You know the feeling: you shot a genuinely good photo, coffee on the table by the window, and then twenty minutes of staring at a blank caption box. TagGenerator AI fixes exactly that moment. Upload a photo or video, and the AI actually looks at it, not just spins text from nothing. It sees the foam on the latte, the cinnamon, the autumn leaves on the table, and writes a post about exactly that.",
+      ru: "Знакомая ситуация: сняла отличное фото кофе на столе у окна, а дальше — двадцать минут ступора перед пустым полем подписи. TagGenerator AI решает именно этот момент. Загружаешь фото или видео — и AI реально смотрит на картинку, а не сочиняет текст из воздуха: видит пенку на латте, корицу, осенние листья на столе — и пишет пост именно про это.",
+      es: "Ya conoces la sensación: tomaste una foto realmente buena, café en la mesa junto a la ventana, y luego veinte minutos mirando un cuadro de texto vacío. TagGenerator AI resuelve exactamente ese momento. Subes una foto o video, y la IA realmente la mira, no inventa texto de la nada: ve la espuma del latte, la canela, las hojas de otoño en la mesa, y escribe sobre exactamente eso.",
+      fr: "Tu connais cette sensation : tu as pris une superbe photo, un café sur la table pres de la fenetre, puis vingt minutes a fixer une legende vide. TagGenerator AI resout exactement ce moment. Tu importes une photo ou une video, et l'IA la regarde vraiment, elle n'invente pas un texte de nulle part : elle voit la mousse du latte, la cannelle, les feuilles d'automne sur la table, et ecrit un post a propos de ca exactement.",
+      de: "Du kennst das Gefuehl: du hast ein wirklich gutes Foto gemacht, Kaffee auf dem Tisch am Fenster, und dann zwanzig Minuten auf ein leeres Textfeld gestarrt. TagGenerator AI loest genau diesen Moment. Du laedst ein Foto oder Video hoch, und die KI schaut es sich wirklich an, statt Text aus dem Nichts zu erfinden: sie sieht den Milchschaum auf dem Latte, den Zimt, die Herbstblaetter auf dem Tisch, und schreibt einen Post genau darueber.",
+      pt: "Voce conhece a sensacao: tirou uma foto genuinamente boa, cafe na mesa perto da janela, e depois vinte minutos encarando uma caixa de legenda vazia. TagGenerator AI resolve exatamente esse momento. Voce envia uma foto ou video, e a IA realmente olha para ela, nao apenas inventa texto do nada: ela ve a espuma do latte, a canela, as folhas de outono na mesa, e escreve um post sobre exatamente isso.",
+      zh: "你一定有过这种感觉：拍了一张真正好看的照片，靠窗桌上的咖啡，然后盯着空白的配文框二十分钟。TagGenerator AI 解决的正是这个瞬间。上传照片或视频，AI 会真正去看它，而不是凭空编造文字：它能看到拿铁上的奶泡、肉桂、桌上的秋叶，然后就写这些内容的帖子。",
+      ja: "その感覚、わかる。窓際のテーブルに置いたコーヒーの、本当にいい写真を撮った。それなのに、空白のキャプション欄を前に20分固まってしまう。TagGenerator AIが解決するのは、まさにその瞬間だ。写真や動画をアップロードすると、AIは本当にそれを見る。何もないところから文章をひねり出すのではなく、ラテの泡、シナモン、テーブルの上の紅葉を実際に見て、まさにそれについての投稿を書く。",
+    },
     benefits: [
       'The AI actually sees your photo -- no need to describe what\u2019s in it.',
       'One input, every platform: Instagram, TikTok, WhatsApp, YouTube Shorts, X, Pinterest.',
@@ -90,6 +100,16 @@ const products = [
     stat: { en: '20 languages', ru: '20 языков', es: '20 idiomas', fr: '20 langues', de: '20 Sprachen', pt: '20 idiomas', zh: '20\u79cd\u8bed\u8a00', ja: '20\u8a00\u8a9e' },
     url: 'https://reviewreply-ai-one.vercel.app/',
     widget: 'https://widget.lava.top/f30c6c97-507b-4591-b810-dd62ff16fb66',
+    fullDescription: {
+      en: "One unanswered bad review costs more than it looks like, every customer after it reads it too. Paste the review into ReviewReply AI and get three reply options at once, different in tone and length. But the real feature is the private \"for your eyes only\" note: the AI reads between the lines and flags it if the review is quietly pointing at a systemic issue, a gap in staff training, a recurring complaint about wait times. A free mini-audit of your business with every single reply.",
+      ru: "Один плохой отзыв без ответа стоит дороже, чем кажется — его читают все следующие клиенты. Вставляешь отзыв в ReviewReply AI — получаешь сразу три варианта ответа, разных по тону и длине. Но настоящая фишка — эксклюзивная заметка «только для твоих глаз»: AI читает между строк и подсказывает, если за отзывом прячется системная проблема — пробел в обучении персонала, повторяющаяся жалоба на время ожидания. Бесплатный мини-аудит бизнеса при каждом ответе.",
+      es: "Una mala resena sin respuesta cuesta mas de lo que parece, todos los clientes siguientes la leen. Pegas la resena en ReviewReply AI y obtienes tres opciones de respuesta a la vez, diferentes en tono y longitud. Pero la verdadera ventaja es la nota privada solo para tus ojos: la IA lee entre lineas y te avisa si la resena esconde un problema sistemico, un vacio en la capacitacion del personal, una queja recurrente sobre el tiempo de espera. Una mini auditoria gratuita de tu negocio con cada respuesta.",
+      fr: "Un mauvais avis sans reponse coute plus cher qu'il n'y parait, tous les clients suivants le lisent aussi. Tu colles l'avis dans ReviewReply AI et obtiens trois options de reponse a la fois, differentes en ton et en longueur. Mais la vraie fonctionnalite, c'est la note privee pour tes yeux seulement : l'IA lit entre les lignes et te signale si l'avis cache un probleme systemique, une lacune dans la formation du personnel, une plainte recurrente sur le temps d'attente. Un mini-audit gratuit de ton entreprise a chaque reponse.",
+      de: "Eine unbeantwortete schlechte Bewertung kostet mehr, als es scheint, jeder folgende Kunde liest sie auch. Du fuegst die Bewertung in ReviewReply AI ein und erhaeltst sofort drei Antwortoptionen, unterschiedlich in Ton und Laenge. Das eigentliche Feature ist aber die private Notiz nur fuer deine Augen: die KI liest zwischen den Zeilen und weist dich darauf hin, wenn die Bewertung ein systemisches Problem verbirgt, eine Luecke in der Mitarbeiterschulung, eine wiederkehrende Beschwerde ueber Wartezeiten. Ein kostenloses Mini-Audit deines Unternehmens bei jeder Antwort.",
+      pt: "Uma avaliacao ruim sem resposta custa mais do que parece, todos os proximos clientes a leem tambem. Voce cola a avaliacao no ReviewReply AI e recebe tres opcoes de resposta de uma vez, diferentes em tom e comprimento. Mas o verdadeiro diferencial e a nota privada so para seus olhos: a IA le nas entrelinhas e avisa se a avaliacao esconde um problema sistemico, uma lacuna no treinamento da equipe, uma reclamacao recorrente sobre tempo de espera. Uma mini auditoria gratuita do seu negocio a cada resposta.",
+      zh: "一条没有回复的差评，代价比看起来的更大——之后的每一位顾客都会看到它。把评论粘贴进 ReviewReply AI，立刻获得三种语气和长度都不同的回复选项。但真正的亮点是私密的仅你可见笔记：AI 会读出字里行间的含义，如果评论背后藏着系统性问题——员工培训的缺口、反复出现的等待时间投诉——它会提醒你。每次回复都附带一次免费的商业迷你诊断。",
+      ja: "返信のない悪いレビューは、見た目以上に高くつく。その後に来るすべての顧客がそれを読むからだ。レビューをReviewReply AIに貼り付けると、トーンも長さも異なる3つの返信案が一度に手に入る。しかし本当の特長は「あなただけが見る」プライベートメモだ。AIは行間を読み取り、レビューの裏に構造的な問題——スタッフ研修の不足や、待ち時間への繰り返しの苦情——が隠れていないか教えてくれる。返信のたびに無料のビジネスミニ診断がついてくる。",
+    },
     benefits: [
       'Reads between the lines -- understands what an unhappy customer actually needs.',
       'Three reply options every time, different lengths and tones.',
@@ -134,6 +154,16 @@ const products = [
     stat: { en: '5 tools', ru: '5 инструментов', es: '5 herramientas', fr: '5 outils', de: '5 Werkzeuge', pt: '5 ferramentas', zh: '5\u4e2a\u5de5\u5177', ja: '5\u3064\u306e\u30c4\u30fc\u30eb' },
     url: 'https://local-signal.vercel.app/',
     widget: 'https://widget.lava.top/cb430a7a-32e3-4578-9806-817d65bb3a26',
+    fullDescription: {
+      en: "The most feature-dense of the five, six tools in one. Open it, and the first thing you see is \"This Week\\'s 3 Actions\", not vague advice, a concrete list of exactly what to do right now to get your Google Business Profile working for you again. From there: posts, Q&A replies, SEO copy, a full month of content planned at once, and \"Stand Out\", paste a competitor\\'s post, find their weak spot and your unique angle.",
+      ru: "Самый насыщенный из пяти — шесть инструментов в одном. Открываешь — и сразу видишь «3 действия на эту неделю»: не абстрактный совет, а конкретный список, что именно сделать прямо сейчас, чтобы карточка компании в Google снова начала работать на тебя. Дальше — посты для Google Business Profile, ответы на вопросы клиентов, SEO-тексты, полный месячный контент-план, и «Stand Out» — вставляешь пост конкурента, находишь его слабое место и свой уникальный угол.",
+      es: "El mas completo de los cinco, seis herramientas en una. Lo abres, y lo primero que ves es 3 acciones para esta semana: no un consejo abstracto, sino una lista concreta de que hacer exactamente ahora mismo para que tu perfil de Google Business vuelva a trabajar para ti. Luego: publicaciones para Google Business Profile, respuestas a preguntas de clientes, textos SEO, un plan de contenido mensual completo de una vez, y Stand Out, pegas el post de un competidor, encuentras su punto debil y tu angulo unico.",
+      fr: "Le plus riche des cinq, six outils en un. Tu l'ouvres, et la premiere chose que tu vois, ce sont les 3 actions de la semaine : pas un conseil vague, mais une liste concrete de ce qu'il faut faire maintenant pour que ta fiche Google Business se remette a travailler pour toi. Ensuite : posts pour Google Business Profile, reponses aux questions des clients, textes SEO, un plan de contenu mensuel complet en une fois, et Stand Out, tu colles le post d'un concurrent, tu trouves son point faible et ton angle unique.",
+      de: "Das umfangreichste der fuenf, sechs Tools in einem. Du oeffnest es, und das Erste, was du siehst, sind die 3 Aktionen dieser Woche: kein vager Ratschlag, sondern eine konkrete Liste, was genau jetzt zu tun ist, damit dein Google-Unternehmensprofil wieder fuer dich arbeitet. Dann: Beitraege fuer Google Business Profile, Antworten auf Kundenfragen, SEO-Texte, ein kompletter Monats-Content-Plan auf einmal, und Stand Out, du fuegst den Beitrag eines Mitbewerbers ein, findest seine Schwachstelle und deinen einzigartigen Winkel.",
+      pt: "O mais completo dos cinco, seis ferramentas em uma. Voce abre, e a primeira coisa que ve sao 3 acoes para esta semana: nao um conselho vago, mas uma lista concreta do que fazer agora mesmo para que seu perfil do Google Business volte a trabalhar para voce. Depois: posts para o Google Business Profile, respostas a perguntas de clientes, textos SEO, um plano de conteudo mensal completo de uma vez, e Stand Out, voce cola o post de um concorrente, encontra o ponto fraco dele e seu angulo unico.",
+      zh: "五款产品中功能最丰富的一个，六个工具合而为一。打开它，首先看到的是「本周三项行动」：不是空泛的建议，而是一份具体清单，告诉你现在到底该做什么，才能让你的 Google 商家资料重新为你发挥作用。接下来是：Google 商家资料帖子、顾客问题回复、SEO 文案、一次生成整月内容计划，以及「Stand Out」——粘贴竞争对手的帖子，找出他们的弱点和你的独特角度。",
+      ja: "5つの中で最も機能が充実、6つのツールが1つに。開くとまず目に入るのは「今週の3つのアクション」——曖昧なアドバイスではなく、Googleビジネスプロフィールを再び働かせるために、今すぐ何をすべきかの具体的なリストだ。そこから先は：Googleビジネスプロフィール向けの投稿、顧客からの質問への返信、SEOコピー、一度に作成する月間コンテンツプラン、そして「Stand Out」——競合の投稿を貼り付けると、その弱点とあなただけの切り口が見つかる。",
+    },
     benefits: [
       '\u201cThis Week\u2019s 3 Actions\u201d -- a concrete plan, not just data.',
       'GBP posts and Q&A replies, matched to your tone and location.',
@@ -178,6 +208,16 @@ const products = [
     stat: { en: '35 languages', ru: '35 языков', es: '35 idiomas', fr: '35 langues', de: '35 Sprachen', pt: '35 idiomas', zh: '35\u79cd\u8bed\u8a00', ja: '35\u8a00\u8a9e' },
     url: 'https://say-it-right-blush.vercel.app/',
     widget: 'https://widget.lava.top/a60a430e-55eb-4989-9881-a98ad2a99e45',
+    fullDescription: {
+      en: "Built for anyone who writes to a client in English and hesitates before hitting send. Write however comes naturally, in your own language or in rough English, and get back more than a correction: every fix explained in your own native language. Not just \"this is right\", but why. Listen to the result read aloud before you send it, so you actually hear how it lands.",
+      ru: "Для тех, кто пишет клиенту на английском и боится нажать «отправить». Пишешь как получается — на родном языке или на ломаном английском — и получаешь не просто исправленный текст, а объяснение каждой правки на своём родном языке. Не просто «вот так правильно», а «почему именно так». Можно прослушать результат вслух — узнать, как он звучит на самом деле, до того как отправить.",
+      es: "Para quienes escriben a un cliente en ingles y dudan antes de pulsar enviar. Escribes como te sale, en tu idioma natal o en ingles imperfecto, y obtienes mas que una correccion: cada arreglo explicado en tu propio idioma nativo. No solo asi esta bien, sino por que. Puedes escuchar el resultado en voz alta antes de enviarlo, para saber realmente como suena.",
+      fr: "Pour ceux qui ecrivent a un client en anglais et hesitent avant d'appuyer sur envoyer. Tu ecris comme ca vient, dans ta langue maternelle ou en anglais approximatif, et tu obtiens plus qu'une correction : chaque modification expliquee dans ta propre langue. Pas juste c'est comme ca qu'on dit, mais pourquoi. Tu peux ecouter le resultat a voix haute avant de l'envoyer, pour vraiment entendre comment ca sonne.",
+      de: "Fuer alle, die einem Kunden auf Englisch schreiben und zoegern, bevor sie auf Senden klicken. Du schreibst, wie es dir natuerlich kommt, in deiner Muttersprache oder in holprigem Englisch, und bekommst mehr als eine Korrektur zurueck: jede Aenderung in deiner eigenen Muttersprache erklaert. Nicht nur so ist es richtig, sondern warum. Du kannst dir das Ergebnis vor dem Senden vorlesen lassen, um wirklich zu hoeren, wie es klingt.",
+      pt: "Para quem escreve para um cliente em ingles e hesita antes de clicar em enviar. Voce escreve como vem naturalmente, no seu idioma nativo ou em ingles tosco, e recebe mais do que uma correcao: cada ajuste explicado no seu proprio idioma nativo. Nao apenas assim esta certo, mas o porque. Voce pode ouvir o resultado em voz alta antes de enviar, para realmente saber como soa.",
+      zh: "献给那些用英语给客户写信、却在按下「发送」前犹豫不决的人。你用最自然的方式写作，无论是母语还是不太流利的英语，得到的不只是一次纠正：每一处修改都会用你的母语解释清楚。不只是「这样才对」，而是「为什么这样才对」。发送之前，还可以听一听朗读的结果，真正听出它听起来是什么样子。",
+      ja: "英語でクライアントにメッセージを書き、「送信」を押す前に躊躇してしまう人のために。自然に出てくる言葉で書けばいい——母国語でも、たどたどしい英語でも。得られるのは単なる修正以上のもの、すべての修正点が自分の母国語で説明される。「これが正しい」だけでなく、「なぜそうなのか」まで。送信前に結果を音声で聞くこともでき、実際にどう聞こえるかを確認できる。",
+    },
     benefits: [
       'Write however you want -- your language or rough English, either works.',
       'Every fix explained in your own language, so you actually learn.',
@@ -222,6 +262,16 @@ const products = [
     stat: { en: '4 modes', ru: '4 режима', es: '4 modos', fr: '4 modes', de: '4 Modi', pt: '4 modos', zh: '4\u79cd\u6a21\u5f0f', ja: '4\u3064\u306e\u30e2\u30fc\u30c9' },
     url: 'https://content-strategist-ai.vercel.app/',
     widget: 'https://widget.lava.top/bfbe4e9d-a890-48eb-82a6-8d081e6bec26',
+    fullDescription: {
+      en: "The most ambitious product in the lineup. It doesn\\'t write posts, it builds the strategy: what to publish, where, and when. Four modes, including a photo planner that assigns each uploaded image a day, a platform, and a content pillar on its own. Five content pillars automatically balanced across the week, each color-coded. Don\\'t like one day\\'s idea? Regenerate just that one, the rest of the week stays untouched.",
+      ru: "Самый концептуально амбициозный продукт линейки. Не пишет посты — строит стратегию: что публиковать, где и когда. Четыре режима, включая фото-планировщик — загружаешь до 7 фото, AI распределяет их по дням, площадкам и content pillars сам. Пять content pillars автоматически сбалансированы по неделе, каждый — свой цвет. Не понравился один день — перегенерируй именно его, не трогая всю неделю.",
+      es: "El producto mas ambicioso conceptualmente de la linea. No escribe publicaciones, construye la estrategia: que publicar, donde y cuando. Cuatro modos, incluyendo un planificador de fotos, subes hasta 7 fotos y la IA las asigna a dias, plataformas y pilares de contenido por si sola. Cinco pilares de contenido equilibrados automaticamente durante la semana, cada uno con su color. No te gusta la idea de un dia? Regenera solo esa, el resto de la semana queda intacto.",
+      fr: "Le produit le plus ambitieux conceptuellement de la gamme. Il n'ecrit pas de posts, il construit la strategie : quoi publier, ou et quand. Quatre modes, dont un planificateur photo, tu importes jusqu'a 7 photos et l'IA les assigne elle-meme a des jours, des plateformes et des piliers de contenu. Cinq piliers de contenu equilibres automatiquement sur la semaine, chacun avec sa couleur. Une idee d'un jour ne te plait pas ? Regenere juste celle-la, le reste de la semaine reste intact.",
+      de: "Das konzeptionell ambitionierteste Produkt der Reihe. Es schreibt keine Beitraege, es baut die Strategie: was zu veroeffentlichen ist, wo und wann. Vier Modi, darunter ein Foto-Planer, du laedst bis zu 7 Fotos hoch und die KI ordnet sie selbst Tagen, Plattformen und Content-Saeulen zu. Fuenf Content-Saeulen automatisch ueber die Woche ausbalanciert, jede mit eigener Farbe. Gefaellt dir die Idee fuer einen Tag nicht? Generiere nur diesen neu, der Rest der Woche bleibt unberuehrt.",
+      pt: "O produto conceitualmente mais ambicioso da linha. Nao escreve posts, constroi a estrategia: o que publicar, onde e quando. Quatro modos, incluindo um planejador de fotos, voce envia ate 7 fotos e a IA as atribui sozinha a dias, plataformas e pilares de conteudo. Cinco pilares de conteudo equilibrados automaticamente ao longo da semana, cada um com sua cor. Nao gostou da ideia de um dia? Regenere so aquele, o resto da semana fica intacto.",
+      zh: "该系列中概念上最具野心的产品。它不写帖子，而是构建策略：发布什么、在哪里发布、何时发布。四种模式，包括照片规划器——上传最多 7 张照片，AI 会自主将它们分配到具体日期、平台和内容支柱。五大内容支柱在一周内自动保持平衡，每个都有自己的颜色标注。不喜欢某一天的创意？只需重新生成那一天，其余部分保持不变。",
+      ja: "ラインナップの中で最も概念的に野心的な製品。投稿を書くのではなく、戦略を構築する——何を、どこに、いつ投稿するか。写真プランナーを含む4つのモード。最大7枚の写真をアップロードすると、AIが自ら曜日、プラットフォーム、コンテンツの柱に割り振る。5つのコンテンツの柱が週全体で自動的にバランスよく配分され、それぞれに色分けがされる。ある日のアイデアが気に入らない？その日だけを再生成すればよく、残りの週はそのまま残る。",
+    },
     benefits: [
       'Single platform, cross-platform calendar, competitor gap analysis, or upload photos for a strategic posting plan.',
       '5 content pillars, automatically balanced so your feed never feels one-note.',
@@ -626,7 +676,17 @@ export default function App() {
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: 44 }}>
-                  <iframe title={`Buy ${p.name}`} style={{ border: 'none', borderRadius: 10 }} width="250" height="80" src={p.widget}></iframe>
+                  <a
+                    href={p.url.replace(/\/$/, '') + '/buy.html'}
+                    target="_blank" rel="noopener noreferrer"
+                    style={{
+                      display: 'inline-block', padding: '12px 28px', borderRadius: 10,
+                      background: RUST, color: '#FFF', fontSize: 13, fontWeight: 600,
+                      textDecoration: 'none', textAlign: 'center',
+                    }}
+                  >
+                    Get {p.name.split(' ')[0]} &rarr;
+                  </a>
                   <button
                     onClick={() => setExpandedProduct(expandedProduct === p.tag ? null : p.tag)}
                     style={{
@@ -639,6 +699,11 @@ export default function App() {
                 </div>
                 {expandedProduct === p.tag && (
                   <div style={{ paddingLeft: 44, marginTop: 16 }}>
+                    {p.fullDescription && p.fullDescription[lang] && (
+                      <p style={{ fontSize: 13.5, color: INK, lineHeight: 1.6, marginBottom: 14 }}>
+                        {p.fullDescription[lang]}
+                      </p>
+                    )}
                     {p.benefits.map((b, bi) => (
                       <div key={bi} style={{ display: 'flex', gap: 8, marginBottom: 8, fontSize: 13, color: INK_SOFT, lineHeight: 1.5 }}>
                         <span style={{ color: RUST_DEEP, flexShrink: 0 }}>&bull;</span>
