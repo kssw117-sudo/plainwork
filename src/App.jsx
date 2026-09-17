@@ -676,17 +676,7 @@ export default function App() {
                   </div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: 44 }}>
-                  <a
-                    href={p.url.replace(/\/$/, '') + '/buy.html'}
-                    target="_blank" rel="noopener noreferrer"
-                    style={{
-                      display: 'inline-block', padding: '12px 28px', borderRadius: 10,
-                      background: RUST, color: '#FFF', fontSize: 13, fontWeight: 600,
-                      textDecoration: 'none', textAlign: 'center',
-                    }}
-                  >
-                    Get {p.name.split(' ')[0]} &rarr;
-                  </a>
+                  <iframe title={`Buy ${p.name}`} style={{ border: 'none', borderRadius: 10 }} width="250" height="80" src={p.widget}></iframe>
                   <button
                     onClick={() => setExpandedProduct(expandedProduct === p.tag ? null : p.tag)}
                     style={{
