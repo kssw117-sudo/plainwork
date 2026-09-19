@@ -697,8 +697,20 @@ export default function App() {
                     <span style={{ fontWeight: 600, fontSize: 15 }}>{p.price}</span>
                   </div>
                 </div>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: 44 }}>
-                  <iframe title={`Buy ${p.name}`} style={{ border: 'none', borderRadius: 10 }} width="250" height="80" src={p.widget}></iframe>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', paddingLeft: 44, flexWrap: 'wrap', gap: 10 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+                    <iframe title={`Buy ${p.name}`} style={{ border: 'none', borderRadius: 10 }} width="250" height="80" src={p.widget}></iframe>
+                    <a
+                      href={p.url}
+                      target="_blank" rel="noopener noreferrer"
+                      style={{
+                        fontFamily: "'IBM Plex Mono', monospace", fontSize: 11.5, color: RUST_DEEP,
+                        textDecoration: 'underline', textUnderlineOffset: 3, whiteSpace: 'nowrap',
+                      }}
+                    >
+                      Try it free &rarr;
+                    </a>
+                  </div>
                   <button
                     onClick={() => setExpandedProduct(expandedProduct === p.tag ? null : p.tag)}
                     style={{
