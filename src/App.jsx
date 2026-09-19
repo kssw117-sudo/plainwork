@@ -57,9 +57,9 @@ const products = [
       ja: "その感覚、わかる。窓際のテーブルに置いたコーヒーの、本当にいい写真を撮った。それなのに、空白のキャプション欄を前に20分固まってしまう。TagGenerator AIが解決するのは、まさにその瞬間だ。写真や動画をアップロードすると、AIは本当にそれを見る。何もないところから文章をひねり出すのではなく、ラテの泡、シナモン、テーブルの上の紅葉を実際に見て、まさにそれについての投稿を書く。",
     },
     benefits: [
-      'The AI actually sees your photo -- no need to describe what\u2019s in it.',
+      'The AI actually sees your photo - no need to describe what\u2019s in it.',
       'One input, every platform: Instagram, TikTok, WhatsApp, YouTube Shorts, X, Pinterest.',
-      'Your brand voice in every line -- friendly, expert, playful, or formal.',
+      'Your brand voice in every line - friendly, expert, playful, or formal.',
       'Batch mode plans a full week of posts in one click.',
     ],
   },
@@ -111,9 +111,9 @@ const products = [
       ja: "返信のない悪いレビューは、見た目以上に高くつく。その後に来るすべての顧客がそれを読むからだ。レビューをReviewReply AIに貼り付けると、トーンも長さも異なる3つの返信案が一度に手に入る。しかし本当の特長は「あなただけが見る」プライベートメモだ。AIは行間を読み取り、レビューの裏に構造的な問題——スタッフ研修の不足や、待ち時間への繰り返しの苦情——が隠れていないか教えてくれる。返信のたびに無料のビジネスミニ診断がついてくる。",
     },
     benefits: [
-      'Reads between the lines -- understands what an unhappy customer actually needs.',
+      'Reads between the lines - understands what an unhappy customer actually needs.',
       'Three reply options every time, different lengths and tones.',
-      '\u201cFor your eyes only\u201d -- spots systemic issues hiding inside a single review.',
+      '\u201cFor your eyes only\u201d - spots systemic issues hiding inside a single review.',
       'Drafts a private follow-up message, and turns positive reviews into social posts.',
     ],
   },
@@ -121,12 +121,12 @@ const products = [
     tag: '03',
     name: 'Local Signal',
     line: {
-      en: 'Get found on Google Search and Maps -- posts, replies, SEO copy.',
+      en: 'Get found on Google Search and Maps - posts, replies, SEO copy.',
       ru: 'Помогает найти вас в Google Поиске и Картах — посты, ответы, SEO-тексты.',
       es: 'Hazte visible en Google B\u00fasqueda y Maps: publicaciones, respuestas, textos SEO.',
       fr: 'Soyez visible sur Google Recherche et Maps : posts, r\u00e9ponses, textes SEO.',
-      de: 'Werde auf Google Suche und Maps gefunden -- Beitr\u00e4ge, Antworten, SEO-Texte.',
-      pt: 'Seja encontrado no Google Pesquisa e Maps -- posts, respostas, textos de SEO.',
+      de: 'Werde auf Google Suche und Maps gefunden - Beitr\u00e4ge, Antworten, SEO-Texte.',
+      pt: 'Seja encontrado no Google Pesquisa e Maps - posts, respostas, textos de SEO.',
       zh: '\u5728Google\u641c\u7d22\u548c\u5730\u56fe\u4e2d\u88ab\u53d1\u73b0\u2014\u2014\u5e16\u6587\u3001\u56de\u590d\u3001SEO\u6587\u6848\u3002',
       ja: 'Google\u691c\u7d22\u3068\u30de\u30c3\u30d7\u3067\u898b\u3064\u3051\u3066\u3082\u3089\u3048\u308b\u2014\u2014\u6295\u7a3f\u3001\u8fd4\u4fe1\u3001SEO\u6587\u3002',
     },
@@ -165,9 +165,9 @@ const products = [
       ja: "5つの中で最も機能が充実、6つのツールが1つに。開くとまず目に入るのは「今週の3つのアクション」——曖昧なアドバイスではなく、Googleビジネスプロフィールを再び働かせるために、今すぐ何をすべきかの具体的なリストだ。そこから先は：Googleビジネスプロフィール向けの投稿、顧客からの質問への返信、SEOコピー、一度に作成する月間コンテンツプラン、そして「Stand Out」——競合の投稿を貼り付けると、その弱点とあなただけの切り口が見つかる。",
     },
     benefits: [
-      '\u201cThis Week\u2019s 3 Actions\u201d -- a concrete plan, not just data.',
+      '\u201cThis Week\u2019s 3 Actions\u201d - a concrete plan, not just data.',
       'GBP posts and Q&A replies, matched to your tone and location.',
-      'A full month\u2019s content calendar -- 12 post ideas, ready to publish.',
+      'A full month\u2019s content calendar - 12 post ideas, ready to publish.',
       'Stand Out: paste a competitor\u2019s post, find the gap you can fill.',
     ],
   },
@@ -175,12 +175,12 @@ const products = [
     tag: '04',
     name: 'SayItRight AI',
     line: {
-      en: 'Write in your own language -- get natural, professional English back.',
+      en: 'Write in your own language - get natural, professional English back.',
       ru: 'Пишешь на своём языке — получаешь естественный профессиональный английский.',
-      es: 'Escribe en tu idioma -- recibe ingl\u00e9s natural y profesional.',
-      fr: '\u00c9crivez dans votre langue -- recevez un anglais naturel et professionnel.',
-      de: 'Schreibe in deiner Sprache -- erhalte nat\u00fcrliches, professionelles Englisch.',
-      pt: 'Escreva no seu idioma -- receba ingl\u00eas natural e profissional.',
+      es: 'Escribe en tu idioma - recibe ingl\u00e9s natural y profesional.',
+      fr: '\u00c9crivez dans votre langue - recevez un anglais naturel et professionnel.',
+      de: 'Schreibe in deiner Sprache - erhalte nat\u00fcrliches, professionelles Englisch.',
+      pt: 'Escreva no seu idioma - receba ingl\u00eas natural e profissional.',
       zh: '\u7528\u4f60\u81ea\u5df1\u7684\u8bed\u8a00\u5199\u4f5c\u2014\u2014\u83b7\u5f97\u81ea\u7136\u4e13\u4e1a\u7684\u82f1\u8bed\u3002',
       ja: '\u81ea\u5206\u306e\u8a00\u8a9e\u3067\u66f8\u3044\u3066\u2014\u2014\u81ea\u7136\u3067\u30d7\u30ed\u306e\u82f1\u8a9e\u306b\u3002',
     },
@@ -197,10 +197,10 @@ const products = [
     result: {
       en: 'Every fix is explained in your own language, so you actually learn.',
       ru: 'Каждое исправление объясняется на твоём языке — ты реально учишься.',
-      es: 'Cada correcci\u00f3n se explica en tu idioma -- realmente aprendes.',
-      fr: 'Chaque correction est expliqu\u00e9e dans votre langue -- vous apprenez vraiment.',
-      de: 'Jede Korrektur wird in deiner Sprache erkl\u00e4rt -- du lernst wirklich dazu.',
-      pt: 'Cada corre\u00e7\u00e3o \u00e9 explicada no seu idioma -- voc\u00ea realmente aprende.',
+      es: 'Cada correcci\u00f3n se explica en tu idioma - realmente aprendes.',
+      fr: 'Chaque correction est expliqu\u00e9e dans votre langue - vous apprenez vraiment.',
+      de: 'Jede Korrektur wird in deiner Sprache erkl\u00e4rt - du lernst wirklich dazu.',
+      pt: 'Cada corre\u00e7\u00e3o \u00e9 explicada no seu idioma - voc\u00ea realmente aprende.',
       zh: '\u6bcf\u4e2a\u4fee\u6539\u90fd\u7528\u4f60\u7684\u8bed\u8a00\u89e3\u91ca\u2014\u2014\u4f60\u771f\u6b63\u5b66\u5230\u4e1c\u897f\u3002',
       ja: '\u4fee\u6b63\u306f\u3059\u3079\u3066\u81ea\u5206\u306e\u8a00\u8a9e\u3067\u8aac\u660e\u3055\u308c\u308b\u2014\u2014\u672c\u5f53\u306b\u5b66\u3079\u308b\u3002',
     },
@@ -219,9 +219,9 @@ const products = [
       ja: "英語でクライアントにメッセージを書き、「送信」を押す前に躊躇してしまう人のために。自然に出てくる言葉で書けばいい——母国語でも、たどたどしい英語でも。得られるのは単なる修正以上のもの、すべての修正点が自分の母国語で説明される。「これが正しい」だけでなく、「なぜそうなのか」まで。送信前に結果を音声で聞くこともでき、実際にどう聞こえるかを確認できる。",
     },
     benefits: [
-      'Write however you want -- your language or rough English, either works.',
+      'Write however you want - your language or rough English, either works.',
       'Every fix explained in your own language, so you actually learn.',
-      'A formality slider -- from very formal to casual, in one move.',
+      'A formality slider - from very formal to casual, in one move.',
       'Listen to the result read aloud, and save your last 5 rewrites.',
     ],
   },
@@ -229,12 +229,12 @@ const products = [
     tag: '05',
     name: 'Content Strategist AI',
     line: {
-      en: 'A week of content ideas -- built for the platform you\u2019re actually posting on.',
+      en: 'A week of content ideas - built for the platform you\u2019re actually posting on.',
       ru: 'Неделя идей для контента — под ту платформу, где ты реально публикуешься.',
-      es: 'Una semana de ideas de contenido -- pensadas para la plataforma en la que realmente publicas.',
-      fr: 'Une semaine d\u2019id\u00e9es de contenu -- pens\u00e9e pour la plateforme sur laquelle vous publiez vraiment.',
-      de: 'Eine Woche Content-Ideen -- gemacht f\u00fcr die Plattform, auf der du wirklich postest.',
-      pt: 'Uma semana de ideias de conte\u00fado -- feitas para a plataforma onde voc\u00ea realmente publica.',
+      es: 'Una semana de ideas de contenido - pensadas para la plataforma en la que realmente publicas.',
+      fr: 'Une semaine d\u2019id\u00e9es de contenu - pens\u00e9e pour la plateforme sur laquelle vous publiez vraiment.',
+      de: 'Eine Woche Content-Ideen - gemacht f\u00fcr die Plattform, auf der du wirklich postest.',
+      pt: 'Uma semana de ideias de conte\u00fado - feitas para a plataforma onde voc\u00ea realmente publica.',
       zh: '\u4e00\u5468\u7684\u5185\u5bb9\u60f3\u6cd5\u2014\u2014\u4e13\u4e3a\u4f60\u771f\u6b63\u53d1\u5e03\u7684\u5e73\u53f0\u6253\u9020\u3002',
       ja: '\u5b9f\u969b\u306b\u6295\u7a3f\u3059\u308b\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u306e\u305f\u3081\u306e\u3001\u4e00\u9031\u9593\u5206\u306e\u30b3\u30f3\u30c6\u30f3\u30c4\u30a2\u30a4\u30c7\u30a2\u3002',
     },
@@ -275,8 +275,8 @@ const products = [
     benefits: [
       'Single platform, cross-platform calendar, competitor gap analysis, or upload photos for a strategic posting plan.',
       '5 content pillars, automatically balanced so your feed never feels one-note.',
-      'Regenerate a single day without redoing the whole week -- and hashtags, best posting times included.',
-      'Available in 25 languages -- interface and generation both.',
+      'Regenerate a single day without redoing the whole week - and hashtags, best posting times included.',
+      'Available in 25 languages - interface and generation both.',
     ],
   },
 ];
@@ -295,7 +295,7 @@ const principles = [
   {
     n: '3',
     title: { en: 'Ships in days, not quarters', ru: 'Запускается за дни, не за кварталы', es: 'Se lanza en d\u00edas, no en trimestres', fr: 'Livr\u00e9 en jours, pas en trimestres', de: 'Fertig in Tagen, nicht in Quartalen', pt: 'Lan\u00e7ado em dias, n\u00e3o em trimestres', zh: '\u6570\u5929\u5373\u53ef\u4e0a\u7ebf\uff0c\u800c\u975e\u6570\u4e2a\u5b63\u5ea6', ja: '\u56db\u534a\u671f\u3067\u306f\u306a\u304f\u6570\u65e5\u3067\u30ea\u30ea\u30fc\u30b9' },
-    body: { en: 'Small enough that one person can build it end to end -- so it goes from idea to live product fast.', ru: 'Достаточно просто, чтобы один человек построил всё целиком — от идеи до живого продукта быстро.', es: 'Lo bastante peque\u00f1o para que una sola persona lo construya de principio a fin, as\u00ed que pasa de idea a producto real r\u00e1pido.', fr: 'Assez petit pour qu\u2019une seule personne le construise de bout en bout -- donc \u00e7a passe vite de l\u2019id\u00e9e au produit r\u00e9el.', de: 'Klein genug, dass eine Person es komplett allein baut -- von der Idee zum fertigen Produkt, schnell.', pt: 'Pequeno o suficiente para que uma pessoa construa tudo sozinha -- da ideia ao produto real, r\u00e1pido.', zh: '\u89c4\u6a21\u5c0f\u5230\u4e00\u4e2a\u4eba\u5c31\u80fd\u5b8c\u6210\u5f00\u53d1\u2014\u2014\u4ece\u60f3\u6cd5\u5230\u4e0a\u7ebf\u4ea7\u54c1\u5f88\u5feb\u3002', ja: '\u4e00\u4eba\u3067\u5b8c\u7d50\u3067\u304d\u308b\u898f\u6a21\u3060\u304b\u3089\u3001\u30a2\u30a4\u30c7\u30a2\u304b\u3089\u5b9f\u969b\u306e\u88fd\u54c1\u307e\u3067\u304c\u65e9\u3044\u3002' },
+    body: { en: 'Small enough that one person can build it end to end - so it goes from idea to live product fast.', ru: 'Достаточно просто, чтобы один человек построил всё целиком — от идеи до живого продукта быстро.', es: 'Lo bastante peque\u00f1o para que una sola persona lo construya de principio a fin, as\u00ed que pasa de idea a producto real r\u00e1pido.', fr: 'Assez petit pour qu\u2019une seule personne le construise de bout en bout - donc \u00e7a passe vite de l\u2019id\u00e9e au produit r\u00e9el.', de: 'Klein genug, dass eine Person es komplett allein baut - von der Idee zum fertigen Produkt, schnell.', pt: 'Pequeno o suficiente para que uma pessoa construa tudo sozinha - da ideia ao produto real, r\u00e1pido.', zh: '\u89c4\u6a21\u5c0f\u5230\u4e00\u4e2a\u4eba\u5c31\u80fd\u5b8c\u6210\u5f00\u53d1\u2014\u2014\u4ece\u60f3\u6cd5\u5230\u4e0a\u7ebf\u4ea7\u54c1\u5f88\u5feb\u3002', ja: '\u4e00\u4eba\u3067\u5b8c\u7d50\u3067\u304d\u308b\u898f\u6a21\u3060\u304b\u3089\u3001\u30a2\u30a4\u30c7\u30a2\u304b\u3089\u5b9f\u969b\u306e\u88fd\u54c1\u307e\u3067\u304c\u65e9\u3044\u3002' },
   },
   {
     n: '4',
@@ -307,7 +307,7 @@ const principles = [
 const capabilities = [
   {
     label: { en: 'AI integration', ru: 'AI-интеграция', es: 'Integraci\u00f3n de IA', fr: 'Int\u00e9gration IA', de: 'KI-Integration', pt: 'Integra\u00e7\u00e3o de IA', zh: 'AI\u96c6\u6210', ja: 'AI\u7d71\u5408' },
-    body: { en: 'Every tool is built around the Claude API -- prompt design, structured output, and multimodal input like photo understanding.', ru: 'Каждый инструмент построен вокруг Claude API — дизайн промптов, структурированный вывод и мультимодальный ввод, например понимание фото.', es: 'Cada herramienta se construye sobre la API de Claude: dise\u00f1o de prompts, salida estructurada y entrada multimodal como comprensi\u00f3n de fotos.', fr: 'Chaque outil est con\u00e7u autour de l\u2019API Claude -- conception de prompts, sortie structur\u00e9e et entr\u00e9e multimodale comme la compr\u00e9hension de photos.', de: 'Jedes Tool basiert auf der Claude API -- Prompt-Design, strukturierte Ausgabe und multimodale Eingabe wie Bildverst\u00e4ndnis.', pt: 'Cada ferramenta \u00e9 constru\u00edda em torno da API Claude -- design de prompts, sa\u00edda estruturada e entrada multimodal como compreens\u00e3o de fotos.', zh: '\u6bcf\u4e2a\u5de5\u5177\u90fd\u57fa\u4e8eClaude API\u6784\u5efa\u2014\u2014\u63d0\u793a\u8bcd\u8bbe\u8ba1\u3001\u7ed3\u6784\u5316\u8f93\u51fa\u4ee5\u53ca\u7167\u7247\u7406\u89e3\u7b49\u591a\u6a21\u6001\u8f93\u5165\u3002', ja: '\u5404\u30c4\u30fc\u30eb\u306fClaude API\u3092\u57fa\u76e4\u306b\u69cb\u7bc9\u2014\u2014\u30d7\u30ed\u30f3\u30d7\u30c8\u8a2d\u8a08\u3001\u69cb\u9020\u5316\u3055\u308c\u305f\u51fa\u529b\u3001\u5199\u771f\u7406\u89e3\u306a\u3069\u306e\u30de\u30eb\u30c1\u30e2\u30fc\u30c0\u30eb\u5165\u529b\u3002' },
+    body: { en: 'Every tool is built around the Claude API - prompt design, structured output, and multimodal input like photo understanding.', ru: 'Каждый инструмент построен вокруг Claude API — дизайн промптов, структурированный вывод и мультимодальный ввод, например понимание фото.', es: 'Cada herramienta se construye sobre la API de Claude: dise\u00f1o de prompts, salida estructurada y entrada multimodal como comprensi\u00f3n de fotos.', fr: 'Chaque outil est con\u00e7u autour de l\u2019API Claude - conception de prompts, sortie structur\u00e9e et entr\u00e9e multimodale comme la compr\u00e9hension de photos.', de: 'Jedes Tool basiert auf der Claude API - Prompt-Design, strukturierte Ausgabe und multimodale Eingabe wie Bildverst\u00e4ndnis.', pt: 'Cada ferramenta \u00e9 constru\u00edda em torno da API Claude - design de prompts, sa\u00edda estruturada e entrada multimodal como compreens\u00e3o de fotos.', zh: '\u6bcf\u4e2a\u5de5\u5177\u90fd\u57fa\u4e8eClaude API\u6784\u5efa\u2014\u2014\u63d0\u793a\u8bcd\u8bbe\u8ba1\u3001\u7ed3\u6784\u5316\u8f93\u51fa\u4ee5\u53ca\u7167\u7247\u7406\u89e3\u7b49\u591a\u6a21\u6001\u8f93\u5165\u3002', ja: '\u5404\u30c4\u30fc\u30eb\u306fClaude API\u3092\u57fa\u76e4\u306b\u69cb\u7bc9\u2014\u2014\u30d7\u30ed\u30f3\u30d7\u30c8\u8a2d\u8a08\u3001\u69cb\u9020\u5316\u3055\u308c\u305f\u51fa\u529b\u3001\u5199\u771f\u7406\u89e3\u306a\u3069\u306e\u30de\u30eb\u30c1\u30e2\u30fc\u30c0\u30eb\u5165\u529b\u3002' },
   },
   {
     label: { en: 'Localization', ru: 'Локализация', es: 'Localizaci\u00f3n', fr: 'Localisation', de: 'Lokalisierung', pt: 'Localiza\u00e7\u00e3o', zh: '\u672c\u5730\u5316', ja: '\u30ed\u30fc\u30ab\u30e9\u30a4\u30ba' },
@@ -319,7 +319,7 @@ const capabilities = [
   },
   {
     label: { en: 'Maps & geolocation', ru: 'Карты и геолокация', es: 'Mapas y geolocalizaci\u00f3n', fr: 'Cartes et g\u00e9olocalisation', de: 'Karten & Geolokalisierung', pt: 'Mapas e geolocaliza\u00e7\u00e3o', zh: '\u5730\u56fe\u4e0e\u5730\u7406\u5b9a\u4f4d', ja: '\u5730\u56f3\u3068\u4f4d\u7f6e\u60c5\u5831' },
-    body: { en: 'Interactive maps, live address autocomplete, and geocoding -- built on open data, no vendor lock-in.', ru: 'Интерактивные карты, автоподсказки адреса и геокодирование — на открытых данных, без привязки к одному поставщику.', es: 'Mapas interactivos, autocompletado de direcciones en vivo y geocodificaci\u00f3n, todo sobre datos abiertos, sin dependencia de un proveedor.', fr: 'Cartes interactives, autocompl\u00e9tion d\u2019adresse en direct et g\u00e9ocodage -- sur des donn\u00e9es ouvertes, sans d\u00e9pendance \u00e0 un fournisseur.', de: 'Interaktive Karten, Live-Adressvorschl\u00e4ge und Geocoding -- auf offenen Daten, ohne Anbieterbindung.', pt: 'Mapas interativos, autocompletar de endere\u00e7o em tempo real e geocodifica\u00e7\u00e3o -- sobre dados abertos, sem depend\u00eancia de fornecedor.', zh: '\u4ea4\u4e92\u5f0f\u5730\u56fe\u3001\u5b9e\u65f6\u5730\u5740\u81ea\u52a8\u8865\u5168\u548c\u5730\u7406\u7f16\u7801\u2014\u2014\u57fa\u4e8e\u5f00\u653e\u6570\u636e\uff0c\u4e0d\u4f9d\u8d56\u5355\u4e00\u4f9b\u5e94\u5546\u3002', ja: '\u30a4\u30f3\u30bf\u30e9\u30af\u30c6\u30a3\u30d6\u5730\u56f3\u3001\u4f4f\u6240\u306e\u30aa\u30fc\u30c8\u30b3\u30f3\u30d7\u30ea\u30fc\u30c8\u3001\u30b8\u30aa\u30b3\u30fc\u30c7\u30a3\u30f3\u30b0\u2014\u2014\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u306b\u57fa\u3065\u304d\u3001\u30d9\u30f3\u30c0\u30fc\u4f9d\u5b58\u306a\u3057\u3002' },
+    body: { en: 'Interactive maps, live address autocomplete, and geocoding - built on open data, no vendor lock-in.', ru: 'Интерактивные карты, автоподсказки адреса и геокодирование — на открытых данных, без привязки к одному поставщику.', es: 'Mapas interactivos, autocompletado de direcciones en vivo y geocodificaci\u00f3n, todo sobre datos abiertos, sin dependencia de un proveedor.', fr: 'Cartes interactives, autocompl\u00e9tion d\u2019adresse en direct et g\u00e9ocodage - sur des donn\u00e9es ouvertes, sans d\u00e9pendance \u00e0 un fournisseur.', de: 'Interaktive Karten, Live-Adressvorschl\u00e4ge und Geocoding - auf offenen Daten, ohne Anbieterbindung.', pt: 'Mapas interativos, autocompletar de endere\u00e7o em tempo real e geocodifica\u00e7\u00e3o - sobre dados abertos, sem depend\u00eancia de fornecedor.', zh: '\u4ea4\u4e92\u5f0f\u5730\u56fe\u3001\u5b9e\u65f6\u5730\u5740\u81ea\u52a8\u8865\u5168\u548c\u5730\u7406\u7f16\u7801\u2014\u2014\u57fa\u4e8e\u5f00\u653e\u6570\u636e\uff0c\u4e0d\u4f9d\u8d56\u5355\u4e00\u4f9b\u5e94\u5546\u3002', ja: '\u30a4\u30f3\u30bf\u30e9\u30af\u30c6\u30a3\u30d6\u5730\u56f3\u3001\u4f4f\u6240\u306e\u30aa\u30fc\u30c8\u30b3\u30f3\u30d7\u30ea\u30fc\u30c8\u3001\u30b8\u30aa\u30b3\u30fc\u30c7\u30a3\u30f3\u30b0\u2014\u2014\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u306b\u57fa\u3065\u304d\u3001\u30d9\u30f3\u30c0\u30fc\u4f9d\u5b58\u306a\u3057\u3002' },
   },
   {
     label: { en: 'Fast, focused builds', ru: 'Быстрая, сфокусированная разработка', es: 'Desarrollo r\u00e1pido y enfocado', fr: 'D\u00e9veloppement rapide et cibl\u00e9', de: 'Schnelle, fokussierte Entwicklung', pt: 'Desenvolvimento r\u00e1pido e focado', zh: '\u5feb\u901f\u4e13\u6ce8\u7684\u5f00\u53d1', ja: '\u8ff5\u901f\u3067\u96c6\u4e2d\u3057\u305f\u958b\u767a' },
@@ -327,7 +327,7 @@ const capabilities = [
   },
   {
     label: { en: 'End-to-end ownership', ru: 'Полная ответственность', es: 'Responsabilidad total', fr: 'Responsabilit\u00e9 de bout en bout', de: 'Ganzheitliche Verantwortung', pt: 'Responsabilidade total', zh: '\u5168\u7a0b\u8d1f\u8d23', ja: '\u30a8\u30f3\u30c9\u30c4\u30fc\u30a8\u30f3\u30c9\u306e\u8cac\u4efb' },
-    body: { en: 'Product, backend, infrastructure, and support -- one person, one accountable point of contact. Deployed on Vercel, the same platform behind Next.js sites for Walmart, Apple, Nike, and Netflix.', ru: 'Продукт, бэкенд, инфраструктура и поддержка — один человек, один ответственный контакт. Деплой на Vercel — той же платформе, на которой работают Next.js-сайты Walmart, Apple, Nike и Netflix.', es: 'Producto, backend, infraestructura y soporte: una sola persona, un solo punto de contacto responsable. Desplegado en Vercel, la misma plataforma detr\u00e1s de sitios Next.js de Walmart, Apple, Nike y Netflix.', fr: 'Produit, backend, infrastructure et support -- une seule personne, un seul point de contact responsable. D\u00e9ploy\u00e9 sur Vercel, la m\u00eame plateforme que les sites Next.js de Walmart, Apple, Nike et Netflix.', de: 'Produkt, Backend, Infrastruktur und Support -- eine Person, ein verantwortlicher Ansprechpartner. Deployed auf Vercel, derselben Plattform hinter Next.js-Seiten von Walmart, Apple, Nike und Netflix.', pt: 'Produto, backend, infraestrutura e suporte -- uma pessoa, um ponto de contato respons\u00e1vel. Implantado na Vercel, a mesma plataforma por tr\u00e1s dos sites Next.js da Walmart, Apple, Nike e Netflix.', zh: '\u4ea7\u54c1\u3001\u540e\u7aef\u3001\u57fa\u7840\u8bbe\u65bd\u548c\u652f\u6301\u2014\u2014\u4e00\u4e2a\u4eba\uff0c\u4e00\u4e2a\u8d1f\u8d23\u4eba\u3002\u90e8\u7f72\u5728Vercel\u4e0a\uff0c\u4e0eWalmart\u3001Apple\u3001Nike\u548cNetflix\u7684Next.js\u7ad9\u70b9\u540c\u4e00\u5e73\u53f0\u3002', ja: '\u88fd\u54c1\u3001\u30d0\u30c3\u30af\u30a8\u30f3\u30c9\u3001\u30a4\u30f3\u30d5\u30e9\u3001\u30b5\u30dd\u30fc\u30c8\u5168\u3066\u3092\u4e00\u4eba\u304c\u62c5\u5f53\u3002Walmart\u3001Apple\u3001Nike\u3001Netflix\u306eNext.js\u30b5\u30a4\u30c8\u3068\u540c\u3058Vercel\u4e0a\u3067\u7a3c\u50cd\u3002' },
+    body: { en: 'Product, backend, infrastructure, and support - one person, one accountable point of contact. Deployed on Vercel, the same platform behind Next.js sites for Walmart, Apple, Nike, and Netflix.', ru: 'Продукт, бэкенд, инфраструктура и поддержка — один человек, один ответственный контакт. Деплой на Vercel — той же платформе, на которой работают Next.js-сайты Walmart, Apple, Nike и Netflix.', es: 'Producto, backend, infraestructura y soporte: una sola persona, un solo punto de contacto responsable. Desplegado en Vercel, la misma plataforma detr\u00e1s de sitios Next.js de Walmart, Apple, Nike y Netflix.', fr: 'Produit, backend, infrastructure et support - une seule personne, un seul point de contact responsable. D\u00e9ploy\u00e9 sur Vercel, la m\u00eame plateforme que les sites Next.js de Walmart, Apple, Nike et Netflix.', de: 'Produkt, Backend, Infrastruktur und Support - eine Person, ein verantwortlicher Ansprechpartner. Deployed auf Vercel, derselben Plattform hinter Next.js-Seiten von Walmart, Apple, Nike und Netflix.', pt: 'Produto, backend, infraestrutura e suporte - uma pessoa, um ponto de contato respons\u00e1vel. Implantado na Vercel, a mesma plataforma por tr\u00e1s dos sites Next.js da Walmart, Apple, Nike e Netflix.', zh: '\u4ea7\u54c1\u3001\u540e\u7aef\u3001\u57fa\u7840\u8bbe\u65bd\u548c\u652f\u6301\u2014\u2014\u4e00\u4e2a\u4eba\uff0c\u4e00\u4e2a\u8d1f\u8d23\u4eba\u3002\u90e8\u7f72\u5728Vercel\u4e0a\uff0c\u4e0eWalmart\u3001Apple\u3001Nike\u548cNetflix\u7684Next.js\u7ad9\u70b9\u540c\u4e00\u5e73\u53f0\u3002', ja: '\u88fd\u54c1\u3001\u30d0\u30c3\u30af\u30a8\u30f3\u30c9\u3001\u30a4\u30f3\u30d5\u30e9\u3001\u30b5\u30dd\u30fc\u30c8\u5168\u3066\u3092\u4e00\u4eba\u304c\u62c5\u5f53\u3002Walmart\u3001Apple\u3001Nike\u3001Netflix\u306eNext.js\u30b5\u30a4\u30c8\u3068\u540c\u3058Vercel\u4e0a\u3067\u7a3c\u50cd\u3002' },
   },
 ];
 
@@ -346,17 +346,17 @@ const T = {
   en: {
     tagline: 'Plainwork Studio',
     heroTitle: 'Small, useful tools for people running a business alone.',
-    heroBody: 'Plainwork builds focused AI tools that solve one repetitive task each -- writing captions, replying to reviews, staying visible on Google -- so there\u2019s a little more time left for the parts of the business that actually need a person.',
-    heroNote: 'Five tools live so far. More on the way.',
-    manifesto1: 'I build AI tools that do your marketing for you. Each product solves one job: content, reputation, visibility, language. You just upload your data -- the AI does the rest.',
+    heroBody: 'Plainwork builds focused AI tools that solve one repetitive task each - writing captions, replying to reviews, staying visible on Google - so there\u2019s a little more time left for the parts of the business that actually need a person.',
+    heroNote: 'A growing set of tools live so far. More on the way.',
+    manifesto1: 'I build AI tools that do your marketing for you. Each product solves one job: content, reputation, visibility, language. You just upload your data - the AI does the rest.',
     manifesto2: 'Plainwork is for people tired of being slaves to their own to-do list. We give you back your time, your confidence, and your visibility in front of customers.',
     statProducts: 'products shipped', statLangs: 'languages supported', statPeople: 'person building it',
     workHeading: 'The Work', workSub: 'Everything currently live, in order of release.',
     capHeading: 'Capabilities', capSub: 'What\u2019s actually running under the three products above.',
     approachHeading: 'How things get built here',
     aboutHeading: 'About',
-    aboutLead: 'I\u2019m Ksenia, and I build every part of Plainwork myself -- the products, the infrastructure behind them, and the support inbox.',
-    aboutBody: 'I kept noticing the same pattern with small business owners: a handful of small, repetitive writing tasks -- a caption, a reply to a review, a Google post -- that never got done because there was always something more urgent. Plainwork is my answer to that: tools narrow enough to actually finish, built by one person who reads every support email personally.',
+    aboutLead: 'I\u2019m Ksenia, and I build every part of Plainwork myself - the products, the infrastructure behind them, and the support inbox.',
+    aboutBody: 'I kept noticing the same pattern with small business owners: a handful of small, repetitive writing tasks - a caption, a reply to a review, a Google post - that never got done because there was always something more urgent. Plainwork is my answer to that: tools narrow enough to actually finish, built by one person who reads every support email personally.',
     basedIn: 'Based in', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 built solo, end to end',
     terms: 'Terms of Service', privacy: 'Privacy Policy',
@@ -380,15 +380,15 @@ const T = {
   es: {
     tagline: 'Estudio Plainwork',
     heroTitle: 'Herramientas peque\u00f1as y \u00fatiles para quienes llevan un negocio solos.',
-    heroBody: 'Plainwork crea herramientas de IA enfocadas que resuelven una tarea repetitiva cada una -- escribir subt\u00edtulos, responder rese\u00f1as, mantenerse visible en Google -- para que quede un poco m\u00e1s de tiempo para lo que realmente necesita una persona.',
+    heroBody: 'Plainwork crea herramientas de IA enfocadas que resuelven una tarea repetitiva cada una - escribir subt\u00edtulos, responder rese\u00f1as, mantenerse visible en Google - para que quede un poco m\u00e1s de tiempo para lo que realmente necesita una persona.',
     heroNote: 'Tres herramientas activas por ahora. Vienen m\u00e1s.',
     statProducts: 'productos lanzados', statLangs: 'idiomas soportados', statPeople: 'persona construy\u00e9ndolo',
     workHeading: 'El trabajo', workSub: 'Todo lo que est\u00e1 activo ahora, en orden de lanzamiento.',
     capHeading: 'Capacidades', capSub: 'Lo que realmente funciona detr\u00e1s de los tres productos de arriba.',
     approachHeading: 'C\u00f3mo se construye todo aqu\u00ed',
     aboutHeading: 'Sobre m\u00ed',
-    aboutLead: 'Soy Ksenia, y construyo cada parte de Plainwork yo misma -- los productos, la infraestructura detr\u00e1s de ellos, y el buz\u00f3n de soporte.',
-    aboutBody: 'Segu\u00eda notando el mismo patr\u00f3n en due\u00f1os de peque\u00f1os negocios: un pu\u00f1ado de tareas de escritura peque\u00f1as y repetitivas -- un subt\u00edtulo, una respuesta a una rese\u00f1a, un post de Google -- que nunca se hac\u00edan porque siempre hab\u00eda algo m\u00e1s urgente. Plainwork es mi respuesta a eso: herramientas lo bastante acotadas para realmente terminarse, construidas por una sola persona que lee cada correo de soporte personalmente.',
+    aboutLead: 'Soy Ksenia, y construyo cada parte de Plainwork yo misma - los productos, la infraestructura detr\u00e1s de ellos, y el buz\u00f3n de soporte.',
+    aboutBody: 'Segu\u00eda notando el mismo patr\u00f3n en due\u00f1os de peque\u00f1os negocios: un pu\u00f1ado de tareas de escritura peque\u00f1as y repetitivas - un subt\u00edtulo, una respuesta a una rese\u00f1a, un post de Google - que nunca se hac\u00edan porque siempre hab\u00eda algo m\u00e1s urgente. Plainwork es mi respuesta a eso: herramientas lo bastante acotadas para realmente terminarse, construidas por una sola persona que lee cada correo de soporte personalmente.',
     basedIn: 'Con base en', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 hecho en solitario, de principio a fin',
     terms: 'T\u00e9rminos de Servicio', privacy: 'Pol\u00edtica de Privacidad',
@@ -396,15 +396,15 @@ const T = {
   fr: {
     tagline: 'Studio Plainwork',
     heroTitle: 'De petits outils utiles pour ceux qui g\u00e8rent une entreprise seuls.',
-    heroBody: 'Plainwork cr\u00e9e des outils IA cibl\u00e9s qui r\u00e9solvent chacun une t\u00e2che r\u00e9p\u00e9titive -- r\u00e9diger des l\u00e9gendes, r\u00e9pondre aux avis, rester visible sur Google -- pour qu\u2019il reste un peu plus de temps pour ce qui n\u00e9cessite vraiment une personne.',
+    heroBody: 'Plainwork cr\u00e9e des outils IA cibl\u00e9s qui r\u00e9solvent chacun une t\u00e2che r\u00e9p\u00e9titive - r\u00e9diger des l\u00e9gendes, r\u00e9pondre aux avis, rester visible sur Google - pour qu\u2019il reste un peu plus de temps pour ce qui n\u00e9cessite vraiment une personne.',
     heroNote: 'Trois outils actifs pour l\u2019instant. D\u2019autres arrivent.',
     statProducts: 'produits lanc\u00e9s', statLangs: 'langues prises en charge', statPeople: 'personne qui construit',
     workHeading: 'Le travail', workSub: 'Tout ce qui est actif actuellement, dans l\u2019ordre de sortie.',
     capHeading: 'Capacit\u00e9s', capSub: 'Ce qui tourne vraiment sous les trois produits ci-dessus.',
     approachHeading: 'Comment tout est construit ici',
     aboutHeading: '\u00c0 propos',
-    aboutLead: 'Je suis Ksenia, et je construis chaque partie de Plainwork moi-m\u00eame -- les produits, l\u2019infrastructure derri\u00e8re eux, et la boîte de support.',
-    aboutBody: 'Je remarquais toujours le m\u00eame sch\u00e9ma chez les propri\u00e9taires de petites entreprises : une poign\u00e9e de petites t\u00e2ches d\u2019\u00e9criture r\u00e9p\u00e9titives -- une l\u00e9gende, une r\u00e9ponse \u00e0 un avis, un post Google -- qui ne se faisaient jamais parce qu\u2019il y avait toujours quelque chose de plus urgent. Plainwork est ma r\u00e9ponse \u00e0 \u00e7a : des outils assez cibl\u00e9s pour \u00eatre vraiment termin\u00e9s, construits par une seule personne qui lit personnellement chaque email de support.',
+    aboutLead: 'Je suis Ksenia, et je construis chaque partie de Plainwork moi-m\u00eame - les produits, l\u2019infrastructure derri\u00e8re eux, et la boîte de support.',
+    aboutBody: 'Je remarquais toujours le m\u00eame sch\u00e9ma chez les propri\u00e9taires de petites entreprises : une poign\u00e9e de petites t\u00e2ches d\u2019\u00e9criture r\u00e9p\u00e9titives - une l\u00e9gende, une r\u00e9ponse \u00e0 un avis, un post Google - qui ne se faisaient jamais parce qu\u2019il y avait toujours quelque chose de plus urgent. Plainwork est ma r\u00e9ponse \u00e0 \u00e7a : des outils assez cibl\u00e9s pour \u00eatre vraiment termin\u00e9s, construits par une seule personne qui lit personnellement chaque email de support.',
     basedIn: 'Bas\u00e9e \u00e0', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 construit en solo, de bout en bout',
     terms: 'Conditions d\u2019utilisation', privacy: 'Politique de confidentialit\u00e9',
@@ -412,15 +412,15 @@ const T = {
   de: {
     tagline: 'Plainwork Studio',
     heroTitle: 'Kleine, n\u00fctzliche Tools f\u00fcr Menschen, die ihr Business allein f\u00fchren.',
-    heroBody: 'Plainwork baut fokussierte KI-Tools, die jeweils eine wiederkehrende Aufgabe l\u00f6sen -- Bildunterschriften schreiben, auf Bewertungen antworten, bei Google sichtbar bleiben -- damit etwas mehr Zeit f\u00fcr die Teile des Business bleibt, die wirklich einen Menschen brauchen.',
+    heroBody: 'Plainwork baut fokussierte KI-Tools, die jeweils eine wiederkehrende Aufgabe l\u00f6sen - Bildunterschriften schreiben, auf Bewertungen antworten, bei Google sichtbar bleiben - damit etwas mehr Zeit f\u00fcr die Teile des Business bleibt, die wirklich einen Menschen brauchen.',
     heroNote: 'Bisher drei aktive Tools. Mehr folgt.',
     statProducts: 'Produkte ver\u00f6ffentlicht', statLangs: 'unterst\u00fctzte Sprachen', statPeople: 'Person baut es',
     workHeading: 'Die Arbeit', workSub: 'Alles, was aktuell live ist, in Reihenfolge der Ver\u00f6ffentlichung.',
     capHeading: 'F\u00e4higkeiten', capSub: 'Was tats\u00e4chlich unter den drei Produkten oben l\u00e4uft.',
     approachHeading: 'Wie hier alles gebaut wird',
     aboutHeading: '\u00dcber mich',
-    aboutLead: 'Ich bin Ksenia, und ich baue jeden Teil von Plainwork selbst -- die Produkte, die Infrastruktur dahinter, und den Support-Posteingang.',
-    aboutBody: 'Ich bemerkte immer wieder dasselbe Muster bei Kleinunternehmern: eine Handvoll kleiner, sich wiederholender Schreibaufgaben -- eine Bildunterschrift, eine Antwort auf eine Bewertung, ein Google-Beitrag -- die nie erledigt wurden, weil immer etwas Dringenderes anlag. Plainwork ist meine Antwort darauf: Tools schmal genug, um wirklich fertig zu werden, gebaut von einer einzigen Person, die jede Support-E-Mail pers\u00f6nlich liest.',
+    aboutLead: 'Ich bin Ksenia, und ich baue jeden Teil von Plainwork selbst - die Produkte, die Infrastruktur dahinter, und den Support-Posteingang.',
+    aboutBody: 'Ich bemerkte immer wieder dasselbe Muster bei Kleinunternehmern: eine Handvoll kleiner, sich wiederholender Schreibaufgaben - eine Bildunterschrift, eine Antwort auf eine Bewertung, ein Google-Beitrag - die nie erledigt wurden, weil immer etwas Dringenderes anlag. Plainwork ist meine Antwort darauf: Tools schmal genug, um wirklich fertig zu werden, gebaut von einer einzigen Person, die jede Support-E-Mail pers\u00f6nlich liest.',
     basedIn: 'Ansässig in', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 solo gebaut, von Anfang bis Ende',
     terms: 'Nutzungsbedingungen', privacy: 'Datenschutzrichtlinie',
@@ -428,15 +428,15 @@ const T = {
   pt: {
     tagline: 'Estúdio Plainwork',
     heroTitle: 'Ferramentas pequenas e úteis para quem toca um negócio sozinho.',
-    heroBody: 'A Plainwork cria ferramentas de IA focadas que resolvem uma tarefa repetitiva cada -- escrever legendas, responder avalia\u00e7\u00f5es, permanecer vis\u00edvel no Google -- para sobrar um pouco mais de tempo para as partes do neg\u00f3cio que realmente precisam de uma pessoa.',
+    heroBody: 'A Plainwork cria ferramentas de IA focadas que resolvem uma tarefa repetitiva cada - escrever legendas, responder avalia\u00e7\u00f5es, permanecer vis\u00edvel no Google - para sobrar um pouco mais de tempo para as partes do neg\u00f3cio que realmente precisam de uma pessoa.',
     heroNote: 'Três ferramentas ativas até agora. Mais estão a caminho.',
     statProducts: 'produtos lan\u00e7ados', statLangs: 'idiomas suportados', statPeople: 'pessoa construindo',
     workHeading: 'O trabalho', workSub: 'Tudo que está ativo agora, em ordem de lan\u00e7amento.',
     capHeading: 'Capacidades', capSub: 'O que realmente roda por baixo dos tr\u00eas produtos acima.',
     approachHeading: 'Como tudo é construído aqui',
     aboutHeading: 'Sobre',
-    aboutLead: 'Sou a Ksenia, e eu mesma construo cada parte da Plainwork -- os produtos, a infraestrutura por tr\u00e1s deles, e a caixa de suporte.',
-    aboutBody: 'Eu continuava notando o mesmo padr\u00e3o em donos de pequenos neg\u00f3cios: um punhado de tarefas de escrita pequenas e repetitivas -- uma legenda, uma resposta a uma avalia\u00e7\u00e3o, um post no Google -- que nunca eram feitas porque sempre havia algo mais urgente. A Plainwork \u00e9 minha resposta a isso: ferramentas estreitas o suficiente para realmente serem conclu\u00eddas, constru\u00eddas por uma \u00fanica pessoa que l\u00ea pessoalmente cada e-mail de suporte.',
+    aboutLead: 'Sou a Ksenia, e eu mesma construo cada parte da Plainwork - os produtos, a infraestrutura por tr\u00e1s deles, e a caixa de suporte.',
+    aboutBody: 'Eu continuava notando o mesmo padr\u00e3o em donos de pequenos neg\u00f3cios: um punhado de tarefas de escrita pequenas e repetitivas - uma legenda, uma resposta a uma avalia\u00e7\u00e3o, um post no Google - que nunca eram feitas porque sempre havia algo mais urgente. A Plainwork \u00e9 minha resposta a isso: ferramentas estreitas o suficiente para realmente serem conclu\u00eddas, constru\u00eddas por uma \u00fanica pessoa que l\u00ea pessoalmente cada e-mail de suporte.',
     basedIn: 'Sediada em', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 feito sozinha, do in\u00edcio ao fim',
     terms: 'Termos de Servi\u00e7o', privacy: 'Pol\u00edtica de Privacidade',
@@ -479,6 +479,26 @@ const T = {
 
 export default function App() {
   const [lang, setLang] = useState('en');
+  const [showSupportEmail, setShowSupportEmail] = useState(false);
+  const [showHelpBubble, setShowHelpBubble] = useState(false);
+
+  function playPopSound(opening) {
+    try {
+      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(opening ? 520 : 380, ctx.currentTime);
+      osc.frequency.exponentialRampToValueAtTime(opening ? 780 : 260, ctx.currentTime + 0.1);
+      gain.gain.setValueAtTime(0.08, ctx.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.15);
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start();
+      osc.stop(ctx.currentTime + 0.15);
+    } catch (e) { /* звук не критичен */ }
+  }
+
   const [expandedProduct, setExpandedProduct] = useState(null);
   const t = T[lang];
   const mapContainerRef = useRef(null);
@@ -559,7 +579,7 @@ export default function App() {
         }
       `}</style>
 
-      {/* ---------- HERO ---------- */}
+      {/* ----- HERO ----- */}
       <section style={{ position: 'relative', overflow: 'hidden', padding: '96px 24px 80px' }}>
         <svg aria-hidden="true" viewBox="0 0 100 124" style={{
           position: 'absolute', top: -60, right: -20, width: 340, height: 420,
@@ -575,33 +595,35 @@ export default function App() {
         <div style={{ maxWidth: 720, margin: '0 auto', position: 'relative' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16, marginBottom: 28 }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-              <svg viewBox="0 0 100 124" style={{ width: 20, height: 24, transform: 'skewX(-8deg)' }}>
+              <svg viewBox="0 0 100 130" style={{ width: 18, height: 23 }}>
                 <defs>
-                  <linearGradient id="tagGrad" x1="0" y1="0" x2="1" y2="1">
+                  <linearGradient id="tagGrad" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="0%" stopColor={RUST} />
+                    <stop offset="60%" stopColor={RUST} />
+                    <stop offset="60%" stopColor={RUST_DEEP} />
                     <stop offset="100%" stopColor={RUST_DEEP} />
                   </linearGradient>
                 </defs>
-                <path d="M10 4h80a6 6 0 0 1 6 6v90a6 6 0 0 1-6 6h-63L10 88V10a6 6 0 0 1 6-6z" fill="url(#tagGrad)" />
-                <circle cx="66" cy="24" r="7" fill={BG} />
+                <path d="M30 0 L85 0 Q100 0 100 15 L100 115 Q100 130 85 130 L15 130 Q0 130 0 115 L0 30 Z" fill="url(#tagGrad)" />
+                <circle cx="20" cy="20" r="9" fill={BG} />
+                <circle cx="20" cy="20" r="9" fill="none" stroke="url(#tagGrad)" strokeWidth="4" />
+                <text x="58" y="82" textAnchor="middle" fontFamily="'Fraunces', serif" fontWeight="600" fontSize="58" fill={BG}>P</text>
               </svg>
               <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.12em', color: RUST_DEEP, textTransform: 'uppercase' }}>
                 {t.tagline}
               </span>
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
-              <a href="https://wa.me/79101537910" target="_blank" rel="noopener noreferrer"
-                style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11.5, color: INK_SOFT, textDecoration: 'underline', textUnderlineOffset: 3 }}>
-                WhatsApp
-              </a>
-              <a href="https://t.me/+79101537910" target="_blank" rel="noopener noreferrer"
-                style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11.5, color: INK_SOFT, textDecoration: 'underline', textUnderlineOffset: 3 }}>
-                Telegram
-              </a>
-              <a href="mailto:kssw117@gmail.com"
-                style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11.5, color: INK_SOFT, textDecoration: 'underline', textUnderlineOffset: 3 }}>
-                Email
-              </a>
+              {!showSupportEmail ? (
+                <button onClick={() => setShowSupportEmail(true)} aria-label="Email" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: INK_SOFT, display: 'flex' }}>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 2.24l-7.4 5.55a1 1 0 0 1-1.2 0L4 8.24V18h16V8.24z"/></svg>
+                </button>
+              ) : (
+                <a href="mailto:kssw117@gmail.com"
+                  style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11.5, color: INK_SOFT, textDecoration: 'underline', textUnderlineOffset: 3 }}>
+                  kssw117@gmail.com
+                </a>
+              )}
               <select
                 value={lang}
                 onChange={(e) => setLang(e.target.value)}
@@ -629,14 +651,14 @@ export default function App() {
           </p>
 
           <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap', fontFamily: "'IBM Plex Mono', monospace", fontSize: 12.5, color: INK_SOFT }}>
-            <span><strong style={{ color: INK }}>5</strong> {t.statProducts}</span>
-            <span><strong style={{ color: INK }}>20</strong> {t.statLangs}</span>
+            <span style={{ color: INK }}>A growing suite of tools</span>
+            <span><strong style={{ color: INK }}>35</strong> {t.statLangs}</span>
             <span><strong style={{ color: INK }}>1</strong> {t.statPeople}</span>
           </div>
         </div>
       </section>
 
-      {/* ---------- MANIFESTO ---------- */}
+      {/* ----- MANIFESTO ----- */}
       <section style={{ padding: '0 24px 72px' }}>
         <div style={{ maxWidth: 640, margin: '0 auto', textAlign: 'center' }}>
           <p style={{ fontFamily: "'Fraunces', serif", fontSize: 21, lineHeight: 1.55, color: INK, margin: '0 0 16px' }}>
@@ -648,7 +670,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ---------- THE WORK (ledger-style portfolio) ---------- */}
+      {/* ----- THE WORK (ledger-style portfolio) ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
           <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4 }}>
@@ -708,7 +730,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ---------- CAPABILITIES ---------- */}
+      {/* ----- CAPABILITIES ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
           <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4 }}>
@@ -729,7 +751,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ---------- APPROACH ---------- */}
+      {/* ----- APPROACH ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
           <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 28 }}>
@@ -751,7 +773,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ---------- ABOUT / FOUNDER ---------- */}
+      {/* ----- ABOUT / FOUNDER ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto', background: CARD, border: `1px solid ${LINE}`, borderRadius: 16, padding: '40px 36px' }}>
           <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 20 }}>
@@ -766,7 +788,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ---------- LOCATION ---------- */}
+      {/* ----- LOCATION ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
           <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4 }}>
@@ -780,7 +802,7 @@ export default function App() {
         </div>
       </section>
 
-      {/* ---------- MARQUEE ---------- */}
+      {/* ----- MARQUEE ----- */}
       <div style={{ background: INK, padding: '14px 0', overflow: 'hidden' }}>
         <div className="marquee-track">
           {Array.from({ length: 8 }).map((_, i) => (
@@ -795,15 +817,34 @@ export default function App() {
         </div>
       </div>
 
-      {/* ---------- FOOTER ---------- */}
+      {/* ----- FOOTER ----- */}
       <footer style={{ padding: '32px 24px 48px', borderTop: `1px solid ${LINE}` }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
+          <p style={{ fontFamily: "'Fraunces', serif", fontStyle: 'normal', fontSize: 15, color: RUST_DEEP, textAlign: 'center', margin: '0 0 24px' }}>
+            Built for the parts of business nobody has time for
+          </p>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16, marginBottom: 20 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: INK_SOFT }}>{t.footerTag}</span>
-            <div style={{ display: 'flex', gap: 16 }}>
-              <a href="https://wa.me/79101537910" target="_blank" rel="noopener noreferrer" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>WhatsApp</a>
-              <a href="https://t.me/+79101537910" target="_blank" rel="noopener noreferrer" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>Telegram</a>
-              <a href="mailto:kssw117@gmail.com" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>kssw117@gmail.com</a>
+            <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+              <a href="https://x.com/_plainwork_" target="_blank" rel="noopener noreferrer" aria-label="X" style={{ color: RUST_DEEP }}>
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22H16.6l-5.2-6.8L5.4 22H2.3l8.2-9.3L1.7 2h6.9l4.7 6.2L18.9 2zm-1.2 18h1.7L7.4 4H5.6l12.1 16z"/></svg>
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=61594302217798" target="_blank" rel="noopener noreferrer" aria-label="Facebook" style={{ color: RUST_DEEP }}>
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.5h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+              </a>
+              <a href="https://wa.me/79101537910" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" style={{ color: RUST_DEEP }}>
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm0 18.1c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3.1.8.8-3-.2-.3A8.1 8.1 0 1 1 12 20.1zm4.5-6c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.7.8-.8 1-.2.2-.3.2-.5.1-.2-.1-1-.4-1.9-1.2-.7-.6-1.2-1.4-1.3-1.6-.1-.2 0-.4.1-.5l.4-.4.2-.4c.1-.1 0-.3 0-.4l-.7-1.7c-.2-.4-.4-.4-.6-.4h-.5c-.2 0-.4.1-.6.3-.2.2-.8.8-.8 1.9 0 1.1.8 2.2.9 2.4.1.2 1.6 2.5 3.9 3.4.5.2 1 .4 1.3.5.5.2 1 .1 1.4.1.4-.1 1.3-.5 1.5-1.1.2-.5.2-1 .1-1.1-.1-.1-.2-.2-.4-.3z"/></svg>
+              </a>
+              <a href="https://t.me/+79101537910" target="_blank" rel="noopener noreferrer" aria-label="Telegram" style={{ color: RUST_DEEP }}>
+                <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M22 3.5L2.5 11l6 2.3L21 5.2c.4-.3.8.2.5.5l-11.7 10.6-.4 5.4c.4 0 .6-.2.8-.4l2.3-2.2 4.6 3.4c.8.5 1.4.2 1.6-.8l3-14c.3-1.2-.4-1.7-1.7-1.2z"/></svg>
+              </a>
+              {!showSupportEmail ? (
+                <button onClick={() => setShowSupportEmail(true)} aria-label="Email" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: RUST_DEEP, display: 'flex' }}>
+                  <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 2.24l-7.4 5.55a1 1 0 0 1-1.2 0L4 8.24V18h16V8.24z"/></svg>
+                </button>
+              ) : (
+                <a href="mailto:kssw117@gmail.com" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>kssw117@gmail.com</a>
+              )}
             </div>
           </div>
           <div style={{ display: 'flex', gap: 16, paddingTop: 16, borderTop: `1px solid ${LINE}` }}>
@@ -812,6 +853,37 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* Плавающая кнопка "нужна помощь" — как на всех продуктах */}
+      <button
+        onClick={() => {
+          playPopSound(!showHelpBubble);
+          setShowHelpBubble(v => !v);
+        }}
+        aria-label="Need help?"
+        style={{
+          position: 'fixed', bottom: 20, right: 20, width: 48, height: 48, borderRadius: '50%',
+          background: RUST, color: '#FFF', border: 'none',
+          cursor: 'pointer', fontSize: 20, display: 'flex', alignItems: 'center', justifyContent: 'center',
+          boxShadow: '0 4px 14px rgba(217,119,87,0.35)', zIndex: 50,
+        }}
+      >
+        {showHelpBubble ? '\u2715' : '?'}
+      </button>
+
+      {showHelpBubble && (
+        <div
+          style={{
+            position: 'fixed', bottom: 80, right: 20, width: 280, maxWidth: 'calc(100vw - 40px)',
+            background: '#FFF', borderRadius: 14, padding: 18, boxShadow: '0 8px 30px rgba(0,0,0,0.15)',
+            border: `1px solid ${LINE}`, zIndex: 50,
+          }}
+        >
+          <p style={{ margin: 0, fontSize: 13, lineHeight: 1.55, color: INK }}>
+            Need help? Have questions? Reach out by email: <a href="mailto:kssw117@gmail.com" style={{ color: RUST_DEEP }}>kssw117@gmail.com</a>
+          </p>
+        </div>
+      )}
     </div>
   );
 }
