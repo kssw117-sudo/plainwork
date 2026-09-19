@@ -44,7 +44,7 @@ const products = [
     },
     price: '$49',
     stat: { en: '20 languages', ru: '20 языков', es: '20 idiomas', fr: '20 langues', de: '20 Sprachen', pt: '20 idiomas', zh: '20\u79cd\u8bed\u8a00', ja: '20\u8a00\u8a9e' },
-    url: 'https://taggeneratorai.vercel.app/',
+    url: 'https://taggenerator.plainwork.website/',
     widget: 'https://widget.lava.top/d058ad7b-f43f-45a9-9d8a-e255697c8f46',
     fullDescription: {
       en: "You know the feeling: you shot a genuinely good photo, coffee on the table by the window, and then twenty minutes of staring at a blank caption box. TagGenerator AI fixes exactly that moment. Upload a photo or video, and the AI actually looks at it, not just spins text from nothing. It sees the foam on the latte, the cinnamon, the autumn leaves on the table, and writes a post about exactly that.",
@@ -98,7 +98,7 @@ const products = [
     },
     price: '$79',
     stat: { en: '20 languages', ru: '20 языков', es: '20 idiomas', fr: '20 langues', de: '20 Sprachen', pt: '20 idiomas', zh: '20\u79cd\u8bed\u8a00', ja: '20\u8a00\u8a9e' },
-    url: 'https://reviewreply-ai-one.vercel.app/',
+    url: 'https://reviewreply.plainwork.website/',
     widget: 'https://widget.lava.top/f30c6c97-507b-4591-b810-dd62ff16fb66',
     fullDescription: {
       en: "One unanswered bad review costs more than it looks like, every customer after it reads it too. Paste the review into ReviewReply AI and get three reply options at once, different in tone and length. But the real feature is the private \"for your eyes only\" note: the AI reads between the lines and flags it if the review is quietly pointing at a systemic issue, a gap in staff training, a recurring complaint about wait times. A free mini-audit of your business with every single reply.",
@@ -152,7 +152,7 @@ const products = [
     },
     price: '$99',
     stat: { en: '5 tools', ru: '5 инструментов', es: '5 herramientas', fr: '5 outils', de: '5 Werkzeuge', pt: '5 ferramentas', zh: '5\u4e2a\u5de5\u5177', ja: '5\u3064\u306e\u30c4\u30fc\u30eb' },
-    url: 'https://local-signal.vercel.app/',
+    url: 'https://localsignal.plainwork.website/',
     widget: 'https://widget.lava.top/cb430a7a-32e3-4578-9806-817d65bb3a26',
     fullDescription: {
       en: "The most feature-dense of the five, six tools in one. Open it, and the first thing you see is \"This Week\\'s 3 Actions\", not vague advice, a concrete list of exactly what to do right now to get your Google Business Profile working for you again. From there: posts, Q&A replies, SEO copy, a full month of content planned at once, and \"Stand Out\", paste a competitor\\'s post, find their weak spot and your unique angle.",
@@ -206,7 +206,7 @@ const products = [
     },
     price: '$59',
     stat: { en: '35 languages', ru: '35 языков', es: '35 idiomas', fr: '35 langues', de: '35 Sprachen', pt: '35 idiomas', zh: '35\u79cd\u8bed\u8a00', ja: '35\u8a00\u8a9e' },
-    url: 'https://say-it-right-blush.vercel.app/',
+    url: 'https://sayitright.plainwork.website/',
     widget: 'https://widget.lava.top/a60a430e-55eb-4989-9881-a98ad2a99e45',
     fullDescription: {
       en: "Built for anyone who writes to a client in English and hesitates before hitting send. Write however comes naturally, in your own language or in rough English, and get back more than a correction: every fix explained in your own native language. Not just \"this is right\", but why. Listen to the result read aloud before you send it, so you actually hear how it lands.",
@@ -260,7 +260,7 @@ const products = [
     },
     price: '$129',
     stat: { en: '4 modes', ru: '4 режима', es: '4 modos', fr: '4 modes', de: '4 Modi', pt: '4 modos', zh: '4\u79cd\u6a21\u5f0f', ja: '4\u3064\u306e\u30e2\u30fc\u30c9' },
-    url: 'https://content-strategist-ai.vercel.app/',
+    url: 'https://contentstrategist.plainwork.website/',
     widget: 'https://widget.lava.top/bfbe4e9d-a890-48eb-82a6-8d081e6bec26',
     fullDescription: {
       en: "The most ambitious product in the lineup. It doesn\\'t write posts, it builds the strategy: what to publish, where, and when. Four modes, including a photo planner that assigns each uploaded image a day, a platform, and a content pillar on its own. Five content pillars automatically balanced across the week, each color-coded. Don\\'t like one day\\'s idea? Regenerate just that one, the rest of the week stays untouched.",
