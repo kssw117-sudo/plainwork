@@ -315,7 +315,7 @@ const products = [
     price: '$149',
     stat: { en: '8 tools', ru: '8 инструментов', es: '8 herramientas', fr: '8 outils', de: '8 Werkzeuge', pt: '8 ferramentas', zh: '8\u4e2a\u5de5\u5177', ja: '8\u3064\u306e\u30c4\u30fc\u30eb' },
     url: 'https://swc.plainwork.website/',
-    widget: 'https://widget.lava.top/1e3377e9-f3d3-4c53-a8d5-377764aa1354',
+    widget: 'https://widget.lava.top/39376736-15ea-40d4-9166-e02e9bc0126d',
     fullDescription: {
       en: 'Pairs with SayItRight - that one fixes what you write, this one preps what you say out loud. Describe the situation and get five spoken talking points, a note on tone and delivery, and cultural context on how direct to be, tailored to your profession and language level. Beyond the AI: a 52-phrase static library organized by eight situations, a prep checklist with a rehearsal timer and free voice recognition practice, and a personal phrasebook that saves the lines that worked. Works in 35 languages.',
     },
@@ -640,8 +640,8 @@ export default function App() {
         <span className="running-p-base running-p-3" aria-hidden="true" style={{ top: '45%', left: '65%', fontSize: 44 }}>Р</span>
 
         <div style={{ maxWidth: 720, margin: '0 auto', position: 'relative' }}>
-          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 16, marginBottom: 28 }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: 16, marginBottom: 28 }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}>
               <svg viewBox="0 0 100 130" style={{ width: 18, height: 23 }}>
                 <defs>
                   <linearGradient id="tagGrad" x1="0" y1="0" x2="0" y2="1">
@@ -656,11 +656,11 @@ export default function App() {
                 <circle cx="20" cy="20" r="9" fill="none" stroke="url(#tagGrad)" strokeWidth="4" />
                 <text x="58" y="82" textAnchor="middle" fontFamily="'Fraunces', serif" fontWeight="600" fontSize="58" fill={BG}>P</text>
               </svg>
-              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.12em', color: RUST_DEEP, textTransform: 'uppercase' }}>
-                {t.tagline}
-              </span>
             </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
+            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.12em', color: RUST_DEEP, textTransform: 'uppercase', whiteSpace: 'nowrap' }}>
+              {t.tagline}
+            </span>
+            <div style={{ display: 'flex', alignItems: 'center', gap: 14, justifyContent: 'flex-end' }}>
               {!showSupportEmail ? (
                 <button onClick={() => setShowSupportEmail(true)} aria-label="Email" style={{ background: 'none', border: 'none', cursor: 'pointer', padding: 0, color: INK_SOFT, display: 'flex' }}>
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 2.24l-7.4 5.55a1 1 0 0 1-1.2 0L4 8.24V18h16V8.24z"/></svg>
@@ -687,17 +687,17 @@ export default function App() {
             </div>
           </div>
 
-          <h1 style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 'clamp(34px, 5vw, 52px)', lineHeight: 1.1, margin: '0 0 24px', letterSpacing: '-0.01em' }}>
+          <h1 style={{ fontFamily: "'Fraunces', serif", fontWeight: 600, fontSize: 'clamp(34px, 5vw, 52px)', lineHeight: 1.1, margin: '0 0 24px', letterSpacing: '-0.01em', textAlign: 'center' }}>
             {t.heroTitle}
           </h1>
-          <p style={{ fontSize: 17, color: INK_SOFT, lineHeight: 1.65, maxWidth: 540, margin: '0 0 12px' }}>
+          <p style={{ fontSize: 17, color: INK_SOFT, lineHeight: 1.65, maxWidth: 540, margin: '0 auto 12px', textAlign: 'center' }}>
             {t.heroBody}
           </p>
-          <p style={{ fontSize: 14, color: RUST_DEEP, lineHeight: 1.6, maxWidth: 540, margin: '0 0 32px', fontWeight: 500 }}>
+          <p style={{ fontSize: 14, color: RUST_DEEP, lineHeight: 1.6, maxWidth: 540, margin: '0 auto 32px', fontWeight: 500, textAlign: 'center' }}>
             {t.heroNote}
           </p>
 
-          <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap', fontFamily: "'IBM Plex Mono', monospace", fontSize: 12.5, color: INK_SOFT }}>
+          <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap', fontFamily: "'IBM Plex Mono', monospace", fontSize: 12.5, color: INK_SOFT, justifyContent: 'center' }}>
             <span style={{ color: INK }}>A growing suite of tools</span>
             <span><strong style={{ color: INK }}>35</strong> {t.statLangs}</span>
             <span><strong style={{ color: INK }}>1</strong> {t.statPeople}</span>
@@ -720,10 +720,10 @@ export default function App() {
       {/* ----- THE WORK (ledger-style portfolio) ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
-          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4 }}>
+          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4, textAlign: 'center' }}>
             {t.workHeading}
           </h2>
-          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 28 }}>{t.workSub}</p>
+          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 28, textAlign: 'center' }}>{t.workSub}</p>
 
           <div style={{ border: `1px solid ${LINE}`, borderRadius: 14, overflow: 'hidden', background: CARD }}>
             {products.map((p, i) => (
@@ -792,10 +792,10 @@ export default function App() {
       {/* ----- CAPABILITIES ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
-          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4 }}>
+          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4, textAlign: 'center' }}>
             {t.capHeading}
           </h2>
-          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 28 }}>{t.capSub}</p>
+          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 28, textAlign: 'center' }}>{t.capSub}</p>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: 1, background: LINE, border: `1px solid ${LINE}`, borderRadius: 14, overflow: 'hidden' }}>
             {capabilities.map((c, i) => (
@@ -813,7 +813,7 @@ export default function App() {
       {/* ----- APPROACH ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
-          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 28 }}>
+          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 28, textAlign: 'center' }}>
             {t.approachHeading}
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 28 }}>
@@ -835,7 +835,7 @@ export default function App() {
       {/* ----- ABOUT / FOUNDER ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto', background: CARD, border: `1px solid ${LINE}`, borderRadius: 16, padding: '40px 36px' }}>
-          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 20 }}>
+          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 20, textAlign: 'center' }}>
             {t.aboutHeading}
           </h2>
           <p style={{ fontFamily: "'Fraunces', serif", fontSize: 21, lineHeight: 1.5, margin: '0 0 20px', color: INK }}>
@@ -850,10 +850,10 @@ export default function App() {
       {/* ----- LOCATION ----- */}
       <section style={{ padding: '0 24px 96px' }}>
         <div style={{ maxWidth: 720, margin: '0 auto' }}>
-          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4 }}>
+          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4, textAlign: 'center' }}>
             {t.basedIn}
           </h2>
-          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 20 }}>{t.city}</p>
+          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 20, textAlign: 'center' }}>{t.city}</p>
           <div
             ref={mapContainerRef}
             style={{ width: '100%', height: 260, borderRadius: 14, border: `1px solid ${LINE}`, overflow: 'hidden' }}
