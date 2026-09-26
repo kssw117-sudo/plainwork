@@ -279,6 +279,53 @@ const products = [
       'Available in 25 languages - interface and generation both.',
     ],
   },
+  {
+    tag: '06',
+    name: 'Speak With Confidence AI',
+    line: {
+      en: 'Not what to write - what to say, out loud, in the moment.',
+      ru: 'Не что написать, а что сказать, вслух, в моменте.',
+      es: 'No que escribir, sino que decir, en voz alta, en el momento.',
+      fr: 'Pas quoi \u00e9crire - quoi dire, \u00e0 voix haute, sur le moment.',
+      de: 'Nicht was du schreibst - was du sagst, laut, im Moment.',
+      pt: 'N\u00e3o o que escrever - o que dizer, em voz alta, no momento.',
+      zh: '\u4e0d\u662f\u5199\u4ec0\u4e48\uff0c\u800c\u662f\u5728\u90a3\u4e2a\u77ac\u95f4\u5927\u58f0\u8bf4\u51fa\u4ec0\u4e48\u3002',
+      ja: '\u4f55\u3092\u66f8\u304f\u304b\u3067\u306f\u306a\u304f\u3001\u305d\u306e\u77ac\u9593\u306b\u58f0\u306b\u51fa\u3057\u3066\u4f55\u3092\u8a00\u3046\u304b\u3002',
+    },
+    problem: {
+      en: 'You know what you want to say in a hard conversation - salary, a difficult client, an interview - until you\u2019re actually in it.',
+      ru: 'Ты знаешь, что хочешь сказать в сложном разговоре — про зарплату, с трудным клиентом, на собеседовании — пока не окажешься в моменте.',
+      es: 'Sabes que quieres decir en una conversaci\u00f3n dif\u00edcil - salario, un cliente dif\u00edcil, una entrevista - hasta que est\u00e1s realmente ah\u00ed.',
+      fr: 'Vous savez ce que vous voulez dire dans une conversation difficile - salaire, client difficile, entretien - jusqu\u2019\u00e0 ce que vous y soyez vraiment.',
+      de: 'Du wei\u00dft, was du in einem schwierigen Gespr\u00e4ch sagen willst - Gehalt, schwieriger Kunde, Vorstellungsgespr\u00e4ch - bis du wirklich drin bist.',
+      pt: 'Voc\u00ea sabe o que quer dizer em uma conversa dif\u00edcil - sal\u00e1rio, cliente dif\u00edcil, entrevista - at\u00e9 estar realmente nela.',
+      zh: '\u4f60\u77e5\u9053\u5728\u96be\u7f9b\u7684\u5bf9\u8bdd\u4e2d\u2014\u2014\u8c08\u85aa\u8d44\u3001\u5904\u7406\u96be\u7f13\u5ba2\u6237\u3001\u9762\u8bd5\u2014\u2014\u60f3\u8bf4\u4ec0\u4e48\uff0c\u76f4\u5230\u771f\u6b63\u8eab\u5904\u5176\u4e2d\u3002',
+      ja: '\u96e3\u3057\u3044\u4f1a\u8a71\u2014\u7d66\u4e0e\u4ea4\u6e09\u3001\u96e3\u3057\u3044\u30af\u30e9\u30a4\u30a2\u30f3\u30c8\u3001\u9762\u63a5\u2014\u3067\u4f55\u3092\u8a00\u3044\u305f\u3044\u304b\u306f\u308f\u304b\u3063\u3066\u3044\u308b\u3002\u5b9f\u969b\u306b\u305d\u306e\u5834\u306b\u7acb\u3064\u307e\u3067\u306f\u3002',
+    },
+    result: {
+      en: 'Exact talking points for the conversation you\u2019re dreading, plus tone coaching and a phrase library, ready before you walk in.',
+      ru: 'Точные реплики для разговора, которого боишься, плюс совет по тону и библиотека фраз — готово до того, как войдёшь в комнату.',
+      es: 'Puntos de conversaci\u00f3n exactos para la conversaci\u00f3n que temes, adem\u00e1s de coaching de tono y una biblioteca de frases, listos antes de entrar.',
+      fr: 'Des points de discussion pr\u00e9cis pour la conversation que vous redoutez, plus un coaching de ton et une biblioth\u00e8que de phrases, pr\u00eats avant d\u2019entrer.',
+      de: 'Genaue Gespr\u00e4chspunkte f\u00fcr das Gespr\u00e4ch, vor dem du dich f\u00fcrchtest, plus Ton-Coaching und eine Phrasenbibliothek, fertig bevor du reingehst.',
+      pt: 'Pontos de fala exatos para a conversa que voc\u00ea teme, al\u00e9m de coaching de tom e uma biblioteca de frases, prontos antes de voc\u00ea entrar.',
+      zh: '\u9488\u5bf9\u4f60\u6015\u6015\u7684\u5bf9\u8bdd\u7684\u7cbe\u786e\u53d1\u8a00\u8981\u70b9\uff0c\u52a0\u4e0a\u8bed\u8c03\u6307\u5bfc\u548c\u77ed\u8bed\u5e93\uff0c\u5728\u4f60\u8fdb\u95e8\u524d\u5c31\u51c6\u5907\u597d\u3002',
+      ja: '\u6015\u3044\u4f1a\u8a71\u306e\u305f\u3081\u306e\u6b63\u78ba\u306a\u767a\u8a00\u30dd\u30a4\u30f3\u30c8\u3001\u30c8\u30fc\u30f3\u30b3\u30fc\u30c1\u30f3\u30b0\u3001\u30d5\u30ec\u30fc\u30ba\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc\u3092\u3001\u5165\u5ba4\u524d\u306b\u7528\u610f\u3002',
+    },
+    price: '$149',
+    stat: { en: '8 tools', ru: '8 инструментов', es: '8 herramientas', fr: '8 outils', de: '8 Werkzeuge', pt: '8 ferramentas', zh: '8\u4e2a\u5de5\u5177', ja: '8\u3064\u306e\u30c4\u30fc\u30eb' },
+    url: 'https://swc.plainwork.website/',
+    widget: 'https://widget.lava.top/1e3377e9-f3d3-4c53-a8d5-377764aa1354',
+    fullDescription: {
+      en: 'Pairs with SayItRight - that one fixes what you write, this one preps what you say out loud. Describe the situation and get five spoken talking points, a note on tone and delivery, and cultural context on how direct to be, tailored to your profession and language level. Beyond the AI: a 52-phrase static library organized by eight situations, a prep checklist with a rehearsal timer and free voice recognition practice, and a personal phrasebook that saves the lines that worked. Works in 35 languages.',
+    },
+    benefits: [
+      'Scenario prep: describe the conversation, get talking points built for it, not generic advice.',
+      'Tone coaching and cultural context - not just what to say, how it should land.',
+      'A 52-phrase library and prep checklist that work instantly, no AI wait - plus free voice practice.',
+      'Personal phrasebook saves what worked, for next time.',
+    ],
+  },
 ];
 
 const principles = [
