@@ -642,7 +642,7 @@ export default function App() {
         <div style={{ maxWidth: 720, margin: '0 auto', position: 'relative' }}>
           <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: 16, marginBottom: 28 }}>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}>
-              <svg viewBox="0 0 100 130" style={{ width: 18, height: 23 }}>
+              <svg viewBox="0 0 100 130" style={{ width: 34, height: 44 }}>
                 <defs>
                   <linearGradient id="tagGrad" x1="0" y1="0" x2="0" y2="1">
                     <stop offset="0%" stopColor={RUST} />
