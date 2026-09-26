@@ -392,7 +392,7 @@ const LANGS = [
 const T = {
   en: {
     tagline: 'Plainwork Studio',
-    heroTitle: 'Small, useful tools for people running a business alone.',
+    heroTitle: 'Small, useful tools for running your business',
     heroBody: 'Plainwork builds focused AI tools that solve one repetitive task each - writing captions, replying to reviews, staying visible on Google - so there\u2019s a little more time left for the parts of the business that actually need a person.',
     heroNote: 'A growing set of tools live so far. More on the way.',
     manifesto1: 'I build AI tools that do your marketing for you. Each product solves one job: content, reputation, visibility, language. You just upload your data - the AI does the rest.',
@@ -403,14 +403,14 @@ const T = {
     approachHeading: 'How things get built here',
     aboutHeading: 'About',
     aboutLead: 'I\u2019m Ksenia, and I build every part of Plainwork myself - the products, the infrastructure behind them, and the support inbox.',
-    aboutBody: 'I kept noticing the same pattern with small business owners: a handful of small, repetitive writing tasks - a caption, a reply to a review, a Google post - that never got done because there was always something more urgent. Plainwork is my answer to that: tools narrow enough to actually finish, built by one person who reads every support email personally.',
+    aboutBody: 'I kept noticing the same pattern, over and over: a handful of small, repetitive writing tasks - a caption, a reply to a review, a Google post - that never got done because there was always something more urgent. Plainwork is my answer to that: tools narrow enough to actually finish, built by one person who reads every support email personally.',
     basedIn: 'Based in', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 built solo, end to end',
-    terms: 'Terms of Service', privacy: 'Privacy Policy',
+    terms: 'Terms of Service', privacy: 'Privacy Policy', refund: 'Refund Policy',
   },
   ru: {
     tagline: 'Студия Plainwork',
-    heroTitle: 'Небольшие, полезные инструменты для тех, кто ведёт бизнес один.',
+    heroTitle: 'Небольшие, полезные инструменты для вашего бизнеса',
     heroBody: 'Plainwork создаёт сфокусированные AI-инструменты, каждый из которых решает одну повторяющуюся задачу — написать подпись, ответить на отзыв, остаться заметным в Google — чтобы оставалось чуть больше времени на то, что реально требует человека.',
     heroNote: 'Пока три живых инструмента. Дальше — больше.',
     statProducts: 'продукта запущено', statLangs: 'языков поддерживается', statPeople: 'человек строит',
@@ -419,14 +419,14 @@ const T = {
     approachHeading: 'Как здесь всё строится',
     aboutHeading: 'Обо мне',
     aboutLead: 'Я Ксения, и я сама строю каждую часть Plainwork — продукты, инфраструктуру за ними, и отвечаю на письма в поддержку.',
-    aboutBody: 'Я замечала один и тот же паттерн у владельцев малого бизнеса: небольшие, повторяющиеся задачи написания текста — подпись, ответ на отзыв, пост в Google — так и оставались несделанными, потому что всегда находилось что-то срочнее. Plainwork — мой ответ на это: инструменты достаточно узкие, чтобы их реально доводили до конца, построенные одним человеком, который лично читает каждое письмо в поддержку.',
+    aboutBody: 'Я снова и снова замечала один и тот же паттерн: небольшие, повторяющиеся задачи написания текста — подпись, ответ на отзыв, пост в Google — так и оставались несделанными, потому что всегда находилось что-то срочнее. Plainwork — мой ответ на это: инструменты достаточно узкие, чтобы их реально доводили до конца, построенные одним человеком, который лично читает каждое письмо в поддержку.',
     basedIn: 'Находимся в', city: '\u0425ьюстон, США',
     footerTag: 'Plainwork \u00b7 сделано одним человеком, от начала до конца',
-    terms: 'Пользовательское соглашение', privacy: 'Политика конфиденциальности',
+    terms: 'Пользовательское соглашение', privacy: 'Политика конфиденциальности', refund: 'Политика возврата',
   },
   es: {
     tagline: 'Estudio Plainwork',
-    heroTitle: 'Herramientas peque\u00f1as y \u00fatiles para quienes llevan un negocio solos.',
+    heroTitle: 'Herramientas peque\u00f1as y \u00fatiles para tu negocio',
     heroBody: 'Plainwork crea herramientas de IA enfocadas que resuelven una tarea repetitiva cada una - escribir subt\u00edtulos, responder rese\u00f1as, mantenerse visible en Google - para que quede un poco m\u00e1s de tiempo para lo que realmente necesita una persona.',
     heroNote: 'Tres herramientas activas por ahora. Vienen m\u00e1s.',
     statProducts: 'productos lanzados', statLangs: 'idiomas soportados', statPeople: 'persona construy\u00e9ndolo',
@@ -435,14 +435,14 @@ const T = {
     approachHeading: 'C\u00f3mo se construye todo aqu\u00ed',
     aboutHeading: 'Sobre m\u00ed',
     aboutLead: 'Soy Ksenia, y construyo cada parte de Plainwork yo misma - los productos, la infraestructura detr\u00e1s de ellos, y el buz\u00f3n de soporte.',
-    aboutBody: 'Segu\u00eda notando el mismo patr\u00f3n en due\u00f1os de peque\u00f1os negocios: un pu\u00f1ado de tareas de escritura peque\u00f1as y repetitivas - un subt\u00edtulo, una respuesta a una rese\u00f1a, un post de Google - que nunca se hac\u00edan porque siempre hab\u00eda algo m\u00e1s urgente. Plainwork es mi respuesta a eso: herramientas lo bastante acotadas para realmente terminarse, construidas por una sola persona que lee cada correo de soporte personalmente.',
+    aboutBody: 'Segu\u00eda notando el mismo patr\u00f3n, una y otra vez: un pu\u00f1ado de tareas de escritura peque\u00f1as y repetitivas - un subt\u00edtulo, una respuesta a una rese\u00f1a, un post de Google - que nunca se hac\u00edan porque siempre hab\u00eda algo m\u00e1s urgente. Plainwork es mi respuesta a eso: herramientas lo bastante acotadas para realmente terminarse, construidas por una sola persona que lee cada correo de soporte personalmente.',
     basedIn: 'Con base en', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 hecho en solitario, de principio a fin',
-    terms: 'T\u00e9rminos de Servicio', privacy: 'Pol\u00edtica de Privacidad',
+    terms: 'T\u00e9rminos de Servicio', privacy: 'Pol\u00edtica de Privacidad', refund: 'Pol\u00edtica de Reembolso',
   },
   fr: {
     tagline: 'Studio Plainwork',
-    heroTitle: 'De petits outils utiles pour ceux qui g\u00e8rent une entreprise seuls.',
+    heroTitle: 'De petits outils utiles pour votre entreprise',
     heroBody: 'Plainwork cr\u00e9e des outils IA cibl\u00e9s qui r\u00e9solvent chacun une t\u00e2che r\u00e9p\u00e9titive - r\u00e9diger des l\u00e9gendes, r\u00e9pondre aux avis, rester visible sur Google - pour qu\u2019il reste un peu plus de temps pour ce qui n\u00e9cessite vraiment une personne.',
     heroNote: 'Trois outils actifs pour l\u2019instant. D\u2019autres arrivent.',
     statProducts: 'produits lanc\u00e9s', statLangs: 'langues prises en charge', statPeople: 'personne qui construit',
@@ -451,14 +451,14 @@ const T = {
     approachHeading: 'Comment tout est construit ici',
     aboutHeading: '\u00c0 propos',
     aboutLead: 'Je suis Ksenia, et je construis chaque partie de Plainwork moi-m\u00eame - les produits, l\u2019infrastructure derri\u00e8re eux, et la boîte de support.',
-    aboutBody: 'Je remarquais toujours le m\u00eame sch\u00e9ma chez les propri\u00e9taires de petites entreprises : une poign\u00e9e de petites t\u00e2ches d\u2019\u00e9criture r\u00e9p\u00e9titives - une l\u00e9gende, une r\u00e9ponse \u00e0 un avis, un post Google - qui ne se faisaient jamais parce qu\u2019il y avait toujours quelque chose de plus urgent. Plainwork est ma r\u00e9ponse \u00e0 \u00e7a : des outils assez cibl\u00e9s pour \u00eatre vraiment termin\u00e9s, construits par une seule personne qui lit personnellement chaque email de support.',
+    aboutBody: 'Je remarquais toujours le m\u00eame sch\u00e9ma, encore et encore : une poign\u00e9e de petites t\u00e2ches d\u2019\u00e9criture r\u00e9p\u00e9titives - une l\u00e9gende, une r\u00e9ponse \u00e0 un avis, un post Google - qui ne se faisaient jamais parce qu\u2019il y avait toujours quelque chose de plus urgent. Plainwork est ma r\u00e9ponse \u00e0 \u00e7a : des outils assez cibl\u00e9s pour \u00eatre vraiment termin\u00e9s, construits par une seule personne qui lit personnellement chaque email de support.',
     basedIn: 'Bas\u00e9e \u00e0', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 construit en solo, de bout en bout',
-    terms: 'Conditions d\u2019utilisation', privacy: 'Politique de confidentialit\u00e9',
+    terms: 'Conditions d\u2019utilisation', privacy: 'Politique de confidentialit\u00e9', refund: 'Politique de remboursement',
   },
   de: {
     tagline: 'Plainwork Studio',
-    heroTitle: 'Kleine, n\u00fctzliche Tools f\u00fcr Menschen, die ihr Business allein f\u00fchren.',
+    heroTitle: 'Kleine, n\u00fctzliche Tools f\u00fcr dein Business',
     heroBody: 'Plainwork baut fokussierte KI-Tools, die jeweils eine wiederkehrende Aufgabe l\u00f6sen - Bildunterschriften schreiben, auf Bewertungen antworten, bei Google sichtbar bleiben - damit etwas mehr Zeit f\u00fcr die Teile des Business bleibt, die wirklich einen Menschen brauchen.',
     heroNote: 'Bisher drei aktive Tools. Mehr folgt.',
     statProducts: 'Produkte ver\u00f6ffentlicht', statLangs: 'unterst\u00fctzte Sprachen', statPeople: 'Person baut es',
@@ -467,14 +467,14 @@ const T = {
     approachHeading: 'Wie hier alles gebaut wird',
     aboutHeading: '\u00dcber mich',
     aboutLead: 'Ich bin Ksenia, und ich baue jeden Teil von Plainwork selbst - die Produkte, die Infrastruktur dahinter, und den Support-Posteingang.',
-    aboutBody: 'Ich bemerkte immer wieder dasselbe Muster bei Kleinunternehmern: eine Handvoll kleiner, sich wiederholender Schreibaufgaben - eine Bildunterschrift, eine Antwort auf eine Bewertung, ein Google-Beitrag - die nie erledigt wurden, weil immer etwas Dringenderes anlag. Plainwork ist meine Antwort darauf: Tools schmal genug, um wirklich fertig zu werden, gebaut von einer einzigen Person, die jede Support-E-Mail pers\u00f6nlich liest.',
+    aboutBody: 'Ich bemerkte immer wieder dasselbe Muster: eine Handvoll kleiner, sich wiederholender Schreibaufgaben - eine Bildunterschrift, eine Antwort auf eine Bewertung, ein Google-Beitrag - die nie erledigt wurden, weil immer etwas Dringenderes anlag. Plainwork ist meine Antwort darauf: Tools schmal genug, um wirklich fertig zu werden, gebaut von einer einzigen Person, die jede Support-E-Mail pers\u00f6nlich liest.',
     basedIn: 'Ansässig in', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 solo gebaut, von Anfang bis Ende',
-    terms: 'Nutzungsbedingungen', privacy: 'Datenschutzrichtlinie',
+    terms: 'Nutzungsbedingungen', privacy: 'Datenschutzrichtlinie', refund: 'R\u00fcckerstattungsrichtlinie',
   },
   pt: {
     tagline: 'Estúdio Plainwork',
-    heroTitle: 'Ferramentas pequenas e úteis para quem toca um negócio sozinho.',
+    heroTitle: 'Ferramentas pequenas e úteis para o seu negócio',
     heroBody: 'A Plainwork cria ferramentas de IA focadas que resolvem uma tarefa repetitiva cada - escrever legendas, responder avalia\u00e7\u00f5es, permanecer vis\u00edvel no Google - para sobrar um pouco mais de tempo para as partes do neg\u00f3cio que realmente precisam de uma pessoa.',
     heroNote: 'Três ferramentas ativas até agora. Mais estão a caminho.',
     statProducts: 'produtos lan\u00e7ados', statLangs: 'idiomas suportados', statPeople: 'pessoa construindo',
@@ -483,14 +483,14 @@ const T = {
     approachHeading: 'Como tudo é construído aqui',
     aboutHeading: 'Sobre',
     aboutLead: 'Sou a Ksenia, e eu mesma construo cada parte da Plainwork - os produtos, a infraestrutura por tr\u00e1s deles, e a caixa de suporte.',
-    aboutBody: 'Eu continuava notando o mesmo padr\u00e3o em donos de pequenos neg\u00f3cios: um punhado de tarefas de escrita pequenas e repetitivas - uma legenda, uma resposta a uma avalia\u00e7\u00e3o, um post no Google - que nunca eram feitas porque sempre havia algo mais urgente. A Plainwork \u00e9 minha resposta a isso: ferramentas estreitas o suficiente para realmente serem conclu\u00eddas, constru\u00eddas por uma \u00fanica pessoa que l\u00ea pessoalmente cada e-mail de suporte.',
+    aboutBody: 'Eu continuava notando o mesmo padr\u00e3o, vezes e vezes: um punhado de tarefas de escrita pequenas e repetitivas - uma legenda, uma resposta a uma avalia\u00e7\u00e3o, um post no Google - que nunca eram feitas porque sempre havia algo mais urgente. A Plainwork \u00e9 minha resposta a isso: ferramentas estreitas o suficiente para realmente serem conclu\u00eddas, constru\u00eddas por uma \u00fanica pessoa que l\u00ea pessoalmente cada e-mail de suporte.',
     basedIn: 'Sediada em', city: 'Houston, TX',
     footerTag: 'Plainwork \u00b7 feito sozinha, do in\u00edcio ao fim',
-    terms: 'Termos de Servi\u00e7o', privacy: 'Pol\u00edtica de Privacidade',
+    terms: 'Termos de Servi\u00e7o', privacy: 'Pol\u00edtica de Privacidade', refund: 'Pol\u00edtica de Reembolso',
   },
   zh: {
     tagline: 'Plainwork \u5de5\u4f5c\u5ba4',
-    heroTitle: '\u4e3a\u72ec\u81ea\u7ecf\u8425\u4e1a\u52a1\u7684\u4eba\u6253\u9020\u7684\u5c0f\u800c\u5b9e\u7528\u7684\u5de5\u5177\u3002',
+    heroTitle: '\u4e3a\u4f60\u7684\u4e1a\u52a1\u6253\u9020\u7684\u5c0f\u800c\u5b9e\u7528\u7684\u5de5\u5177',
     heroBody: 'Plainwork \u6253\u9020\u4e13\u6ce8\u7684AI\u5de5\u5177\uff0c\u6bcf\u4e2a\u5de5\u5177\u53ea\u89e3\u51b3\u4e00\u4e2a\u91cd\u590d\u6027\u4efb\u52a1\u2014\u2014\u5199\u914d\u6587\u3001\u56de\u590d\u8bc4\u4ef7\u3001\u5728Google\u4fdd\u6301\u53ef\u89c1\u5ea6\u2014\u2014\u8ba9\u4f60\u6709\u66f4\u591a\u65f6\u95f4\u53bb\u505a\u771f\u6b63\u9700\u8981\u4eba\u624b\u7684\u4e8b\u60c5\u3002',
     heroNote: '\u76ee\u524d\u4e09\u4e2a\u5de5\u5177\u5df2\u4e0a\u7ebf\u3002\u66f4\u591a\u5373\u5c06\u63a8\u51fa\u3002',
     statProducts: '\u4e2a\u4ea7\u54c1\u5df2\u4e0a\u7ebf', statLangs: '\u79cd\u8bed\u8a00\u652f\u6301', statPeople: '\u4e2a\u4eba\u5728\u6784\u5efa',
@@ -499,14 +499,14 @@ const T = {
     approachHeading: '\u8fd9\u91cc\u662f\u600e\u4e48\u6784\u5efa\u4e00\u5207\u7684',
     aboutHeading: '\u5173\u4e8e',
     aboutLead: '\u6211\u662fKsenia\uff0c\u6211\u4eb2\u81ea\u6784\u5efaPlainwork\u7684\u6bcf\u4e00\u90e8\u5206\u2014\u2014\u4ea7\u54c1\u3001\u80cc\u540e\u7684\u57fa\u7840\u8bbe\u65bd\uff0c\u4ee5\u53ca\u5ba2\u670d\u90ae\u7bb1\u3002',
-    aboutBody: '\u6211\u4e00\u76f4\u6ce8\u610f\u5230\u5c0f\u4f01\u4e1a\u4e3b\u4eec\u7684\u76f8\u540c\u6a21\u5f0f\uff1a\u4e00\u4e9b\u5c0f\u800c\u91cd\u590d\u7684\u5199\u4f5c\u4efb\u52a1\u2014\u2014\u4e00\u6761\u914d\u6587\u3001\u4e00\u6761\u8bc4\u4ef7\u56de\u590d\u3001\u4e00\u6761Google\u5e16\u6587\u2014\u2014\u603b\u662f\u56e0\u4e3a\u603b\u6709\u66f4\u7d27\u8feb\u7684\u4e8b\u800c\u65e0\u6cd5\u5b8c\u6210\u3002Plainwork\u5c31\u662f\u6211\u5bf9\u6b64\u7684\u56de\u7b54\uff1a\u8db3\u591f\u805a\u7126\u3001\u771f\u6b63\u80fd\u5b8c\u6210\u7684\u5de5\u5177\uff0c\u7531\u4e00\u4e2a\u4eb2\u81ea\u9605\u8bfb\u6bcf\u5c01\u5ba2\u670d\u90ae\u4ef6\u7684\u4eba\u6784\u5efa\u3002',
+    aboutBody: '\u6211\u4e00\u6b21\u53c8\u4e00\u6b21\u5730\u6ce8\u610f\u5230\u76f8\u540c\u7684\u6a21\u5f0f\uff1a\u4e00\u4e9b\u5c0f\u800c\u91cd\u590d\u7684\u5199\u4f5c\u4efb\u52a1\u2014\u2014\u4e00\u6761\u914d\u6587\u3001\u4e00\u6761\u8bc4\u4ef7\u56de\u590d\u3001\u4e00\u6761Google\u5e16\u6587\u2014\u2014\u603b\u662f\u56e0\u4e3a\u603b\u6709\u66f4\u7d27\u8feb\u7684\u4e8b\u800c\u65e0\u6cd5\u5b8c\u6210\u3002Plainwork\u5c31\u662f\u6211\u5bf9\u6b64\u7684\u56de\u7b54\uff1a\u8db3\u591f\u805a\u7126\u3001\u771f\u6b63\u80fd\u5b8c\u6210\u7684\u5de5\u5177\uff0c\u7531\u4e00\u4e2a\u4eb2\u81ea\u9605\u8bfb\u6bcf\u5c01\u5ba2\u670d\u90ae\u4ef6\u7684\u4eba\u6784\u5efa\u3002',
     basedIn: '\u603b\u90e8\u4f4d\u4e8e', city: '\u7f8e\u56fd\u4f11\u65af\u987f',
     footerTag: 'Plainwork \u00b7 \u4e00\u4eba\u4ece\u5934\u5230\u5c3e\u6253\u9020',
-    terms: '\u670d\u52a1\u6761\u6b3e', privacy: '\u9690\u79c1\u653f\u7b56',
+    terms: '\u670d\u52a1\u6761\u6b3e', privacy: '\u9690\u79c1\u653f\u7b56', refund: '\u9000\u6b3e\u653f\u7b56',
   },
   ja: {
     tagline: 'Plainwork \u30b9\u30bf\u30b8\u30aa',
-    heroTitle: '\u4e00\u4eba\u3067\u30d3\u30b8\u30cd\u30b9\u3092\u9053\u3059\u4eba\u306e\u305f\u3081\u306e\u3001\u5c0f\u3055\u304f\u3066\u5f79\u306b\u7acb\u3064\u30c4\u30fc\u30eb\u3002',
+    heroTitle: '\u3042\u306a\u305f\u306e\u30d3\u30b8\u30cd\u30b9\u306e\u305f\u3081\u306e\u3001\u5c0f\u3055\u304f\u3066\u5f79\u306b\u7acb\u3064\u30c4\u30fc\u30eb',
     heroBody: 'Plainwork\u306f\u3001\u305d\u308c\u305e\u308c\u4e00\u3064\u306e\u53cd\u5fa9\u4f5c\u696d\u3092\u89e3\u6c7a\u3059\u308b\u5c02\u9580\u7684\u306aAI\u30c4\u30fc\u30eb\u3092\u4f5c\u3063\u3066\u3044\u307e\u3059\u2014\u2014\u30ad\u30e3\u30d7\u30b7\u30e7\u30f3\u4f5c\u6210\u3001\u30ec\u30d3\u30e5\u30fc\u8fd4\u4fe1\u3001Google\u3067\u306e\u53ef\u8996\u6027\u7dad\u6301\u2014\u2014\u672c\u5f53\u306b\u4eba\u306e\u624b\u304c\u5fc5\u8981\u306a\u90e8\u5206\u306b\u5c11\u3057\u3067\u3082\u591a\u304f\u306e\u6642\u9593\u3092\u5145\u3066\u3089\u308c\u308b\u3088\u3046\u306b\u3002',
     heroNote: '\u4eca\u306e\u3068\u3053\u308d3\u3064\u306e\u30c4\u30fc\u30eb\u304c\u7a3c\u50cd\u4e2d\u3002\u3055\u3089\u306b\u5897\u3048\u3066\u3044\u304d\u307e\u3059\u3002',
     statProducts: '\u30d7\u30ed\u30c0\u30af\u30c8\u30ea\u30ea\u30fc\u30b9\u6e08\u307f', statLangs: '\u8a00\u8a9e\u306b\u5bfe\u5fdc', statPeople: '\u4eba\u304c\u69cb\u7bc9\u4e2d',
@@ -515,10 +515,10 @@ const T = {
     approachHeading: '\u3053\u3053\u3067\u306e\u3082\u306e\u3065\u304f\u308a\u306e\u65b9\u6cd5',
     aboutHeading: '\u81ea\u5df1\u7d39\u4ecb',
     aboutLead: '\u79c1\u306fKsenia\u3067\u3059\u3002Plainwork\u306e\u3059\u3079\u3066\u2014\u2014\u88fd\u54c1\u3001\u305d\u306e\u88cf\u306e\u30a4\u30f3\u30d5\u30e9\u3001\u30b5\u30dd\u30fc\u30c8\u5bfe\u5fdc\u2014\u2014\u3092\u81ea\u5206\u3067\u4f5c\u3063\u3066\u3044\u307e\u3059\u3002',
-    aboutBody: '\u5c0f\u898f\u6a21\u30d3\u30b8\u30cd\u30b9\u306e\u30aa\u30fc\u30ca\u30fc\u306b\u5171\u901a\u3059\u308b\u30d1\u30bf\u30fc\u30f3\u306b\u6c17\u3065\u304d\u307e\u3057\u305f\u2014\u2014\u30ad\u30e3\u30d7\u30b7\u30e7\u30f3\u3001\u30ec\u30d3\u30e5\u30fc\u8fd4\u4fe1\u3001Google\u6295\u7a3f\u3068\u3044\u3063\u305f\u5c0f\u3055\u304f\u53cd\u5fa9\u7684\u306a\u4f5c\u6587\u4f5c\u696d\u304c\u3001\u5e38\u306b\u3082\u3063\u3068\u7dca\u6025\u306a\u4f55\u304b\u304c\u3042\u308b\u305f\u3081\u306b\u5f8c\u56de\u3057\u306b\u306a\u308b\u3068\u3044\u3046\u3053\u3068\u3002Plainwork\u306f\u305d\u306e\u56de\u7b54\u3067\u3059\u2014\u2014\u3059\u3079\u3066\u306e\u30b5\u30dd\u30fc\u30c8\u30e1\u30fc\u30eb\u3092\u81ea\u3089\u8aad\u3080\u4e00\u4eba\u306e\u4eba\u9593\u304c\u4f5c\u3063\u305f\u3001\u78ba\u5b9f\u306b\u5b8c\u4e86\u3067\u304d\u308b\u307b\u3069\u72ed\u3044\u30c4\u30fc\u30eb\u3002',
+    aboutBody: '\u4f55\u5ea6\u3082\u4f55\u5ea6\u3082\u3001\u540c\u3058\u30d1\u30bf\u30fc\u30f3\u306b\u6c17\u3065\u304d\u307e\u3057\u305f\u2014\u2014\u30ad\u30e3\u30d7\u30b7\u30e7\u30f3\u3001\u30ec\u30d3\u30e5\u30fc\u8fd4\u4fe1\u3001Google\u6295\u7a3f\u3068\u3044\u3063\u305f\u5c0f\u3055\u304f\u53cd\u5fa9\u7684\u306a\u4f5c\u6587\u4f5c\u696d\u304c\u3001\u5e38\u306b\u3082\u3063\u3068\u7dca\u6025\u306a\u4f55\u304b\u304c\u3042\u308b\u305f\u3081\u306b\u5f8c\u56de\u3057\u306b\u306a\u308b\u3068\u3044\u3046\u3053\u3068\u3002Plainwork\u306f\u305d\u306e\u56de\u7b54\u3067\u3059\u2014\u2014\u3059\u3079\u3066\u306e\u30b5\u30dd\u30fc\u30c8\u30e1\u30fc\u30eb\u3092\u81ea\u3089\u8aad\u3080\u4e00\u4eba\u306e\u4eba\u9593\u304c\u4f5c\u3063\u305f\u3001\u78ba\u5b9f\u306b\u5b8c\u4e86\u3067\u304d\u308b\u307b\u3069\u72ed\u3044\u30c4\u30fc\u30eb\u3002',
     basedIn: '\u62e0\u70b9', city: '\u30d2\u30e5\u30fc\u30b9\u30c8\u30f3\uff08\u30c6\u30ad\u30b5\u30b9\u5dde\uff09',
     footerTag: 'Plainwork \u00b7 \u4e00\u4eba\u3067\u6700\u521d\u304b\u3089\u6700\u5f8c\u307e\u3067\u69cb\u7bc9',
-    terms: '\u5229\u7528\u898f\u7d04', privacy: '\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc',
+    terms: '\u5229\u7528\u898f\u7d04', privacy: '\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc', refund: '\u8fd4\u91d1\u30dd\u30ea\u30b7\u30fc',
   },
 };
 
@@ -882,9 +882,9 @@ export default function App() {
           <p style={{ fontFamily: "'Fraunces', serif", fontStyle: 'normal', fontSize: 15, color: RUST_DEEP, textAlign: 'center', margin: '0 0 24px' }}>
             Built for the parts of business nobody has time for
           </p>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 16, marginBottom: 20 }}>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 14, marginBottom: 20 }}>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: INK_SOFT }}>{t.footerTag}</span>
-            <div style={{ display: 'flex', gap: 16, alignItems: 'center' }}>
+            <div style={{ display: 'flex', gap: 16, alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>
               <a href="https://x.com/_plainwork_" target="_blank" rel="noopener noreferrer" aria-label="X" style={{ color: RUST_DEEP }}>
                 <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22H16.6l-5.2-6.8L5.4 22H2.3l8.2-9.3L1.7 2h6.9l4.7 6.2L18.9 2zm-1.2 18h1.7L7.4 4H5.6l12.1 16z"/></svg>
               </a>
@@ -906,9 +906,10 @@ export default function App() {
               )}
             </div>
           </div>
-          <div style={{ display: 'flex', gap: 16, paddingTop: 16, borderTop: `1px solid ${LINE}` }}>
+          <div style={{ display: 'flex', gap: 16, paddingTop: 16, borderTop: `1px solid ${LINE}`, justifyContent: 'center' }}>
             <a href="/terms.html" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>{t.terms}</a>
             <a href="/privacy.html" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>{t.privacy}</a>
+            <a href="/refund.html" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>{t.refund}</a>
           </div>
         </div>
       </footer>
