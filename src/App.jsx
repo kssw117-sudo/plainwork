@@ -8,6 +8,20 @@ const LINE = '#E4E1D6';
 const RUST = '#D97757';
 const RUST_DEEP = '#A56A45';
 
+// Временное уведомление о технических неполадках.
+// Чтобы убрать полосу, поставь false и загрузи файл.
+const SHOW_NOTICE = true;
+const NOTICE_TEXT = {
+  en: "Purchases are temporarily paused due to a technical issue on the payment provider's side. We'll be back very soon.",
+  ru: 'Покупки временно приостановлены из-за технического сбоя на стороне платёжного сервиса. Скоро вернёмся.',
+  es: 'Las compras est\u00e1n pausadas temporalmente por un problema t\u00e9cnico del proveedor de pagos. Volveremos muy pronto.',
+  fr: "Les achats sont temporairement suspendus en raison d'un probl\u00e8me technique chez le prestataire de paiement. Nous revenons tr\u00e8s vite.",
+  de: 'K\u00e4ufe sind vor\u00fcbergehend pausiert wegen eines technischen Problems beim Zahlungsanbieter. Wir sind bald zur\u00fcck.',
+  pt: 'As compras est\u00e3o temporariamente pausadas devido a um problema t\u00e9cnico do provedor de pagamento. Voltamos em breve.',
+  zh: '\u7531\u4e8e\u652f\u4ed8\u670d\u52a1\u5546\u7684\u6280\u672f\u95ee\u9898\uff0c\u8d2d\u4e70\u529f\u80fd\u6682\u65f6\u6682\u505c\u3002\u6211\u4eec\u5f88\u5feb\u6062\u590d\u3002',
+  ja: '\u6c7a\u6e08\u30b5\u30fc\u30d3\u30b9\u5074\u306e\u6280\u8853\u7684\u306a\u554f\u984c\u306b\u3088\u308a\u3001\u8cfc\u5165\u3092\u4e00\u6642\u505c\u6b62\u3057\u3066\u3044\u307e\u3059\u3002\u307e\u3082\u306a\u304f\u518d\u958b\u3057\u307e\u3059\u3002',
+};
+
 const products = [
   {
     tag: '01',
@@ -150,7 +164,7 @@ const products = [
       zh: '\u65e0\u9700\u6bcf\u5468\u60f3\u53d1\u4ec0\u4e48\uff0c\u4fdd\u6301\u6d3b\u8dc3\u3002',
       ja: '\u6bce\u9031\u6295\u7a3f\u5185\u5bb9\u3092\u8003\u3048\u308b\u5fc5\u8981\u306a\u304f\u3001\u30a2\u30af\u30c6\u30a3\u30d6\u3092\u7dad\u6301\u3002',
     },
-    price: '$99',
+    price: '$119',
     stat: { en: '5 tools', ru: '5 инструментов', es: '5 herramientas', fr: '5 outils', de: '5 Werkzeuge', pt: '5 ferramentas', zh: '5\u4e2a\u5de5\u5177', ja: '5\u3064\u306e\u30c4\u30fc\u30eb' },
     url: 'https://localsignal.plainwork.website/',
     widget: 'https://widget.lava.top/cb430a7a-32e3-4578-9806-817d65bb3a26',
@@ -617,6 +631,8 @@ export default function App() {
         .running-p { animation-duration: 6s; }
         .running-p-2 { animation-duration: 8s; animation-delay: -2s; }
         .running-p-3 { animation-duration: 7s; animation-delay: -4s; }
+        @keyframes noticeScroll { from { transform: translate3d(0,0,0); } to { transform: translate3d(-50%,0,0); } }
+        .notice-track { display: flex; width: max-content; animation: noticeScroll 40s linear infinite; will-change: transform; backface-visibility: hidden; }
         @keyframes marquee {
           from { transform: translateX(0); }
           to { transform: translateX(-50%); }
@@ -625,6 +641,17 @@ export default function App() {
           display: inline-flex; white-space: nowrap; animation: marquee 18s linear infinite;
         }
       `}</style>
+
+      {/* ----- ВРЕМЕННОЕ УВЕДОМЛЕНИЕ (SHOW_NOTICE вверху файла) ----- */}
+      {SHOW_NOTICE && (
+        <div role="status" style={{ background: RUST_DEEP, color: '#FFF', overflow: 'hidden', padding: '9px 0', fontSize: 13, fontWeight: 500 }}>
+          <div className="notice-track">
+            {[0, 1, 2, 3, 4, 5].map(i => (
+              <span key={i} style={{ whiteSpace: 'nowrap', paddingRight: 80 }}>{NOTICE_TEXT[lang] || NOTICE_TEXT.en}</span>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* ----- HERO ----- */}
       <section style={{ position: 'relative', overflow: 'hidden', padding: '96px 24px 80px' }}>
