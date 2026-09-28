@@ -12,14 +12,14 @@ const RUST_DEEP = '#A56A45';
 // Чтобы убрать полосу, поставь false и загрузи файл.
 const SHOW_NOTICE = true;
 const NOTICE_TEXT = {
-  en: "Purchases are temporarily paused due to a technical issue on the payment provider's side. We'll be back very soon.",
-  ru: 'Покупки временно приостановлены из-за технического сбоя на стороне платёжного сервиса. Скоро вернёмся.',
-  es: 'Las compras est\u00e1n pausadas temporalmente por un problema t\u00e9cnico del proveedor de pagos. Volveremos muy pronto.',
-  fr: "Les achats sont temporairement suspendus en raison d'un probl\u00e8me technique chez le prestataire de paiement. Nous revenons tr\u00e8s vite.",
-  de: 'K\u00e4ufe sind vor\u00fcbergehend pausiert wegen eines technischen Problems beim Zahlungsanbieter. Wir sind bald zur\u00fcck.',
-  pt: 'As compras est\u00e3o temporariamente pausadas devido a um problema t\u00e9cnico do provedor de pagamento. Voltamos em breve.',
-  zh: '\u7531\u4e8e\u652f\u4ed8\u670d\u52a1\u5546\u7684\u6280\u672f\u95ee\u9898\uff0c\u8d2d\u4e70\u529f\u80fd\u6682\u65f6\u6682\u505c\u3002\u6211\u4eec\u5f88\u5feb\u6062\u590d\u3002',
-  ja: '\u6c7a\u6e08\u30b5\u30fc\u30d3\u30b9\u5074\u306e\u6280\u8853\u7684\u306a\u554f\u984c\u306b\u3088\u308a\u3001\u8cfc\u5165\u3092\u4e00\u6642\u505c\u6b62\u3057\u3066\u3044\u307e\u3059\u3002\u307e\u3082\u306a\u304f\u518d\u958b\u3057\u307e\u3059\u3002',
+  en: "Purchases are temporarily paused due to a technical issue, but you can still try every tool for free. We'll be back very soon.",
+  ru: 'Покупки временно приостановлены из-за технического сбоя, но все инструменты по-прежнему можно попробовать бесплатно. Скоро вернёмся.',
+  es: 'Las compras están pausadas temporalmente por un problema técnico, pero aún puedes probar todas las herramientas gratis. Volveremos muy pronto.',
+  fr: "Les achats sont temporairement suspendus en raison d'un problème technique, mais vous pouvez toujours essayer tous les outils gratuitement. Nous revenons très vite.",
+  de: 'Käufe sind wegen eines technischen Problems vorübergehend pausiert, aber du kannst weiterhin alle Tools kostenlos ausprobieren. Wir sind bald zurück.',
+  pt: 'As compras estão temporariamente pausadas devido a um problema técnico, mas você ainda pode testar todas as ferramentas gratuitamente. Voltamos em breve.',
+  zh: '由于技术问题，购买功能暂时暂停，但您仍可免费试用所有工具。我们很快恢复。',
+  ja: '技術的な問題により購入を一時停止していますが、すべてのツールを無料でお試しいただけます。まもなく再開します。',
 };
 
 const products = [
