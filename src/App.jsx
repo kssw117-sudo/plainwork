@@ -594,9 +594,9 @@ export default function App() {
         center: [-35, 15],
         zoom: 3.3,
         attributionControl: false,
-        interactive: false,
       });
 
+      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
       map.addControl(new maplibregl.AttributionControl({ compact: true }));
 
       mapInstanceRef.current = map;
@@ -873,7 +873,8 @@ export default function App() {
           <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 4, textAlign: 'center' }}>
             {t.basedIn}
           </h2>
-          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 20, textAlign: 'center' }}>{t.city}</p>
+          <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 4, textAlign: 'center' }}>{t.city}</p>
+          <p style={{ color: INK_SOFT, fontSize: 12, marginBottom: 20, textAlign: 'center', opacity: 0.75 }}>Worldwide</p>
           <div
             ref={mapContainerRef}
             style={{
