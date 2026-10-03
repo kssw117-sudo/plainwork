@@ -418,7 +418,7 @@ const T = {
     aboutHeading: 'About',
     aboutLead: 'I\u2019m Ksenia, and I build every part of Plainwork myself - the products, the infrastructure behind them, and the support inbox.',
     aboutBody: 'I kept noticing the same pattern, over and over: a handful of small, repetitive writing tasks - a caption, a reply to a review, a Google post - that never got done because there was always something more urgent. Plainwork is my answer to that: tools narrow enough to actually finish, built by one person who reads every support email personally.',
-    basedIn: 'Based in', city: 'Houston, TX',
+    basedIn: 'Based', city: 'Remote',
     footerTag: 'Plainwork \u00b7 built solo, end to end',
     terms: 'Terms of Service', privacy: 'Privacy Policy', refund: 'Refund Policy',
   },
@@ -434,7 +434,7 @@ const T = {
     aboutHeading: 'Обо мне',
     aboutLead: 'Я Ксения, и я сама строю каждую часть Plainwork — продукты, инфраструктуру за ними, и отвечаю на письма в поддержку.',
     aboutBody: 'Я снова и снова замечала один и тот же паттерн: небольшие, повторяющиеся задачи написания текста — подпись, ответ на отзыв, пост в Google — так и оставались несделанными, потому что всегда находилось что-то срочнее. Plainwork — мой ответ на это: инструменты достаточно узкие, чтобы их реально доводили до конца, построенные одним человеком, который лично читает каждое письмо в поддержку.',
-    basedIn: 'Находимся в', city: '\u0425ьюстон, США',
+    basedIn: 'Работаем', city: 'Удалённо',
     footerTag: 'Plainwork \u00b7 сделано одним человеком, от начала до конца',
     terms: 'Пользовательское соглашение', privacy: 'Политика конфиденциальности', refund: 'Политика возврата',
   },
@@ -450,7 +450,7 @@ const T = {
     aboutHeading: 'Sobre m\u00ed',
     aboutLead: 'Soy Ksenia, y construyo cada parte de Plainwork yo misma - los productos, la infraestructura detr\u00e1s de ellos, y el buz\u00f3n de soporte.',
     aboutBody: 'Segu\u00eda notando el mismo patr\u00f3n, una y otra vez: un pu\u00f1ado de tareas de escritura peque\u00f1as y repetitivas - un subt\u00edtulo, una respuesta a una rese\u00f1a, un post de Google - que nunca se hac\u00edan porque siempre hab\u00eda algo m\u00e1s urgente. Plainwork es mi respuesta a eso: herramientas lo bastante acotadas para realmente terminarse, construidas por una sola persona que lee cada correo de soporte personalmente.',
-    basedIn: 'Con base en', city: 'Houston, TX',
+    basedIn: 'Trabajamos', city: 'En remoto',
     footerTag: 'Plainwork \u00b7 hecho en solitario, de principio a fin',
     terms: 'T\u00e9rminos de Servicio', privacy: 'Pol\u00edtica de Privacidad', refund: 'Pol\u00edtica de Reembolso',
   },
@@ -466,7 +466,7 @@ const T = {
     aboutHeading: '\u00c0 propos',
     aboutLead: 'Je suis Ksenia, et je construis chaque partie de Plainwork moi-m\u00eame - les produits, l\u2019infrastructure derri\u00e8re eux, et la boîte de support.',
     aboutBody: 'Je remarquais toujours le m\u00eame sch\u00e9ma, encore et encore : une poign\u00e9e de petites t\u00e2ches d\u2019\u00e9criture r\u00e9p\u00e9titives - une l\u00e9gende, une r\u00e9ponse \u00e0 un avis, un post Google - qui ne se faisaient jamais parce qu\u2019il y avait toujours quelque chose de plus urgent. Plainwork est ma r\u00e9ponse \u00e0 \u00e7a : des outils assez cibl\u00e9s pour \u00eatre vraiment termin\u00e9s, construits par une seule personne qui lit personnellement chaque email de support.',
-    basedIn: 'Bas\u00e9e \u00e0', city: 'Houston, TX',
+    basedIn: 'Travail', city: '\u00e0 distance',
     footerTag: 'Plainwork \u00b7 construit en solo, de bout en bout',
     terms: 'Conditions d\u2019utilisation', privacy: 'Politique de confidentialit\u00e9', refund: 'Politique de remboursement',
   },
@@ -482,7 +482,7 @@ const T = {
     aboutHeading: '\u00dcber mich',
     aboutLead: 'Ich bin Ksenia, und ich baue jeden Teil von Plainwork selbst - die Produkte, die Infrastruktur dahinter, und den Support-Posteingang.',
     aboutBody: 'Ich bemerkte immer wieder dasselbe Muster: eine Handvoll kleiner, sich wiederholender Schreibaufgaben - eine Bildunterschrift, eine Antwort auf eine Bewertung, ein Google-Beitrag - die nie erledigt wurden, weil immer etwas Dringenderes anlag. Plainwork ist meine Antwort darauf: Tools schmal genug, um wirklich fertig zu werden, gebaut von einer einzigen Person, die jede Support-E-Mail pers\u00f6nlich liest.',
-    basedIn: 'Ansässig in', city: 'Houston, TX',
+    basedIn: 'Arbeiten', city: 'Remote',
     footerTag: 'Plainwork \u00b7 solo gebaut, von Anfang bis Ende',
     terms: 'Nutzungsbedingungen', privacy: 'Datenschutzrichtlinie', refund: 'R\u00fcckerstattungsrichtlinie',
   },
@@ -498,7 +498,7 @@ const T = {
     aboutHeading: 'Sobre',
     aboutLead: 'Sou a Ksenia, e eu mesma construo cada parte da Plainwork - os produtos, a infraestrutura por tr\u00e1s deles, e a caixa de suporte.',
     aboutBody: 'Eu continuava notando o mesmo padr\u00e3o, vezes e vezes: um punhado de tarefas de escrita pequenas e repetitivas - uma legenda, uma resposta a uma avalia\u00e7\u00e3o, um post no Google - que nunca eram feitas porque sempre havia algo mais urgente. A Plainwork \u00e9 minha resposta a isso: ferramentas estreitas o suficiente para realmente serem conclu\u00eddas, constru\u00eddas por uma \u00fanica pessoa que l\u00ea pessoalmente cada e-mail de suporte.',
-    basedIn: 'Sediada em', city: 'Houston, TX',
+    basedIn: 'Trabalhamos', city: 'remotamente',
     footerTag: 'Plainwork \u00b7 feito sozinha, do in\u00edcio ao fim',
     terms: 'Termos de Servi\u00e7o', privacy: 'Pol\u00edtica de Privacidade', refund: 'Pol\u00edtica de Reembolso',
   },
@@ -514,7 +514,7 @@ const T = {
     aboutHeading: '\u5173\u4e8e',
     aboutLead: '\u6211\u662fKsenia\uff0c\u6211\u4eb2\u81ea\u6784\u5efaPlainwork\u7684\u6bcf\u4e00\u90e8\u5206\u2014\u2014\u4ea7\u54c1\u3001\u80cc\u540e\u7684\u57fa\u7840\u8bbe\u65bd\uff0c\u4ee5\u53ca\u5ba2\u670d\u90ae\u7bb1\u3002',
     aboutBody: '\u6211\u4e00\u6b21\u53c8\u4e00\u6b21\u5730\u6ce8\u610f\u5230\u76f8\u540c\u7684\u6a21\u5f0f\uff1a\u4e00\u4e9b\u5c0f\u800c\u91cd\u590d\u7684\u5199\u4f5c\u4efb\u52a1\u2014\u2014\u4e00\u6761\u914d\u6587\u3001\u4e00\u6761\u8bc4\u4ef7\u56de\u590d\u3001\u4e00\u6761Google\u5e16\u6587\u2014\u2014\u603b\u662f\u56e0\u4e3a\u603b\u6709\u66f4\u7d27\u8feb\u7684\u4e8b\u800c\u65e0\u6cd5\u5b8c\u6210\u3002Plainwork\u5c31\u662f\u6211\u5bf9\u6b64\u7684\u56de\u7b54\uff1a\u8db3\u591f\u805a\u7126\u3001\u771f\u6b63\u80fd\u5b8c\u6210\u7684\u5de5\u5177\uff0c\u7531\u4e00\u4e2a\u4eb2\u81ea\u9605\u8bfb\u6bcf\u5c01\u5ba2\u670d\u90ae\u4ef6\u7684\u4eba\u6784\u5efa\u3002',
-    basedIn: '\u603b\u90e8\u4f4d\u4e8e', city: '\u7f8e\u56fd\u4f11\u65af\u987f',
+    basedIn: '\u5de5\u4f5c\u65b9\u5f0f', city: '\u8fdc\u7a0b\u529e\u516c',
     footerTag: 'Plainwork \u00b7 \u4e00\u4eba\u4ece\u5934\u5230\u5c3e\u6253\u9020',
     terms: '\u670d\u52a1\u6761\u6b3e', privacy: '\u9690\u79c1\u653f\u7b56', refund: '\u9000\u6b3e\u653f\u7b56',
   },
@@ -530,7 +530,7 @@ const T = {
     aboutHeading: '\u81ea\u5df1\u7d39\u4ecb',
     aboutLead: '\u79c1\u306fKsenia\u3067\u3059\u3002Plainwork\u306e\u3059\u3079\u3066\u2014\u2014\u88fd\u54c1\u3001\u305d\u306e\u88cf\u306e\u30a4\u30f3\u30d5\u30e9\u3001\u30b5\u30dd\u30fc\u30c8\u5bfe\u5fdc\u2014\u2014\u3092\u81ea\u5206\u3067\u4f5c\u3063\u3066\u3044\u307e\u3059\u3002',
     aboutBody: '\u4f55\u5ea6\u3082\u4f55\u5ea6\u3082\u3001\u540c\u3058\u30d1\u30bf\u30fc\u30f3\u306b\u6c17\u3065\u304d\u307e\u3057\u305f\u2014\u2014\u30ad\u30e3\u30d7\u30b7\u30e7\u30f3\u3001\u30ec\u30d3\u30e5\u30fc\u8fd4\u4fe1\u3001Google\u6295\u7a3f\u3068\u3044\u3063\u305f\u5c0f\u3055\u304f\u53cd\u5fa9\u7684\u306a\u4f5c\u6587\u4f5c\u696d\u304c\u3001\u5e38\u306b\u3082\u3063\u3068\u7dca\u6025\u306a\u4f55\u304b\u304c\u3042\u308b\u305f\u3081\u306b\u5f8c\u56de\u3057\u306b\u306a\u308b\u3068\u3044\u3046\u3053\u3068\u3002Plainwork\u306f\u305d\u306e\u56de\u7b54\u3067\u3059\u2014\u2014\u3059\u3079\u3066\u306e\u30b5\u30dd\u30fc\u30c8\u30e1\u30fc\u30eb\u3092\u81ea\u3089\u8aad\u3080\u4e00\u4eba\u306e\u4eba\u9593\u304c\u4f5c\u3063\u305f\u3001\u78ba\u5b9f\u306b\u5b8c\u4e86\u3067\u304d\u308b\u307b\u3069\u72ed\u3044\u30c4\u30fc\u30eb\u3002',
-    basedIn: '\u62e0\u70b9', city: '\u30d2\u30e5\u30fc\u30b9\u30c8\u30f3\uff08\u30c6\u30ad\u30b5\u30b9\u5dde\uff09',
+    basedIn: '\u52e4\u52d9\u5f62\u614b', city: '\u30ea\u30e2\u30fc\u30c8',
     footerTag: 'Plainwork \u00b7 \u4e00\u4eba\u3067\u6700\u521d\u304b\u3089\u6700\u5f8c\u307e\u3067\u69cb\u7bc9',
     terms: '\u5229\u7528\u898f\u7d04', privacy: '\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc', refund: '\u8fd4\u91d1\u30dd\u30ea\u30b7\u30fc',
   },
@@ -585,26 +585,37 @@ export default function App() {
     loadMapLibre().then(() => {
       if (cancelled || !mapContainerRef.current || mapInstanceRef.current) return;
       const maplibregl = window.maplibregl;
-      const houston = [-95.3698, 29.7604];
 
+      // Вид всего земного шара, без конкретной точки — визуальный
+      // эквивалент "работаем удалённо", а не привязки к одному городу
       const map = new maplibregl.Map({
         container: mapContainerRef.current,
         style: 'https://tiles.openfreemap.org/styles/liberty',
-        center: houston,
-        zoom: 12,
+        center: [20, 20],
+        zoom: 1.15,
         attributionControl: false,
+        interactive: false,
       });
 
-      map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right');
       map.addControl(new maplibregl.AttributionControl({ compact: true }));
 
-      const el = document.createElement('div');
-      el.style.cssText = 'position:relative;width:22px;height:22px;';
-      el.innerHTML = `
-        <div style="position:absolute;inset:0;border-radius:50%;border:2px solid #A56A45;opacity:0.6;"></div>
-        <div style="position:absolute;top:5px;left:5px;width:12px;height:12px;border-radius:50%;background:#D97757;box-shadow:0 0 8px rgba(217,119,87,0.7);"></div>
-      `;
-      new maplibregl.Marker({ element: el }).setLngLat(houston).addTo(map);
+      // Несколько тихих точек в разных концах света вместо одной булавки —
+      // намёк на "откуда угодно", не конкретный адрес
+      const spots = [
+        [-95.3698, 29.7604],  // Северная Америка
+        [-0.1278, 51.5074],   // Западная Европа
+        [103.8198, 1.3521],   // Юго-Восточная Азия
+        [151.2093, -33.8688], // Австралия
+      ];
+      spots.forEach(([lng, lat]) => {
+        const el = document.createElement('div');
+        el.style.cssText = 'position:relative;width:14px;height:14px;';
+        el.innerHTML = `
+          <div style="position:absolute;inset:0;border-radius:50%;border:2px solid #A56A45;opacity:0.5;"></div>
+          <div style="position:absolute;top:4px;left:4px;width:6px;height:6px;border-radius:50%;background:#D97757;opacity:0.85;"></div>
+        `;
+        new maplibregl.Marker({ element: el }).setLngLat([lng, lat]).addTo(map);
+      });
 
       mapInstanceRef.current = map;
     });
@@ -932,6 +943,10 @@ export default function App() {
                 <a href="mailto:kssw117@gmail.com" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, color: RUST_DEEP }}>kssw117@gmail.com</a>
               )}
             </div>
+            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT, opacity: 0.8, textAlign: 'center' }}>
+              Грезина Ксения Викторовна (Ksenia Grezina) &middot; Tax ID (ИНН) 710607167655<br/>
+              Current prices for each tool are listed above on this page
+            </span>
           </div>
           <div style={{ display: 'flex', gap: 16, paddingTop: 16, borderTop: `1px solid ${LINE}`, justifyContent: 'center' }}>
             <a href="/terms.html" style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, color: INK_SOFT }}>{t.terms}</a>
