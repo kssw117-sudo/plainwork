@@ -586,36 +586,18 @@ export default function App() {
       if (cancelled || !mapContainerRef.current || mapInstanceRef.current) return;
       const maplibregl = window.maplibregl;
 
-      // Вид всего земного шара, без конкретной точки — визуальный
-      // эквивалент "работаем удалённо", а не привязки к одному городу
+      // Приближенный вид, но над открытым океаном — никакой конкретный
+      // город или адрес не называется, просто "фактура карты" крупнее
       const map = new maplibregl.Map({
         container: mapContainerRef.current,
         style: 'https://tiles.openfreemap.org/styles/liberty',
-        center: [20, 20],
-        zoom: 1.15,
+        center: [-35, 15],
+        zoom: 3.3,
         attributionControl: false,
         interactive: false,
       });
 
       map.addControl(new maplibregl.AttributionControl({ compact: true }));
-
-      // Несколько тихих точек в разных концах света вместо одной булавки —
-      // намёк на "откуда угодно", не конкретный адрес
-      const spots = [
-        [-95.3698, 29.7604],  // Северная Америка
-        [-0.1278, 51.5074],   // Западная Европа
-        [103.8198, 1.3521],   // Юго-Восточная Азия
-        [151.2093, -33.8688], // Австралия
-      ];
-      spots.forEach(([lng, lat]) => {
-        const el = document.createElement('div');
-        el.style.cssText = 'position:relative;width:14px;height:14px;';
-        el.innerHTML = `
-          <div style="position:absolute;inset:0;border-radius:50%;border:2px solid #A56A45;opacity:0.5;"></div>
-          <div style="position:absolute;top:4px;left:4px;width:6px;height:6px;border-radius:50%;background:#D97757;opacity:0.85;"></div>
-        `;
-        new maplibregl.Marker({ element: el }).setLngLat([lng, lat]).addTo(map);
-      });
 
       mapInstanceRef.current = map;
     });
@@ -894,7 +876,10 @@ export default function App() {
           <p style={{ color: INK_SOFT, fontSize: 14, marginBottom: 20, textAlign: 'center' }}>{t.city}</p>
           <div
             ref={mapContainerRef}
-            style={{ width: '100%', height: 260, borderRadius: 14, border: `1px solid ${LINE}`, overflow: 'hidden' }}
+            style={{
+              width: '100%', height: 260, borderRadius: 14, border: `1px solid ${LINE}`, overflow: 'hidden',
+              filter: 'sepia(0.55) saturate(1.6) hue-rotate(-18deg) brightness(1.03)',
+            }}
           />
         </div>
       </section>
