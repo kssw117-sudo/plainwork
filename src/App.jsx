@@ -10,7 +10,7 @@ const RUST_DEEP = '#A56A45';
 
 // Временное уведомление о технических неполадках.
 // Чтобы убрать полосу, поставь false и загрузи файл.
-const SHOW_NOTICE = true;
+const SHOW_NOTICE = false;
 const NOTICE_TEXT = {
   en: "Purchases are temporarily paused due to a technical issue, but you can still try every tool for free. We'll be back very soon.",
   ru: 'Покупки временно приостановлены из-за технического сбоя, но все инструменты по-прежнему можно попробовать бесплатно. Скоро вернёмся.',
