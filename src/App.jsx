@@ -421,6 +421,10 @@ const T = {
     basedIn: 'Based', city: 'Remote',
     footerTag: 'Plainwork \u00b7 built solo, end to end',
     terms: 'Terms of Service', privacy: 'Privacy Policy', refund: 'Refund Policy',
+    customHeading: 'Custom Work',
+    customLead: 'Need something built specifically for your business?',
+    customBody: 'I also take on custom, turnkey projects outside the products above — an AI tool built end to end for your exact workflow. For details, email me.',
+    customCta: 'Email for details',
   },
   ru: {
     tagline: 'Студия Plainwork',
@@ -437,6 +441,10 @@ const T = {
     basedIn: 'Работаем', city: 'Удалённо',
     footerTag: 'Plainwork \u00b7 сделано одним человеком, от начала до конца',
     terms: 'Пользовательское соглашение', privacy: 'Политика конфиденциальности', refund: 'Политика возврата',
+    customHeading: 'Индивидуальные заказы',
+    customLead: 'Нужно что-то своё для вашего бизнеса?',
+    customBody: 'Беру отдельные проекты под ключ, помимо готовых продуктов выше — инструмент на базе AI, сделанный специально под ваши задачи, от начала до конца. За подробностями — пишите на почту.',
+    customCta: 'Написать на почту',
   },
   es: {
     tagline: 'Estudio Plainwork',
@@ -453,6 +461,10 @@ const T = {
     basedIn: 'Trabajamos', city: 'En remoto',
     footerTag: 'Plainwork \u00b7 hecho en solitario, de principio a fin',
     terms: 'T\u00e9rminos de Servicio', privacy: 'Pol\u00edtica de Privacidad', refund: 'Pol\u00edtica de Reembolso',
+    customHeading: 'Trabajo a medida',
+    customLead: '\u00bfNecesitas algo hecho espec\u00edficamente para tu negocio?',
+    customBody: 'Tambi\u00e9n hago proyectos personalizados, llave en mano, aparte de los productos de arriba \u2014 una herramienta de IA construida de principio a fin para tu flujo de trabajo espec\u00edfico. Para m\u00e1s detalles, escr\u00edbeme por correo.',
+    customCta: 'Escribir por correo',
   },
   fr: {
     tagline: 'Studio Plainwork',
@@ -469,6 +481,10 @@ const T = {
     basedIn: 'Travail', city: '\u00e0 distance',
     footerTag: 'Plainwork \u00b7 construit en solo, de bout en bout',
     terms: 'Conditions d\u2019utilisation', privacy: 'Politique de confidentialit\u00e9', refund: 'Politique de remboursement',
+    customHeading: 'Projets sur mesure',
+    customLead: 'Besoin de quelque chose con\u00e7u sp\u00e9cifiquement pour votre entreprise ?',
+    customBody: 'Je prends aussi des projets sur mesure, cl\u00e9 en main, en dehors des produits ci-dessus \u2014 un outil IA construit de bout en bout pour votre besoin pr\u00e9cis. Pour en savoir plus, \u00e9crivez-moi par email.',
+    customCta: '\u00c9crire par email',
   },
   de: {
     tagline: 'Plainwork Studio',
@@ -485,6 +501,10 @@ const T = {
     basedIn: 'Arbeiten', city: 'Remote',
     footerTag: 'Plainwork \u00b7 solo gebaut, von Anfang bis Ende',
     terms: 'Nutzungsbedingungen', privacy: 'Datenschutzrichtlinie', refund: 'R\u00fcckerstattungsrichtlinie',
+    customHeading: 'Individuelle Projekte',
+    customLead: 'Brauchst du etwas, das speziell f\u00fcr dein Business gebaut wird?',
+    customBody: 'Ich \u00fcbernehme auch individuelle, schl\u00fcsselfertige Projekte au\u00dferhalb der oben gezeigten Produkte \u2014 ein KI-Tool, von Anfang bis Ende genau f\u00fcr deinen Workflow gebaut. F\u00fcr Details schreib mir einfach eine E-Mail.',
+    customCta: 'E-Mail schreiben',
   },
   pt: {
     tagline: 'Estúdio Plainwork',
@@ -501,6 +521,10 @@ const T = {
     basedIn: 'Trabalhamos', city: 'remotamente',
     footerTag: 'Plainwork \u00b7 feito sozinha, do in\u00edcio ao fim',
     terms: 'Termos de Servi\u00e7o', privacy: 'Pol\u00edtica de Privacidade', refund: 'Pol\u00edtica de Reembolso',
+    customHeading: 'Projetos sob encomenda',
+    customLead: 'Precisa de algo feito especificamente para o seu neg\u00f3cio?',
+    customBody: 'Tamb\u00e9m fa\u00e7o projetos personalizados, chave na m\u00e3o, al\u00e9m dos produtos acima \u2014 uma ferramenta de IA constru\u00edda do in\u00edcio ao fim para o seu fluxo de trabalho espec\u00edfico. Para mais detalhes, me mande um e-mail.',
+    customCta: 'Enviar e-mail',
   },
   zh: {
     tagline: 'Plainwork \u5de5\u4f5c\u5ba4',
@@ -517,6 +541,10 @@ const T = {
     basedIn: '\u5de5\u4f5c\u65b9\u5f0f', city: '\u8fdc\u7a0b\u529e\u516c',
     footerTag: 'Plainwork \u00b7 \u4e00\u4eba\u4ece\u5934\u5230\u5c3e\u6253\u9020',
     terms: '\u670d\u52a1\u6761\u6b3e', privacy: '\u9690\u79c1\u653f\u7b56', refund: '\u9000\u6b3e\u653f\u7b56',
+    customHeading: '\u5b9a\u5236\u9879\u76ee',
+    customLead: '\u9700\u8981\u4e13\u95e8\u4e3a\u4f60\u7684\u4e1a\u52a1\u6253\u9020\u7684\u4e1c\u897f\u5417\uff1f',
+    customBody: '\u9664\u4e86\u4e0a\u8ff0\u4ea7\u54c1\uff0c\u6211\u8fd8\u63a5\u5b9a\u5236\u3001\u4ea4\u94a5\u5de5\u7a0b\u9879\u76ee\u2014\u2014\u4e3a\u4f60\u7684\u5177\u4f53\u5de5\u4f5c\u6d41\u7a0b\u6253\u9020\u4e00\u6574\u5957AI\u5de5\u5177\u3002\u9700\u8981\u8be6\u60c5\u8bf7\u90ae\u4ef6\u8054\u7cfb\u6211\u3002',
+    customCta: '\u53d1\u9001\u90ae\u4ef6',
   },
   ja: {
     tagline: 'Plainwork \u30b9\u30bf\u30b8\u30aa',
@@ -533,6 +561,10 @@ const T = {
     basedIn: '\u52e4\u52d9\u5f62\u614b', city: '\u30ea\u30e2\u30fc\u30c8',
     footerTag: 'Plainwork \u00b7 \u4e00\u4eba\u3067\u6700\u521d\u304b\u3089\u6700\u5f8c\u307e\u3067\u69cb\u7bc9',
     terms: '\u5229\u7528\u898f\u7d04', privacy: '\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc', refund: '\u8fd4\u91d1\u30dd\u30ea\u30b7\u30fc',
+    customHeading: '\u30ab\u30b9\u30bf\u30e0\u5236\u4f5c',
+    customLead: '\u3042\u306a\u305f\u306e\u30d3\u30b8\u30cd\u30b9\u306e\u305f\u3081\u306b\u4f5c\u3089\u308c\u305f\u3082\u306e\u304c\u5fc5\u8981\u3067\u3059\u304b\uff1f',
+    customBody: '\u4e0a\u8a18\u306e\u88fd\u54c1\u4ee5\u5916\u306b\u3082\u3001\u30ab\u30b9\u30bf\u30e0\u306e\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3082\u627f\u3063\u3066\u3044\u307e\u3059\u2014\u2014\u3042\u306a\u305f\u306e\u696d\u52d9\u306b\u5408\u308f\u305b\u3066\u6700\u521d\u304b\u3089\u6700\u5f8c\u307e\u3067\u4f5c\u308bAI\u30c4\u30fc\u30eb\u3002\u8a73\u7d30\u306f\u30e1\u30fc\u30eb\u3067\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002',
+    customCta: '\u30e1\u30fc\u30eb\u3092\u9001\u308b',
   },
 };
 
@@ -899,6 +931,27 @@ export default function App() {
           ))}
         </div>
       </div>
+
+      {/* ----- CUSTOM WORK ----- */}
+      <section style={{ padding: '72px 24px 96px' }}>
+        <div style={{ maxWidth: 720, margin: '0 auto', background: CARD, border: `1px solid ${RUST}`, borderRadius: 16, padding: '36px 36px', textAlign: 'center' }}>
+          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 14 }}>
+            {t.customHeading}
+          </h2>
+          <p style={{ fontFamily: "'Fraunces', serif", fontSize: 19, lineHeight: 1.5, margin: '0 0 12px', color: INK }}>
+            {t.customLead}
+          </p>
+          <p style={{ fontSize: 14.5, color: INK_SOFT, lineHeight: 1.6, margin: '0 0 32px', maxWidth: 560, marginLeft: 'auto', marginRight: 'auto' }}>
+            {t.customBody}
+          </p>
+          <a href="mailto:kssw117@gmail.com" style={{
+            display: 'inline-block', fontFamily: "'Inter', sans-serif", fontSize: 15, fontWeight: 600,
+            color: '#FFFFFF', background: RUST, padding: '12px 26px', borderRadius: 999, textDecoration: 'none',
+          }}>
+            {t.customCta}
+          </a>
+        </div>
+      </section>
 
       {/* ----- FOOTER ----- */}
       <footer style={{ padding: '32px 24px 48px', borderTop: `1px solid ${LINE}` }}>
