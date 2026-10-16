@@ -425,6 +425,10 @@ const T = {
     customLead: 'Need something built specifically for your business?',
     customBody: 'I also take on custom, turnkey projects outside the products above — an AI tool built end to end for your exact workflow. For details, email me.',
     customCta: 'Email for details',
+    rateHeading: 'Rate Us',
+    rateLead: 'Happy with one of the tools?',
+    rateBody: "If something's working well for you, I'd love to hear about it — it genuinely helps, being a one-person team.",
+    rateCta: 'Send a note',
   },
   ru: {
     tagline: 'Студия Plainwork',
@@ -445,6 +449,10 @@ const T = {
     customLead: 'Нужно что-то своё для вашего бизнеса?',
     customBody: 'Беру отдельные проекты под ключ, помимо готовых продуктов выше — инструмент на базе AI, сделанный специально под ваши задачи, от начала до конца. За подробностями — пишите на почту.',
     customCta: 'Написать на почту',
+    rateHeading: 'Оцените нас',
+    rateLead: 'Довольны одним из инструментов?',
+    rateBody: 'Если что-то действительно вам помогает — напишите пару слов, мне это правда важно, я работаю над всем этим одна.',
+    rateCta: 'Написать отзыв',
   },
   es: {
     tagline: 'Estudio Plainwork',
@@ -465,6 +473,10 @@ const T = {
     customLead: '\u00bfNecesitas algo hecho espec\u00edficamente para tu negocio?',
     customBody: 'Tambi\u00e9n hago proyectos personalizados, llave en mano, aparte de los productos de arriba \u2014 una herramienta de IA construida de principio a fin para tu flujo de trabajo espec\u00edfico. Para m\u00e1s detalles, escr\u00edbeme por correo.',
     customCta: 'Escribir por correo',
+    rateHeading: 'Califícanos',
+    rateLead: '¿Contento con alguna de las herramientas?',
+    rateBody: 'Si algo te está funcionando bien, me encantaría saberlo — de verdad ayuda, siendo un equipo de una sola persona.',
+    rateCta: 'Enviar un mensaje',
   },
   fr: {
     tagline: 'Studio Plainwork',
@@ -485,6 +497,10 @@ const T = {
     customLead: 'Besoin de quelque chose con\u00e7u sp\u00e9cifiquement pour votre entreprise ?',
     customBody: 'Je prends aussi des projets sur mesure, cl\u00e9 en main, en dehors des produits ci-dessus \u2014 un outil IA construit de bout en bout pour votre besoin pr\u00e9cis. Pour en savoir plus, \u00e9crivez-moi par email.',
     customCta: '\u00c9crire par email',
+    rateHeading: 'Notez-nous',
+    rateLead: 'Satisfait d\'un de nos outils ?',
+    rateBody: 'Si quelque chose fonctionne bien pour vous, j\'aimerais beaucoup le savoir \u2014 cela aide vraiment, \u00e9tant une \u00e9quipe d\'une seule personne.',
+    rateCta: 'Envoyer un message',
   },
   de: {
     tagline: 'Plainwork Studio',
@@ -505,6 +521,10 @@ const T = {
     customLead: 'Brauchst du etwas, das speziell f\u00fcr dein Business gebaut wird?',
     customBody: 'Ich \u00fcbernehme auch individuelle, schl\u00fcsselfertige Projekte au\u00dferhalb der oben gezeigten Produkte \u2014 ein KI-Tool, von Anfang bis Ende genau f\u00fcr deinen Workflow gebaut. F\u00fcr Details schreib mir einfach eine E-Mail.',
     customCta: 'E-Mail schreiben',
+    rateHeading: 'Bewerte uns',
+    rateLead: 'Zufrieden mit einem der Tools?',
+    rateBody: 'Wenn etwas gut für dich funktioniert, würde ich das gerne hören — es hilft wirklich, als Ein-Personen-Team.',
+    rateCta: 'Nachricht senden',
   },
   pt: {
     tagline: 'Estúdio Plainwork',
@@ -525,6 +545,10 @@ const T = {
     customLead: 'Precisa de algo feito especificamente para o seu neg\u00f3cio?',
     customBody: 'Tamb\u00e9m fa\u00e7o projetos personalizados, chave na m\u00e3o, al\u00e9m dos produtos acima \u2014 uma ferramenta de IA constru\u00edda do in\u00edcio ao fim para o seu fluxo de trabalho espec\u00edfico. Para mais detalhes, me mande um e-mail.',
     customCta: 'Enviar e-mail',
+    rateHeading: 'Avalie-nos',
+    rateLead: 'Satisfeito com uma das ferramentas?',
+    rateBody: 'Se algo está funcionando bem para você, adoraria saber — isso realmente ajuda, sendo uma equipe de uma pessoa só.',
+    rateCta: 'Enviar mensagem',
   },
   zh: {
     tagline: 'Plainwork \u5de5\u4f5c\u5ba4',
@@ -545,6 +569,10 @@ const T = {
     customLead: '\u9700\u8981\u4e13\u95e8\u4e3a\u4f60\u7684\u4e1a\u52a1\u6253\u9020\u7684\u4e1c\u897f\u5417\uff1f',
     customBody: '\u9664\u4e86\u4e0a\u8ff0\u4ea7\u54c1\uff0c\u6211\u8fd8\u63a5\u5b9a\u5236\u3001\u4ea4\u94a5\u5de5\u7a0b\u9879\u76ee\u2014\u2014\u4e3a\u4f60\u7684\u5177\u4f53\u5de5\u4f5c\u6d41\u7a0b\u6253\u9020\u4e00\u6574\u5957AI\u5de5\u5177\u3002\u9700\u8981\u8be6\u60c5\u8bf7\u90ae\u4ef6\u8054\u7cfb\u6211\u3002',
     customCta: '\u53d1\u9001\u90ae\u4ef6',
+    rateHeading: '\u7ed9\u6211\u4eec\u8bc4\u5206',
+    rateLead: '\u5bf9\u67d0\u4e2a\u5de5\u5177\u6ee1\u610f\u5417\uff1f',
+    rateBody: '\u5982\u679c\u6709\u4ec0\u4e48\u5bf9\u4f60\u5e2e\u52a9\u5f88\u5927\uff0c\u6211\u5f88\u60f3\u542c\u542c\u2014\u2014\u8fd9\u5bf9\u6211\u8fd9\u4e2a\u4e00\u4e2a\u4eba\u7684\u56e2\u961f\u771f\u7684\u5f88\u6709\u610f\u4e49\u3002',
+    rateCta: '\u53d1\u9001\u7559\u8a00',
   },
   ja: {
     tagline: 'Plainwork \u30b9\u30bf\u30b8\u30aa',
@@ -565,6 +593,10 @@ const T = {
     customLead: '\u3042\u306a\u305f\u306e\u30d3\u30b8\u30cd\u30b9\u306e\u305f\u3081\u306b\u4f5c\u3089\u308c\u305f\u3082\u306e\u304c\u5fc5\u8981\u3067\u3059\u304b\uff1f',
     customBody: '\u4e0a\u8a18\u306e\u88fd\u54c1\u4ee5\u5916\u306b\u3082\u3001\u30ab\u30b9\u30bf\u30e0\u306e\u30d5\u30eb\u30b9\u30af\u30e9\u30c3\u30c1\u30d7\u30ed\u30b8\u30a7\u30af\u30c8\u3082\u627f\u3063\u3066\u3044\u307e\u3059\u2014\u2014\u3042\u306a\u305f\u306e\u696d\u52d9\u306b\u5408\u308f\u305b\u3066\u6700\u521d\u304b\u3089\u6700\u5f8c\u307e\u3067\u4f5c\u308bAI\u30c4\u30fc\u30eb\u3002\u8a73\u7d30\u306f\u30e1\u30fc\u30eb\u3067\u304a\u554f\u3044\u5408\u308f\u305b\u304f\u3060\u3055\u3044\u3002',
     customCta: '\u30e1\u30fc\u30eb\u3092\u9001\u308b',
+    rateHeading: '\u8a55\u4fa1\u3059\u308b',
+    rateLead: '\u3069\u308c\u304b\u306e\u30c4\u30fc\u30eb\u306b\u6e80\u8db3\u3057\u3066\u3044\u307e\u3059\u304b\uff1f',
+    rateBody: '\u4f55\u304b\u304c\u3046\u307e\u304f\u6a5f\u80fd\u3057\u3066\u3044\u308b\u306a\u3089\u3001\u305c\u3072\u8074\u304b\u305b\u3066\u304f\u3060\u3055\u3044\u2014\u2014\u4e00\u4eba\u3067\u904b\u55b6\u3057\u3066\u3044\u308b\u306e\u3067\u3001\u672c\u5f53\u306b\u52b1\u307f\u306b\u306a\u308a\u307e\u3059\u3002',
+    rateCta: '\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u9001\u308b',
   },
 };
 
@@ -596,6 +628,25 @@ export default function App() {
   const t = T[lang];
   const mapContainerRef = useRef(null);
   const mapInstanceRef = useRef(null);
+
+  // Скролл к якорю (например #rate-us) после того, как страница
+  // отрендерилась — обычный переход по хэшу не срабатывает в SPA,
+  // потому что в момент загрузки секции ещё нет в DOM.
+  useEffect(() => {
+    if (!window.location.hash) return;
+    const id = window.location.hash.slice(1);
+    let tries = 0;
+    const tryScroll = () => {
+      const el = document.getElementById(id);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      } else if (tries < 20) {
+        tries += 1;
+        setTimeout(tryScroll, 100);
+      }
+    };
+    tryScroll();
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -949,6 +1000,34 @@ export default function App() {
             color: '#FFFFFF', background: RUST, padding: '12px 26px', borderRadius: 999, textDecoration: 'none',
           }}>
             {t.customCta}
+          </a>
+        </div>
+      </section>
+
+      {/* ----- RATE US ----- */}
+      <section id="rate-us" style={{ padding: '0 24px 96px' }}>
+        <div style={{ maxWidth: 720, margin: '0 auto', background: CARD, border: `1px solid ${LINE}`, borderRadius: 16, padding: '36px 36px', textAlign: 'center' }}>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 4, marginBottom: 14 }}>
+            {[0, 1, 2, 3, 4].map((i) => (
+              <svg key={i} width="18" height="18" viewBox="0 0 24 24" fill={RUST} stroke="none">
+                <path d="M12 2.5l2.9 6.4 6.9.7-5.2 4.8 1.5 6.9-6.1-3.6-6.1 3.6 1.5-6.9-5.2-4.8 6.9-.7z" />
+              </svg>
+            ))}
+          </div>
+          <h2 style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 12, letterSpacing: '0.1em', color: RUST_DEEP, textTransform: 'uppercase', marginBottom: 14 }}>
+            {t.rateHeading}
+          </h2>
+          <p style={{ fontFamily: "'Fraunces', serif", fontSize: 19, lineHeight: 1.5, margin: '0 0 12px', color: INK }}>
+            {t.rateLead}
+          </p>
+          <p style={{ fontSize: 14.5, color: INK_SOFT, lineHeight: 1.6, margin: '0 0 32px', maxWidth: 560, marginLeft: 'auto', marginRight: 'auto' }}>
+            {t.rateBody}
+          </p>
+          <a href="mailto:kssw117@gmail.com" style={{
+            display: 'inline-block', fontFamily: "'Inter', sans-serif", fontSize: 15, fontWeight: 600,
+            color: '#FFFFFF', background: RUST, padding: '12px 26px', borderRadius: 999, textDecoration: 'none',
+          }}>
+            {t.rateCta}
           </a>
         </div>
       </section>
