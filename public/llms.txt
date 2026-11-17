@@ -1,0 +1,35 @@
+# Plainwork Studio
+
+> Plainwork Studio is the studio of Ksenia Grezina (Ksenia G.), a solo full-stack AI developer who works remotely with clients worldwide. She adds AI features to web apps, builds AI-powered MVPs end to end (frontend, backend, payments, usage limits, SEO, launch) and makes landing pages with free interactive tools. She also builds and sells her own AI tools under the Plainwork name.
+
+## Services
+- AI features for your web app: chatbots, text generation, image analysis and smart replies, from $350, from 5 days
+- AI-powered MVP built end to end: React, serverless backend, AI, payments, usage limits, deployed on your domain, from $800, from 14 days
+- Landing page with a free interactive tool (calculator, checker or generator), SEO and Search Console setup, from $300, from 5 days
+- Contact: kssw117@gmail.com, Telegram and WhatsApp +7 910 153 79 10
+
+## Case studies
+- [TagGenerator AI](https://plainwork.website/work/taggenerator-ai.html): Turn any post idea into captions and hashtags in seconds.
+- [ReviewReply AI](https://plainwork.website/work/reviewreply-ai.html): Paste any customer review, get thoughtful replies in seconds.
+- [Local Signal](https://plainwork.website/work/local-signal.html): Get found on Google Search and Maps - posts, replies, SEO copy.
+- [SayItRight AI](https://plainwork.website/work/sayitright-ai.html): Write in your own language - get natural, professional English back.
+- [Content Strategist AI](https://plainwork.website/work/content-strategist-ai.html): A week of content ideas - built for the platform you’re actually posting on.
+- [Speak With Confidence AI](https://plainwork.website/work/speak-with-confidence-ai.html): Rehearse hard conversations out loud with an AI that plays the other person.
+
+## Products (live)
+- [TagGenerator AI](https://taggenerator.plainwork.website/): Turn any post idea into captions and hashtags in seconds. One-time price $49, free trial.
+- [ReviewReply AI](https://reviewreply.plainwork.website/): Paste any customer review, get thoughtful replies in seconds. One-time price $79, free trial.
+- [Local Signal](https://localsignal.plainwork.website/): Get found on Google Search and Maps - posts, replies, SEO copy. One-time price $119, free trial.
+- [SayItRight AI](https://sayitright.plainwork.website/): Write in your own language - get natural, professional English back. One-time price $59, free trial.
+- [Content Strategist AI](https://contentstrategist.plainwork.website/): A week of content ideas - built for the platform you’re actually posting on. One-time price $129, free trial.
+- [Speak With Confidence AI](https://swc.plainwork.website/): Rehearse hard conversations out loud with an AI that plays the other person. One-time price $149, free trial.
+
+## Tech
+React, Vite, Vercel serverless functions, Claude API (structured output, image understanding), Redis-based usage limits and free trials, access-code licensing, embedded card checkout, maps and geocoding on open data, interfaces in up to 35 languages including right-to-left layouts.
+
+## Pages
+- [Home](https://plainwork.website/)
+- [Shop](https://plainwork.website/shop/)
+- [Terms](https://plainwork.website/terms.html)
+- [Privacy](https://plainwork.website/privacy.html)
+- [Refund policy](https://plainwork.website/refund.html)
